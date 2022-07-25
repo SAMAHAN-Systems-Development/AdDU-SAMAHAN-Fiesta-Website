@@ -13,8 +13,7 @@
   "dependencies": {
     "next": "12.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "sass": "^1.54.0"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",
@@ -24,11 +23,14 @@
     "@storybook/addon-links": "^6.5.9",
     "@storybook/builder-webpack5": "^6.5.9",
     "@storybook/manager-webpack5": "^6.5.9",
+    "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.5.9",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.2.5",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.3",
-    "eslint-plugin-storybook": "^0.6.1"
+    "eslint-plugin-storybook": "^0.6.1",
+    "sass": "^1.54.0",
+    "sass-loader": "^13.0.2"
   }
 }
