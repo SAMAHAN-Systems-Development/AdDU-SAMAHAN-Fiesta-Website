@@ -6,3 +6,4 @@ export { default as LandingPage } from "./LandingPage/LandingPage.jsx";
 
 /* SHARED */
 export { default as TwitterFeed } from "./LandingPage/Socfeeds/TwitterFeed/TwitterFeed.jsx";
+export {default as FacebookFeed} from "./LandingPage/Socfeeds/FacebookFeed/FacebookFeed.jsx";
