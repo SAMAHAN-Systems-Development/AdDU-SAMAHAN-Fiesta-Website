@@ -5,7 +5,7 @@ const TwitterFeed = () => {
   return (
     <div className={styles["container"]}>
       <div>
-        <h1>Header</h1>
+        <h1  className={styles["header"]}>Header</h1>
       </div>
       <div>
       <TwitterTimelineEmbed
