@@ -28,7 +28,7 @@ const LandingPage = () => {
             <Image
               src="/cheer.png"
               alt="Cheer don't jeer"
-              layout="fill"
+              
               objectFit="cover"
               priority
             />

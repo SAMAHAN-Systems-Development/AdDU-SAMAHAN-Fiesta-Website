@@ -29,7 +29,7 @@ const LandingPage = () => {
               src="/cheer.png"
               alt="Cheer don't jeer"
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
               priority
             />
           </div>

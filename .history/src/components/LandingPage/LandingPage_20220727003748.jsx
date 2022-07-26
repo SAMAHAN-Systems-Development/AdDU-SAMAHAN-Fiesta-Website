@@ -26,10 +26,10 @@ const LandingPage = () => {
         <div className={`${styles["grid-item"]} ${styles["four"]}`}>
           <div className={styles["img_wrapper"]}>
             <Image
-              src="/cheer.png"
+              src="/aser.png"
               alt="Cheer don't jeer"
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
               priority
             />
           </div>

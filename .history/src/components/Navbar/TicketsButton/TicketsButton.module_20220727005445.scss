@@ -11,7 +11,7 @@
 
     h1 {
        color: $color--palaro--darkblue; 
-       font-weight: $h1FontWeight;
+       font-weight: 900;
        font-size: $bodyFontSize;
     }
 
@@ -20,7 +20,7 @@
     }
 
     &:hover {
-        transform: scale(102%);
+        transform: scale(105%);
     }
 
 }

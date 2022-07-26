@@ -24,15 +24,15 @@ const LandingPage = () => {
           <h1>CURRENTLY</h1>
         </div>
         <div className={`${styles["grid-item"]} ${styles["four"]}`}>
-          <div className={styles["img_wrapper"]}>
+          {/* <div className={styles["img_wrapper"]}>
             <Image
               src="/cheer.png"
               alt="Cheer don't jeer"
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
               priority
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

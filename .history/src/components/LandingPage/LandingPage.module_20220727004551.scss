@@ -86,13 +86,9 @@
     grid-column: 6 / -1;
     background-color: $color--palaro--blue;
 
-    transition: all 0s;
-
     &:hover {
-        background: url("/cheer-hover.png") no-repeat;
+        background: url("/public/cheer-hover.png");
         background-position: center;
-        background-size: cover;
-        object-fit: cover;
     }
 
     .img_wrapper {
