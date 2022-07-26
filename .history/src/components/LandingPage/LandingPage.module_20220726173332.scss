@@ -1,8 +1,8 @@
 @use "../../../styles/variables.scss" as *;
 
 .LandingPage {
-    height: 90vh;
-    width: 100%;
+    // height: 90vh;
+    // width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,32 +17,16 @@
     grid-row: auto;
   }
   
-.grid-item {
+  .grid-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    // background-color: rgba(105, 95, 95, 0.8);
+    background-color: rgba(105, 95, 95, 0.8);
     // border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: $h2FontSize;
-    font-weight: 900;
     text-align: center;
-}
+  }
 
-.one {
-    background-color: $color--palaro--blue;
-}
-
-.two {
-    background-color: $color--blue;
-}
-
-.three {
-    background-color: $color--blue;
-
-}
-
-.four {
-    background-color: $color--palaro--blue;
-
-}
+  .logo {
+  }

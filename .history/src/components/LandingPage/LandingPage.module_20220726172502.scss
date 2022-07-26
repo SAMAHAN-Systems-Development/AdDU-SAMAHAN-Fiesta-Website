@@ -1,0 +1,28 @@
+@use "../../../styles/variables.scss" as *;
+
+.LandingPage {
+    // height: 90vh;
+    // width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 5fr 8fr;
+    grid-row: auto;
+  }
+  
+  .grid-item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }

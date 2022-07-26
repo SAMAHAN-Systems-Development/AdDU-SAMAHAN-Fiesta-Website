@@ -6,7 +6,7 @@ const LandingPage = () => {
     <div className={styles["LandingPage"]}>
       <div class={styles["grid-container"]}>
         <div className={`${styles["grid-item"]} ${styles["one"]}`}>Logo</div>
-        <div className={`${styles["grid-item"]} ${styles["two"]}`}>SIDLAKAN 22</div>
+        <div className={`${styles["grid-item"]} ${styles["two"]}`}>SIDLAKAN 2022</div>
         <div className={`${styles["grid-item"]} ${styles["three"]}`}>Vas Happenin'?</div>  
         <div className={`${styles["grid-item"]} ${styles["four"]}`}>CHEER DONT JEER</div>
       </div>
