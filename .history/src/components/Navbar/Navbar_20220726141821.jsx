@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './Navbar.module.scss';
 import { TicketsButton } from '../ComponentIndex';
 

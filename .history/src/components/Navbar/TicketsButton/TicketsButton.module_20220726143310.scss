@@ -1,0 +1,14 @@
+@import '/styles/variables.scss';
+
+.TicketsButton {
+    background-color: rgb(66, 29, 29);
+    color: $color--palaro--darkblue;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+
+    a {
+        
+    }
+}
