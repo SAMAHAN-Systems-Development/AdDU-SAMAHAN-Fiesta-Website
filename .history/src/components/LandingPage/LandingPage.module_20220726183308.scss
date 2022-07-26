@@ -25,27 +25,18 @@
     // background-color: rgba(105, 95, 95, 0.8);
     // border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
-
-    h1{ 
-        font-size: $h1FontSize;
-        font-weight: 900;
-        text-align: center;
-    }
-
-    &:hover h1 {
-        opacity: 0;
-    }
-
+    font-size: $h2FontSize;
+    font-weight: 900;
+    text-align: center;
 }
 
 .one {
     background-color: $color--palaro--blue;
 
     &:hover {
-        background: url("https://www.addu.edu.ph/wp-content/uploads/2015/08/Ateneo-Fiesta-2015-Group-Dance-Showdown-4.jpg") no-repeat;
+        background: url ("https://img.freepik.com/free-photo/waist-up-portrait-happy-excited-young-smiling-man-shouting-hooray-yes-raising-hands-up-fist-pump-joy-rejoicing-win-achieve-goal-celebrate-victory-success-white-wall_176420-37419.jpg?t=st=1658830314~exp=1658830914~hmac=79c53b662b3df49d40f9f0833b2460148ad660d98c4209459321dbb555e3feaf&w=1060") no-repeat;
         background-position: center;
-        object-fit:scale-down;
-        filter: grayscale(100%);
+        // filter: grayscale(100%);
     }
 }
 

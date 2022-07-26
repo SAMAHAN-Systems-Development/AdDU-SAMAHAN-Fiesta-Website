@@ -32,10 +32,9 @@
         text-align: center;
     }
 
-    &:hover h1 {
+    &:hover h1{
         opacity: 0;
     }
-
 }
 
 .one {
@@ -43,7 +42,7 @@
 
     &:hover {
         background: url("https://www.addu.edu.ph/wp-content/uploads/2015/08/Ateneo-Fiesta-2015-Group-Dance-Showdown-4.jpg") no-repeat;
-        background-position: center;
+        // background-position: center;
         object-fit:scale-down;
         filter: grayscale(100%);
     }

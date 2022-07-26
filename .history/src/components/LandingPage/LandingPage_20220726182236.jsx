@@ -7,13 +7,13 @@ const LandingPage = () => {
     <div className={styles["LandingPage"]}>
       <div class={styles["grid-container"]}>
         <div className={`${styles["grid-item"]} ${styles["one"]}`}>
-        {/* <Image
-          src={"/public/image 12.jpg"}
-          alt={"AdDU Logo"}
-          layout='fill'
-          priority
-        /> */}
-          <h1>LOGO</h1>
+        <Image
+          loader={myLoader}
+          src="me.png"
+          alt="Picture of the author"
+          width={500}
+          height={500}
+        />
         </div>
         <div className={`${styles["grid-item"]} ${styles["two"]}`}>SIDLAKAN 22</div>
         <div className={`${styles["grid-item"]} ${styles["three"]}`}>Vas Happenin'?</div>  
