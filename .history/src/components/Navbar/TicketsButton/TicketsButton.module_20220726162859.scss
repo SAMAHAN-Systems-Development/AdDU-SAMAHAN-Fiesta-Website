@@ -5,7 +5,7 @@
     border-radius: 100px;
     border: none;
     cursor: pointer;
-    padding: 0.6rem 1.5rem;
+    padding: 0.3rem 1rem;
 
     transition: transform 0.2s ease-in-out;
 
@@ -20,7 +20,7 @@
     }
 
     &:hover {
-        transform: scale(105%);
+        transform: scale(102%);
     }
 
 }

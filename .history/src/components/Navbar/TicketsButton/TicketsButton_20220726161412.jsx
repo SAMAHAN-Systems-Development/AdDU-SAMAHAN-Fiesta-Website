@@ -5,7 +5,7 @@ const TicketsButton = () => {
   return (
     <Link href="https://jotform.com/" passHref={true}>
       <button type='button' className={styles.TicketsButton}>
-        <h1>GET TICKETS</h1>
+        <a>GET TICKETS</a>
       </button>
     </Link>
   )

@@ -5,18 +5,20 @@
     border-radius: 100px;
     border: none;
     cursor: pointer;
-    padding: 0.6rem 1.5rem;
+    padding: 0.3rem 1rem;
 
     transition: transform 0.2s ease-in-out;
 
-    h1 {
+    a {
        color: $color--palaro--darkblue; 
        font-weight: 900;
-       font-size: $bodyFontSize;
+       font-size: 0.8rem;
     }
 
-    &:hover h1 {
+    &:hover a {
         color: $color--palaro--purple;
+        font-weight: 900;
+        font-size: 0.8rem;
     }
 
     &:hover {
