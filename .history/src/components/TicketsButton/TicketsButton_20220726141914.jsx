@@ -1,7 +1,7 @@
 
 const TicketsButton = () => {
   return (
-    <div>TicketsButton</div>
+    <button type='button' className={styles.TicketsButton}></button>
   )
 }
 

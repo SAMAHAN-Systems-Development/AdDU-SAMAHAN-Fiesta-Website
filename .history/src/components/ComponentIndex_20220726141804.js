@@ -1,5 +1,5 @@
 export { default as Navbar } from "./Navbar/Navbar.jsx";
-export { default as TicketsButton } from "./Navbar/TicketsButton/TicketsButton.jsx";
+export { default as TicketsButton } from "./TicketsButton/TicketsButton.jsx";
 
 /* PAGES */
 export { default as LandingPage } from "./LandingPage/LandingPage.jsx";
