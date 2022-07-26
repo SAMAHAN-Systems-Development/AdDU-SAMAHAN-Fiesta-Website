@@ -1,1 +1,8 @@
-@use "../../../styles/variables.scss" as *;
+@import '/styles/variables.scss';
+
+.container{
+    background-color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
