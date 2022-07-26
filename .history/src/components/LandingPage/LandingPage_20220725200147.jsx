@@ -4,7 +4,7 @@ import styles from './LandingPage.module.scss';
 const LandingPage = () => {
   return (
     <div className={styles["LandingPage"]}>
-      Landing
+      Hello, World!
     </div>
   )
 }

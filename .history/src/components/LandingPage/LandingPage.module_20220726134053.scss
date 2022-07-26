@@ -1,7 +1,8 @@
-@use "../../../styles/variables.scss" as *;
+@import "../../../../styles/variables.scss";
 
 .LandingPage {
     height: 90vh;
+    background-color: $color--palaro--blue;
     display: flex;
     align-items: center;
     justify-content: center;

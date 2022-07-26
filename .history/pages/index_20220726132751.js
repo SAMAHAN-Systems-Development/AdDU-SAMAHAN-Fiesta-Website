@@ -1,6 +1,6 @@
 import Head from 'next/head'
+
 import { LandingPage } from '../src/components/ComponentIndex'
-import { Navbar } from '../src/components/ComponentIndex'
 
 export default function Home() {
   return (
@@ -12,7 +12,6 @@ export default function Home() {
 
       </Head>
 
-      <Navbar />
       <main>
         <LandingPage />
       </main>

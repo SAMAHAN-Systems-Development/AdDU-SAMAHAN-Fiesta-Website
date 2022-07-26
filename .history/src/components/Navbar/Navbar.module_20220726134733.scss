@@ -1,0 +1,12 @@
+@import '/styles/variables.scss';
+
+.header {
+    background-color: $color--nav-bg;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar {
+    background-color: $color--blue;
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+@import '/styles/variables.scss';
+
+.header {
+    background-color: $color--blue;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+    // flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}

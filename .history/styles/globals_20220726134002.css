@@ -15,7 +15,6 @@ body {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-
 a {
   color: inherit;
   text-decoration: none;
@@ -27,6 +26,6 @@ a {
   }
   body {
     color: white;
-    background: #071349;
+    background: black;
   }
 }

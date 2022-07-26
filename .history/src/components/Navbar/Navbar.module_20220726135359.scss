@@ -1,0 +1,19 @@
+@import '/styles/variables.scss';
+
+.header {
+    background-color: $color--palaro--darkblue;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    h1 {
+        
+    }
+}

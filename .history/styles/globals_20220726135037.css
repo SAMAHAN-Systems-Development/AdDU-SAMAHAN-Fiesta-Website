@@ -5,6 +5,7 @@ body {
   font-family: "Montserrat", Helvetica, sans-serif;
   height: 100vh;
   scroll-padding-top: 3rem;
+  background-color: #071349;
 }
 
 * {
@@ -27,6 +28,6 @@ a {
   }
   body {
     color: white;
-    background: #071349;
+    background: black;
   }
 }
