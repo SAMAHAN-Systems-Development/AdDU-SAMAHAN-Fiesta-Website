@@ -1,0 +1,25 @@
+@import '/styles/variables.scss';
+
+.TicketsButton {
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    padding: 0.6rem 1.5rem;
+
+    transition: transform 0.1s ease-in-out;
+
+    h1 {
+       color: $color--palaro--darkblue; 
+       font-weight: 900;
+       font-size: $bodyFontSize;
+    }
+
+    &:hover,
+    h1 {
+        transform: scale(105%);
+        color: $color--palaro--purple;
+
+    }
+
+}

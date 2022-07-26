@@ -1,0 +1,22 @@
+@import '/styles/variables.scss';
+
+.header {
+    background-color: $color--palaro--darkblue;
+    min-width: 100vw;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 3rem;
+
+    h1 {
+        color: white;
+        font-weight: 900;
+        font-size: $h4FontSize;
+    }
+}

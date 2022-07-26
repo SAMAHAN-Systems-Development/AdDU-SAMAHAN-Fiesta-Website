@@ -1,0 +1,65 @@
+@use "../../../styles/variables.scss" as *;
+
+.LandingPage {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.grid-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+  }
+  
+.grid-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: rgba(105, 95, 95, 0.8);
+    // border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+
+    h1{ 
+        font-size: $h1FontSize;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    &:hover h1 {
+        transition: opacity 0.3s;  
+        opacity: 0;
+    }
+
+}
+
+.one {
+    background-color: $color--palaro--blue;
+
+    &:hover {
+        opacity: 100%;
+        background: url("https://www.addu.edu.ph/wp-content/uploads/2015/08/Ateneo-Fiesta-2015-Group-Dance-Showdown-4.jpg") no-repeat;
+        background-position: center;
+        object-fit:scale-down;
+        filter: grayscale(100%);
+    }
+}
+
+.two {
+    background-color: $color--blue;
+}
+
+.three {
+    background-color: $color--blue;
+
+}
+
+.four {
+    background-color: $color--palaro--blue;
+
+}

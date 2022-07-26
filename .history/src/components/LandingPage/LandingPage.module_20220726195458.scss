@@ -1,0 +1,73 @@
+@use "../../../styles/variables.scss" as *;
+
+.LandingPage {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.grid-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+  }
+  
+.grid-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: rgba(105, 95, 95, 0.8);
+    // border: 1px solid rgba(0, 0, 0, 0.8);
+    // padding: 1rem;
+
+    h1{ 
+        font-size: $h1FontSize;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    &:hover h1,
+    &:hover img {
+        transition: opacity 0.5s;  
+        opacity: 0;
+    }
+}
+
+.one {
+    background-color: $color--palaro--blue;
+
+    &:hover {
+        transition: opacity 5s;
+        opacity: 1;
+        background: url("/one.jpg") no-repeat;
+        background-position: center;
+        background-size: contain;
+        object-fit: cover;
+        width: auto;
+        height: auto; 
+    }
+}
+
+.two {
+    background-color: $color--blue;
+}
+
+.three {
+    background-color: $color--blue;
+
+}
+
+.four {
+    background-color: $color--palaro--blue;
+
+}
+
+//
+@media (max-width: 1000px) {
+    .grid-container { grid-template-columns: 2fr; }
+}
