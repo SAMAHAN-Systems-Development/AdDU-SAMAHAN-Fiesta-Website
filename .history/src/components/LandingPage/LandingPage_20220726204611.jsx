@@ -10,15 +10,15 @@ const LandingPage = () => {
             <Image
               src={"/addu-logo.png"}
               alt={"AdDU Logo"}
-              height={'200px'}
-              width={'200px'}
-              // layout={'fill'}
-              // objectFit={'scale-down'}
+              // height={'200px'}
+              // width={'200px'}
+              layout={'fill'}
+              objectFit={'scale-down'}
               priority
             />
         </div>
-        <div className={`${styles["grid-item"]} ${styles["two"]}`}><h1>SIDLAKAN 22</h1></div>
-        <div className={`${styles["grid-item"]} ${styles["three"]}`}><h1>CURRENTLY</h1></div>  
+        <div className={`${styles["grid-item"]} ${styles["two"]}`}>SIDLAKAN 22</div>
+        <div className={`${styles["grid-item"]} ${styles["three"]}`}><h1>Vas Happenin'?</h1></div>  
         <div className={`${styles["grid-item"]} ${styles["four"]}`}><h1>CHEER DONT JEER</h1></div>
       </div>
     </div>

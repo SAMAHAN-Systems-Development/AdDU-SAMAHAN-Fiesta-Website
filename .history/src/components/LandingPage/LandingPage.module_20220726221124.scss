@@ -29,7 +29,7 @@
 
     h1{ 
         font-size: $h1FontSize;
-        font-weight: $h1FontWeight;
+        font-weight: 900;
         text-align: center;
     }
 
@@ -57,14 +57,11 @@
 .two {
     background-color: $color--blue;
 
-    &:hover h1 {
-        display: none;
-    }
-
-    &:hover:before { 
-        font-size: $h3FontSize;
-        font-weight: $h1FontWeight;
-        content: "74th Ateneo de Davao Fiesta";
+    &:hover:before {
+        transition: opacity 1s;
+        opacity: 1;
+        content: "74th Ateneo de DAvao Fiest";
+        // background-color: aqua;
     }
 
 }
@@ -81,6 +78,6 @@
 
 //
 @media (max-width: 1000px) {
-    .grid-container { grid-template-columns: 2fr;}
+    .grid-container { grid-template-columns: 2fr; display: none;}
     .grid-item {border: 1px solid rgba(0, 0, 0, 0.8);}
 }

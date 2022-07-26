@@ -18,7 +18,7 @@ const LandingPage = () => {
             />
         </div>
         <div className={`${styles["grid-item"]} ${styles["two"]}`}><h1>SIDLAKAN 22</h1></div>
-        <div className={`${styles["grid-item"]} ${styles["three"]}`}><h1>CURRENTLY</h1></div>  
+        <div className={`${styles["grid-item"]} ${styles["three"]}`}><h1>Currently</h1></div>  
         <div className={`${styles["grid-item"]} ${styles["four"]}`}><h1>CHEER DONT JEER</h1></div>
       </div>
     </div>

@@ -29,7 +29,7 @@
 
     h1{ 
         font-size: $h1FontSize;
-        font-weight: $h1FontWeight;
+        font-weight: 900;
         text-align: center;
     }
 
@@ -63,7 +63,7 @@
 
     &:hover:before { 
         font-size: $h3FontSize;
-        font-weight: $h1FontWeight;
+        font-weight: 900;
         content: "74th Ateneo de Davao Fiesta";
     }
 
