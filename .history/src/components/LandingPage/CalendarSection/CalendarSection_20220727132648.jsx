@@ -5,9 +5,7 @@ const CalendarSection = () => {
   return (
     <div className={styles['CalendarSection']}>
         <div className={styles['calendar-container']}>
-          <CalendarBox title="DAY 1"/>
-          <CalendarBox title="DAY 2"/>
-          <CalendarBox title="DAY 3"/>
+          <CalendarBox />
         </div>
     </div>
   )

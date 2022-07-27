@@ -13,7 +13,7 @@
     flex: 1 auto;
     flex-direction: column;
     justify-content: space-between;
-    background-color: $color--blue;
+    // background-color: rgb(255, 255, 255);
 
     .title {
         background-color: $color--palaro--darkblue;
@@ -27,7 +27,7 @@
     }
 
     .content {
-        height: 85%;
+        height:90%;
         background-color: white;
         display: flex;
         align-items: center;
