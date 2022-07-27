@@ -9,4 +9,4 @@ export { default as TwitterFeed } from "./LandingPage/Socfeeds/TwitterFeed/Twitt
 export {default as FacebookFeed} from "./LandingPage/Socfeeds/FacebookFeed/FacebookFeed.jsx";
 export {default as Socfeeds} from "./LandingPage/Socfeeds/Socfeeds.jsx";
 export {default as CalendarSection} from "./LandingPage/CalendarSection/CalendarSection.jsx";
-export {default as CalendarBox} from "./LandingPage/CalendarSection/CalendarBox/CalendarBox.jsx";
+export {default as CalendarBox} from "./LandingPage/CalendarBox/CalendarBox.jsx";
