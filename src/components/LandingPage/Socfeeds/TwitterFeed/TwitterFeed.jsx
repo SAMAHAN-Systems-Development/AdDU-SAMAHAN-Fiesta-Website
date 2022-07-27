@@ -11,7 +11,7 @@ const TwitterFeed = () => {
       <TwitterTimelineEmbed
        sourceType="profile"
         screenName="CyrilOlanolan"
-         options={{height: 400 ,width:700}}
+         options={{height: 700 ,width:700}}
          />
       </div>
 
