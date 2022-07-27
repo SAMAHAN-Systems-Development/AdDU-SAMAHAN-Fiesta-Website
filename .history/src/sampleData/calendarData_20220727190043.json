@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "title":"DAY 1",
+        "contents": {
+
+        }
+    },
+    {
+        "id": 2,
+        "title":"DAY 2",
+        "content": ["Elective", "Afdfsfs"]
+    },
+    {
+        "id": 3,
+        "title":"DAY 3",
+        "content": ["Hello", "Hello again 3"]
+    }
+]

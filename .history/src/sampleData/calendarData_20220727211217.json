@@ -1,0 +1,26 @@
+{
+    "events":[
+        {
+            "title":"DAY 1",
+            "sched":[
+                // {"place":"Martin Hall", "time":"9:00 AM","activity":"OPENING"},
+                // {"place":"Arrupe Hall", "time":"11:00 AM","activity":"ORG FAIR"}
+                "hello","two","three"
+            ]
+        },
+        {
+            "title":"DAY 2",
+            "sched":[
+                {"place":"LIBRARY", "time":"10:30 AM","activity":"INDOOR GAMES"},
+                {"place":"SUNKEN GARDEN", "time":"12:00 AM","activity":"SOMETHING"}
+            ]
+        },
+        {
+            "title":"DAY 3",
+            "sched":[
+                {"place":"Martin Hall", "time":"9:00 AM","activity":"OPENING"},
+                {"place":"Arrupe Hall", "time":"11:00 AM","activity":"ORG FAIR"}
+            ]
+        }
+    ]
+}

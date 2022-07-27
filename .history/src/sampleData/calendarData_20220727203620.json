@@ -1,0 +1,25 @@
+{
+    "events":[
+        {
+            "title":"DAY 1",
+            "sched":[
+                {"place":"Martin Hall", "time":"9:00 AM","activity":"OPENING"},
+                {"place":"Arrupe Hall", "time":"11:00 AM","activity":"ORG FAIR"}
+            ]
+        },
+        {
+            "title":"DAY 2",
+            "sched":[
+                {"place":"", "time":"9:00 AM","activity":"OPENING"},
+                {"place":"Arrupe Hall", "time":"11:00 AM","activity":"ORG FAIR"}
+            ]
+        },
+        {
+            "title":"DAY 3",
+            "sched":[
+                {"place":"Martin Hall", "time":"9:00 AM","activity":"OPENING"},
+                {"place":"Arrupe Hall", "time":"11:00 AM","activity":"ORG FAIR"}
+            ]
+        }
+    ]
+}
