@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./LandingPage.module.scss";
-import { ImageError } from "next/dist/server/image-optimizer";
 
 const LandingPage = () => {
   return (
@@ -9,7 +8,8 @@ const LandingPage = () => {
       <div className={styles["grid-container"]}>
         <div className={`${styles["grid-item"]} ${styles["one"]}`}>
           <div className={styles["img_wrapper"]}>
-            <ImageError
+            <Image
+              loader="resolve-url-loader"
               src="/addu-logo.png"
               alt="AdDU Logo"
               layout="fill"
