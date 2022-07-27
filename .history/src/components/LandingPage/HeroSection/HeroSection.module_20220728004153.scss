@@ -7,11 +7,11 @@
 
 .grid-container {
     position: relative;
-    // height: 100%;
+    height: 100%;
     // width: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: 46vh;
+    grid-auto-rows: 45vh;
 }
 
 .grid-item {
