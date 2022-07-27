@@ -10,3 +10,4 @@ export {default as FacebookFeed} from "./LandingPage/Socfeeds/FacebookFeed/Faceb
 export {default as Socfeeds} from "./LandingPage/Socfeeds/Socfeeds.jsx";
 export {default as CalendarSection} from "./LandingPage/CalendarSection/CalendarSection.jsx";
 export {default as CalendarBox} from "./LandingPage/CalendarSection/CalendarBox/CalendarBox.jsx";
+export {default as NowHappening} from "./LandingPage/NowHappening/NowHappening.jsx";
