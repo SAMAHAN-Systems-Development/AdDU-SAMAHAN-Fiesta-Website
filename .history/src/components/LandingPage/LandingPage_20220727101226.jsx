@@ -9,7 +9,7 @@ const LandingPage = () => {
         <div className={`${styles["grid-item"]} ${styles["one"]}`}>
           <div className={styles["img_wrapper"]}>
             <Image
-              loader="resolve-url-loader"
+              loader= "'css-loader', options: { url: false }"
               src="/addu-logo.png"
               alt="AdDU Logo"
               layout="fill"
