@@ -10,21 +10,12 @@
 }
 
 .calendar-container {
-    position: relative;
     height: 90vh;
-    width: 100%;
-    // background-color: aqua;
+    width: 80%;
+    background-color: aqua;
+    color: crimson;
     display: flex;
-    align-items: top;
+    align-items: center;
     justify-content: center;
-    gap: 1rem;
-    padding: 0.5rem;
-}
-
-@media (max-width: 900px) {
-    .calendar-container {
-        display: block; 
-        margin-left: auto;
-        margin-right: auto;
-    }
+    padding: 1rem;
 }

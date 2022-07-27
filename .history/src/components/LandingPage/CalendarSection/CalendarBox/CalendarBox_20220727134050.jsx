@@ -4,8 +4,7 @@ const CalendarBox = (props) => {
   return (
     <div className={styles['CalendarBox']}>
         <div className={styles['container']}>
-          <div className={styles['title']}>{props.title}</div>
-          <div className={styles['content']}>Content Here</div>
+          {props.name}
         </div>
     </div>
   )

@@ -1,11 +1,10 @@
 import styles from './CalendarBox.module.scss';
 
-const CalendarBox = (props) => {
+const CalendarBox = () => {
   return (
     <div className={styles['CalendarBox']}>
         <div className={styles['container']}>
-          <div className={styles['title']}>{props.title}</div>
-          <div className={styles['content']}>Content Here</div>
+          Hello
         </div>
     </div>
   )
