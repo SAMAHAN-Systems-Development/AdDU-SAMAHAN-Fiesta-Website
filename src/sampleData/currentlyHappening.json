@@ -3,6 +3,7 @@
         "title":"CURRENTLY HAPPENING",
         "contents":[
             {
+                "id":1,
                 "ItemNum":"Item #1",
                 "DateTime":"July 27, 2022 | 5:00 PM",
                 "event":" Sending of Simula Invites to Freshies",
@@ -11,6 +12,7 @@
                 "expiry": "July 27 2022 6:30 PM"
             },
             {
+                "id":2,
                 "ItemNum":"Item #2",
                 "DateTime":" June 23, 2022 | 2:30 PM",
                 "event":" Creation of Simula Group Chats with Freshies",
@@ -19,6 +21,7 @@
                 "expiry": "June 24 2022 12:00 AM"
             },
             {
+                "id":3,
                 "ItemNum":"Item #3",
                 "DateTime":"June 25-26, 2022 | 2:30 PM",
                 "event":"Pre-AFYOP Days",
@@ -27,6 +30,7 @@
                 "expiry": "June 27 2022 12:00 AM"
             },
             {
+                "id":4,
                 "ItemNum":"Item #4",
                 "DateTime":"June 27, 2022 | 10:00 AM",
                 "event":"Eucharistic Celebration",
@@ -35,6 +39,7 @@
                 "expiry": "June 27 2022 01:00 PM"
             },
             {
+                "id":5,
                 "ItemNum":"Item #5",
                 "DateTime":" June 27, 2022 | 1:00 PM",
                 "event":"AFYOP Simula 2022 Opening Ceremony",
