@@ -14,6 +14,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: $color--blue;
+    padding: 1rem;
 
     .title {
         background-color: $color--palaro--darkblue;
@@ -28,11 +29,17 @@
 
     .content {
         height: 88%;
-        background-color: white;
         color: black;
+        background-color: white;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        margin-top: auto;
     }
 }

@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../CalendarSection/CalendarSection.module.scss'
 import CalendarBox from './CalendarBox/CalendarBox'
 import Calendar from '../../../sampleData/calendarData.json'
@@ -7,16 +6,16 @@ const CalendarSection = () => {
   return (
     <div className={styles['CalendarSection']}>
         <div className={styles['calendar-container']}>
-        {Calendar.map((item) => {
-                  return (
-                    <React.Fragment key={item.id}>
-                      <CalendarBox
-                        title={item.title}
-                        content={item.content}
-                      />
-                    </React.Fragment>
-                  );
-                })}
+        {Calendar.map( calendar => {
+            return (
+              <React.Fragment key={calendar.id}>
+                <CalendarBox
+                  title={calendar.title}
+                  content={calendar.content}
+                />
+              </React.Fragment>
+            );
+          })}
         </div>
     </div>
   )

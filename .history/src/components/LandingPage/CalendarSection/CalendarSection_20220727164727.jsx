@@ -7,12 +7,14 @@ const CalendarSection = () => {
   return (
     <div className={styles['CalendarSection']}>
         <div className={styles['calendar-container']}>
-        {Calendar.map((item) => {
+        {content2.map((item) => {
                   return (
-                    <React.Fragment key={item.id}>
-                      <CalendarBox
-                        title={item.title}
-                        content={item.content}
+                    <React.Fragment key={item.DateTime}>
+                      <NowHappeningContent
+                        time={item.DateTime}
+                        event={item.event}
+                        platform={item.platform}
+                        description={item.desc}
                       />
                     </React.Fragment>
                   );

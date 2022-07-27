@@ -10,9 +10,11 @@ const CalendarSection = () => {
         {Calendar.map((item) => {
                   return (
                     <React.Fragment key={item.id}>
-                      <CalendarBox
-                        title={item.title}
-                        content={item.content}
+                      <NowHappeningContent
+                        time={item.DateTime}
+                        event={item.event}
+                        platform={item.platform}
+                        description={item.desc}
                       />
                     </React.Fragment>
                   );

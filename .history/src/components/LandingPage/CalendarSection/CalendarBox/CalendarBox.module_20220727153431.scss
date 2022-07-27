@@ -1,22 +1,22 @@
 @import 'styles/variables.scss';
 
-.CalendarBox {
-    height: 100%;
-    width: 45vh;
-    background-color: rgb(100, 100, 100);
-}
+// .CalendarBox {
+//     height: 100%;
+//     width: 45vh;
+//     background-color: rgb(100, 100, 100);
+// }
 
 .container {
     height: 100%;
     width: 45vh;
     display: flex;
-    flex: 1 auto;
+    flex: 2 auto;
     flex-direction: column;
     justify-content: space-between;
-    background-color: $color--blue;
-
+    background-color: $color--palaro--blue;
+    
     .title {
-        background-color: $color--palaro--darkblue;
+        background-color: $color--blue;
         color: white;
         display: flex;
         align-items: center;
@@ -28,11 +28,17 @@
 
     .content {
         height: 88%;
-        background-color: white;
         color: black;
+        background-color: white;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        padding: 0.5rem;
     }
 }

@@ -28,11 +28,14 @@
 
     .content {
         height: 88%;
-        background-color: white;
         color: black;
+        background-color: white;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 1rem;
     }
+}
+
+@media (max-width: 900px) {
 }
