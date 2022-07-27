@@ -7,6 +7,7 @@ const LandingPage = () => {
     <div className={styles["LandingPage"]}>
       <HeroSection />
       <CalendarSection />
+      <NowHappening />
     </div>
   );
 };

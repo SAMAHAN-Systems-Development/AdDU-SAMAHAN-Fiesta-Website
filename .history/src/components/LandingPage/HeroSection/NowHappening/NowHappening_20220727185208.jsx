@@ -7,7 +7,7 @@ const NowHappening=()=>{
     return(
     <>
         <div>
-            <h1>CURREdNTLY</h1>
+            <h1>CURRENTLY</h1>
             <NowHappeningContent />
         </div>
     </>
