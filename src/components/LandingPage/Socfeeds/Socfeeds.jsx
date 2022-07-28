@@ -1,15 +1,20 @@
 import React from 'react'
 import TwitterFeed  from './TwitterFeed/TwitterFeed.jsx';
 import FacebookFeed from './FacebookFeed/FacebookFeed.jsx';
-//import { FacebookFeed } from './ComponentIndex';
-
+import styles from './Socfeeds.module.scss'
 
 const Socfeeds = () => {
     return (
-        <div>
-            Socfeeds
-            <TwitterFeed /> 
-            <FacebookFeed />
+    <div className={styles["container"]}>
+            <div className={["FB-Feed"]}>
+                <FacebookFeed />
+            </div>
+            
+            <div className={["TWT-Feed"]}>
+                <TwitterFeed /> 
+            </div>
+
+
         </div>
     )
 }

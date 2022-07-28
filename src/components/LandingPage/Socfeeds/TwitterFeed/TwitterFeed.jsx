@@ -7,7 +7,7 @@ const TwitterFeed = () => {
       <div>
         <h1  className={styles["header"]}>Twitter</h1>
       </div>
-      <div>
+      <div className={styles["container-1"]}>
       <TwitterTimelineEmbed
        sourceType="profile"
         screenName="CyrilOlanolan"
