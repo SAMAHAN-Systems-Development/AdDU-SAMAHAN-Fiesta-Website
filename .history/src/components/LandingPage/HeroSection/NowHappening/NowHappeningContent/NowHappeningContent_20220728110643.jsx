@@ -1,6 +1,8 @@
+import React from "react";
+
 import styles from "./NowHappeningContent.module.scss";
 
-const NowHappeningContent = ({ time, event, platform , description }) =>{
+const NowHappeningContent=()=>{
     return(
         <div>
             <div className={styles["details"]}>

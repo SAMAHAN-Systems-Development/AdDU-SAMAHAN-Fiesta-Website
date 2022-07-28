@@ -1,6 +1,9 @@
-import styles from "./NowHappeningContent.module.scss";
+import React from "react";
 
-const NowHappeningContent = ({ time, event, platform , description }) =>{
+import styles from "./NowHappeningContent.module.scss";
+import CHData from "../../../../../sampleData/currentlyHappening.json";
+
+const NowHappeningContent=()=>{
     return(
         <div>
             <div className={styles["details"]}>

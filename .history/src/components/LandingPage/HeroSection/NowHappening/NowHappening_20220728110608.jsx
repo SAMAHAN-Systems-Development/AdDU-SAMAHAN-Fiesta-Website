@@ -2,14 +2,12 @@ import React,{useState, useEffect} from "react";
 
 import styles from "./NowHappening.module.scss";
 // import NowHappeningContent from "./NowHappeningContent/NowHappeningContent";
-import { CHData } from '../../../../sampleData/dataIndex'
-import { NowHappeningContent } from '../../../ComponentIndex'
-import { FilterContents } from "../../../../utilities/datetime";
+import { CHData } from '../../../../data/dataIndex'
 
 
 const NowHappening=()=>{
 
-    const [CHContent, SetCHContent ] = useState(CHData.content.contents);
+    const [CHContent] = useState(CHData.content.contents);
 
     useEffect(() => {
         SetCHContent(FilterContents(CHContent));
