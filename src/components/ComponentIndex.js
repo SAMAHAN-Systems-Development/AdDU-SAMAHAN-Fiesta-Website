@@ -15,4 +15,5 @@ export { default as CalendarBox } from "./LandingPage/CalendarSection/CalendarBo
 export { default as NowHappening } from "./LandingPage/HeroSection/NowHappening/NowHappening.jsx";
 export { default as NowHappeningContent } from "./LandingPage/HeroSection/NowHappening/NowHappeningContent/NowHappeningContent.jsx";
 export { default as InfoCard } from "./SysDevPage/InfoCard/InfoCard.jsx";
+export { default as Footer } from "./Footer/Footer.jsx";
 

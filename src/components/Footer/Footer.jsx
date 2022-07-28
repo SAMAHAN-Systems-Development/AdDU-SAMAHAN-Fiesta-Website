@@ -9,8 +9,7 @@ const Footer = () => {
         </div>
 
         <div className={styles['img-section']}>
-        <img> </img>
-        <img> </img>
+
         </div>
     </div>
   )
