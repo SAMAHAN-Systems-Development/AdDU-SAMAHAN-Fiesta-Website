@@ -1,0 +1,14 @@
+@import 'styles/variables.scss';
+
+.container {
+    
+    .content {
+        display: none;
+        opacity: 0;
+    }
+        
+    &:hover .content {
+        opacity: 1;
+    }
+
+}

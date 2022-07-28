@@ -1,0 +1,23 @@
+@import 'styles/variables.scss';
+
+.container {
+
+    .title {
+        font-size: $h1FontSize;
+        font-weight: $h1FontWeight;
+        text-align: center;
+    }
+    
+    .content {
+        opacity: 0;
+    }
+
+    &:hover .title {
+        display: none;
+    }
+        
+    &:hover .content {
+        display: block;
+    }
+
+}
