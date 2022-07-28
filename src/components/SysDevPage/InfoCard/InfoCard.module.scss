@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: red;
+    background-color: white;
     width: 500px;
     height: 700px;
     border-radius: 16px;
@@ -18,17 +18,16 @@
 }
 
 .Image-Container {
-    background-color: yellow;
     width: 250px;
     height: 250px;
     border-style: solid;
+    background-color: #2D419D;
     border-color: black;
 
 }
 
 .Text-Container { 
     margin-top: 2rem; // c patrick ani soy
-    background-color: blue;
     width: 200px;
     height: 300px;
 }

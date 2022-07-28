@@ -6,5 +6,10 @@ export default {
 };
 
 export const Main = {
-  args: {}
+  args: {
+    Name: 'Jan Patrick Matayabas',
+    Position: 'Front-End Developer',
+    Course: 'BS-Information Technology',
+    Email: 'patmatayabas@gmail.com',
+  }
 };

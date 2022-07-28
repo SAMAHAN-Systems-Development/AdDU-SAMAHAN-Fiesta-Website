@@ -9,7 +9,11 @@
 .Container {
     background-color: $color--palaro--darkblue;
     display: flex;
+}
+
+.Row{
     flex-direction: row;
+    width: fit-content;
 }
 
 
