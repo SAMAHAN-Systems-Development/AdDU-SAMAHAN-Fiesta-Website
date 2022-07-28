@@ -1,3 +1,6 @@
+import "../styles/globals.css"
+import "../styles/variables.scss"
+
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
