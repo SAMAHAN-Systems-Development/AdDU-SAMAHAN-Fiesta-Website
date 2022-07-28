@@ -1,0 +1,14 @@
+@import 'styles/variables.scss';
+
+.container {
+
+    &:hover,
+    &:hover h1 {
+        display: none;
+    }
+        
+    &:hover .content {
+        display: block;
+    }
+
+}

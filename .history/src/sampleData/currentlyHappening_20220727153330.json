@@ -1,0 +1,28 @@
+{
+    "content":{
+        "title":"NOW HAPPENING",
+        "contents":[
+            {
+                "DateTime":"June 23, 2022 | 2:00 PM",
+                "event":" Sending of Simula Invites to Freshies",
+                "platform": "Platform: Google Mail",
+                "desc":"Our official Simula Invites give you an idea of what to expect for this year’s AFYOP Simula — from our schedule of activities, gimmicks, and rules and guidelines. Tell us if you have not received one yet!",
+                "expiry": "June 23 2022 02:30 PM"
+            },
+            {
+                "DateTime":" June 23, 2022 | 2:30 PM",
+                "event":" Creation of Simula Group Chats with Freshies",
+                "platform": "Platform: Messenger",
+                "desc":"Your Simula Group Chats will be the perfect avenue for you to easily connect with your facilitators and classmates real-time. Tell us if you have not been added yet!",
+                "expiry": "June 24 2022 12:00 AM"
+            },
+            {
+                "DateTime":"June 25-26, 2022 | 2:30 PM",
+                "event":"Pre-AFYOP Days",
+                "platform": "Platform: Zoom [to be sent through Simula Group Chats]",
+                "desc":"This is the perfect avenue for you to know more your facilitators and classmates before the breakout sessions. Join us as we have fun through our games and activities as we prepare ourselves for the AFYOP Proper Week.",
+                "expiry": "June 27 2022 12:00 AM"
+            }
+        ]
+    }
+}

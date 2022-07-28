@@ -1,0 +1,19 @@
+@import 'styles/variables.scss';
+
+.container {
+    
+    .content {
+        display: none;
+    }
+
+    &:hover h1 {
+        display: none;
+        opacity: 0;
+    }
+        
+    &:hover .content {
+        display: flex;
+        opacity: 1;
+    }
+
+}

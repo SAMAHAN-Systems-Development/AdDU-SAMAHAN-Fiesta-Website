@@ -1,0 +1,18 @@
+@import 'styles/variables.scss';
+
+.container {
+    // overflow-y: scroll;
+
+    // &:hover h1 {
+    //     display: none;
+    // }
+    
+    .content {
+        display: none;
+    }
+        
+    &:hover + .content{
+        display: block;
+    }
+
+}

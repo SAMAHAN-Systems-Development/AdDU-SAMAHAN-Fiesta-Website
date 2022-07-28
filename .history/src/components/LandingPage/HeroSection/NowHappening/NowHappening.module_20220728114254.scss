@@ -1,0 +1,21 @@
+@import 'styles/variables.scss';
+
+.container {
+
+    .title {
+        font-size: $h1FontSize;
+    }
+    
+    .content {
+        display: none;
+    }
+
+    &:hover h1 {
+        display: none;
+    }
+        
+    &:hover .content {
+        display: block;
+    }
+
+}
