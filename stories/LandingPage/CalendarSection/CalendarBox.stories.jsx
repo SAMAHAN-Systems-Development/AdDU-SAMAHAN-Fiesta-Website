@@ -6,5 +6,14 @@ export default {
 };
 
 export const Main = {
-  args: {}
+  args: {
+    title: "Lorem Ipsum",
+    sched: [
+      {
+        place: "Lorem",
+        time: "2:20PM",
+        activity: "ipsum"
+      }
+    ]
+  }
 };

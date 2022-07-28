@@ -9,7 +9,8 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
-    "@storybook/preset-scss"
+    "storybook-addon-next",
+    // "@storybook/preset-scss"
   ],
   "framework": "@storybook/react",
   "core": {
@@ -23,4 +24,12 @@ module.exports = {
       include: path.resolve(__dirname, "../")
     },
   ],
+  webpackFinal: async (config, { configType }) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '/addu-logo.png': path.resolve(__dirname, "../public/addu-logo.png"),
+    };
+
+    return config;
+  }
 }
