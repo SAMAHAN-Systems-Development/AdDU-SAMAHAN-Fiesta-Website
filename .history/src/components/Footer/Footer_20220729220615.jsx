@@ -17,7 +17,7 @@ const Footer = () => {
                 src="/assets/SYSDEV-Logo.png" 
                 alt="SysDev Logo"
                 layout='fill'
-                objectFit='contain'
+                objectFit='cover'
               />
             </div>
         </div>

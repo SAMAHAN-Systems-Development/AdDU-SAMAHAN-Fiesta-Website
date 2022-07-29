@@ -39,7 +39,7 @@
     background-color: $color--palaro--blue;
 
     &:hover {
-        background: url("../../../../public/assets/one.jpg") no-repeat;
+        background: url("../../../../public/one.jpg") no-repeat;
         background-position: center;
         background-size: cover;
     }
@@ -125,7 +125,7 @@
     transition: all 0s;
 
     &:hover {
-        background: url("../../../../public/assets/cheer-hover.png") no-repeat;
+        background: url("../../../../public/cheer-hover.png") no-repeat;
         background-position: center;
         background-size: cover;
         object-fit: cover;

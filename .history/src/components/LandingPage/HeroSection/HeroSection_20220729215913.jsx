@@ -62,7 +62,7 @@ const HeroSection = () => {
                 <div>
                   <div className={styles['title']}><h1>74th AdDU Fiesta</h1></div>
                   <video 
-                    src={'/assets/vid1.mp4'}
+                    src={'/vid1.mp4'}
                     autoPlay
                     loop
                     controlsList="nodownload"
@@ -72,7 +72,7 @@ const HeroSection = () => {
                 <div>
                   <NowHappening />
                   <video 
-                      src={'/assets/vid.mp4'}
+                      src={'/vid.mp4'}
                       autoPlay
                       loop
                       controlsList="nodownload"

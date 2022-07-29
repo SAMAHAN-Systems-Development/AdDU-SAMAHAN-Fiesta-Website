@@ -1,7 +1,7 @@
 @import 'styles/variables.scss';
 
 .section {
-    height: 20vh;
+    height: fit-content;
     width: 100%;
     display: flex;
     background-color: $color--palaro--darkblue;
@@ -23,9 +23,4 @@
     color: white;
     font-weight: $h1FontWeight;
 
-    .img-wrapper {
-        height: 100%;
-        width: 100%;
-        position: relative;
-    }
 }

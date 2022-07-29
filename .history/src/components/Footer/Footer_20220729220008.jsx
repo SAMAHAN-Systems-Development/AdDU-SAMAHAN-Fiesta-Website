@@ -11,15 +11,13 @@ const Footer = () => {
         </div>
 
         <div className={styles['footer-right']}>
-          <h3> SIDLAKAN </h3>
-            <div className={styles['img-wrapper']}>
-              <Image
-                src="/assets/SYSDEV-Logo.png" 
-                alt="SysDev Logo"
-                layout='fill'
-                objectFit='contain'
-              />
-            </div>
+        <h3> SIDLAKAN </h3>
+        <Image
+          src="/assets/SYSDEV-Logo.png" // Kani Julie Oh
+          alt="SysDev Logo"
+          layout='fill'
+        />
+
         </div>
     </div>
   )

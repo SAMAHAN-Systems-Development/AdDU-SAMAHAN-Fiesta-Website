@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className={`${styles["grid-item"]} ${styles["one"]}`}>
           <div className={styles["img_wrapper"]}>
             <Image
-              src="/addu-logo.png"
+              src="assets/addu-logo.png"
               alt="AdDU Logo"
               layout="fill"
               objectFit="contain"
@@ -23,7 +23,7 @@ const HeroSection = () => {
         <div className={`${styles["grid-item"]} ${styles["two"]}`}>
           <div className={styles['video-container']}>
             <video 
-            src={'/assets/vid1.mp4'}
+            src={'/vid1.mp4'}
             autoPlay
             loop
             muted
@@ -35,7 +35,7 @@ const HeroSection = () => {
         <div className={`${styles["grid-item"]} ${styles["three"]}`}>
           <div className={styles['video-container']}>
               <video 
-              src={'/assets/vid.mp4'}
+              src={'/vid.mp4'}
               autoPlay
               loop
               controlsList="nodownload"
@@ -47,7 +47,7 @@ const HeroSection = () => {
         <div className={`${styles["grid-item"]} ${styles["four"]}`}>
           <div className={styles["img_wrapper"]}>
             <Image
-              src="/cheer.png"
+              src="assets/cheer.png"
               alt="Cheer don't jeer"
               layout="fill"
               objectFit="cover"
@@ -62,7 +62,7 @@ const HeroSection = () => {
                 <div>
                   <div className={styles['title']}><h1>74th AdDU Fiesta</h1></div>
                   <video 
-                    src={'/assets/vid1.mp4'}
+                    src={'/vid1.mp4'}
                     autoPlay
                     loop
                     controlsList="nodownload"
@@ -72,7 +72,7 @@ const HeroSection = () => {
                 <div>
                   <NowHappening />
                   <video 
-                      src={'/assets/vid.mp4'}
+                      src={'/vid.mp4'}
                       autoPlay
                       loop
                       controlsList="nodownload"
