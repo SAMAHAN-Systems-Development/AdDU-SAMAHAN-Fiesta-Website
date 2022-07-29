@@ -3,6 +3,7 @@ import styles from "./HeroSection.module.scss";
 import NowHappening from "./NowHappening/NowHappening";
 
 const HeroSection = () => {
+  
   return (
     <div className={styles["section"]}>
       <div className={styles["grid-container"]}>
@@ -20,7 +21,7 @@ const HeroSection = () => {
         <div className={`${styles["grid-item"]} ${styles["two"]}`}>
           <div className={styles['video-container']}>
             <video 
-            src={'https://ak.picdn.net/shutterstock/videos/1046439025/preview/stock-footage-puerto-vallarta-jalisco-mexico-january-traditional-folklore-dance-with-beautiful.webm'}
+            src={'/vid1.mp4'}
             autoPlay
             loop
             muted
@@ -30,6 +31,14 @@ const HeroSection = () => {
           <div className={styles['h1-hover']}>74th AdDU Fiesta</div>
         </div>
         <div className={`${styles["grid-item"]} ${styles["three"]}`}>
+          <div className={styles['video-container']}>
+              <video 
+              src={'/vid.mp4'}
+              autoPlay
+              loop
+              muted
+              />
+            </div>
           <NowHappening />
         </div>
         <div className={`${styles["grid-item"]} ${styles["four"]}`}>

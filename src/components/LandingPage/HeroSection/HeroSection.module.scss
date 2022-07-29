@@ -93,26 +93,33 @@
     &:hover div {
         display: block;
     }
-    
-
-    // &::before {
-    //     content: "";
-    //     opacity: 0;
-    // }
-
-    // &:hover:before { 
-    //     font-size: $h3FontSize;
-    //     font-weight: $h1FontWeight;
-    //     content: "74th Ateneo de Davao Fiesta";
-    //     opacity: 1;
-    //     transition: all 0.3s ease-in-out;
-    // }
 
 }
 
 .three {
     grid-column: 1 / span 5;
     background-color: $color--blue;
+
+    div {
+        position: absolute;
+    }
+    
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        // filter: grayscale(100%);
+    }
+
+    .video-container {
+        height: 100%;
+        width: 100%;
+        display: none;
+        animation: fade;
+        animation-duration: 1s;
+        position: absolute;
+
+    }
 
     &:hover h1 {
         display: none;
@@ -121,8 +128,7 @@
     }
 
     &:hover div {
-        // display: block;
-        display: flex;
+        display: block;
         flex-direction: column;
         justify-content: center;
     }
