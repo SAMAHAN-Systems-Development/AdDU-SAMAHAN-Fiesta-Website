@@ -1,0 +1,27 @@
+@import 'styles/variables.scss';
+
+.container {
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+
+    .content {
+        display: absolute;
+        padding: 1rem;
+        background-color: #07134954;
+    }
+
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

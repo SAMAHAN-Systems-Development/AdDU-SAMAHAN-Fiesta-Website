@@ -1,0 +1,23 @@
+@import 'styles/variables.scss';
+
+.details {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: $h4FontSize;
+    }
+    h3 {
+        font-size: $bodyFontSize;
+    }
+    h4 {
+        font-size: $bodyFontSize;
+    }
+    p {
+        font-size: $bodyFontSize;
+    }
+}
+
+@media (min-height: 900px) {
+    
+}

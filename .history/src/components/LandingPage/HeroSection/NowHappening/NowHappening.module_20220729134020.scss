@@ -1,0 +1,25 @@
+@import 'styles/variables.scss';
+
+.container {
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    .content {
+        display: absolute;
+        padding: 1rem;
+    }
+
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,22 @@
+@import 'styles/variables.scss';
+
+.details {
+    display: block;
+    margin: 1rem 0;
+    h2 {
+        font-size: $h5FontSize;
+    }
+    h3 {
+        font-size: $bodyFontSize;
+    }
+    h4 {
+        font-size: $bodyFontSize;
+    }
+    p {
+        font-size: $bodyFontSize;
+    }
+}
+
+@media (min-height: 900px) {
+    
+}
