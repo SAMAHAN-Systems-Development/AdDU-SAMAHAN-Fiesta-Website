@@ -1,0 +1,54 @@
+@import 'styles/variables.scss';
+
+.details {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: $h5FontSize;
+    }
+    h3 {
+        font-size: $bodyFontSize;
+    }
+    h4 {
+        font-size: $bodyFontSize;
+    }
+    p {
+        font-size: $bodyFontSize;
+    }
+}
+
+@media (max-width: 756px) {
+    .details {
+
+        h2 {
+            font-size: 0.3rem;
+        }
+        h3 {
+            font-size: 0.6rem;
+        }
+        h4 {
+            font-size: 0.5rem;
+        }
+        p {
+            font-size: 0.4rem;
+        }
+    }
+}
+
+// @media (max-width: 1180px) {
+//     .details {
+//         h2 {
+//             font-size: 0.7rem;
+//         }
+//         h3 {
+//             font-size: 0.6rem;
+//         }
+//         h4 {
+//             font-size: 0.5rem;
+//         }
+//         p {
+//             font-size: 0.4rem;
+//         }
+//     }
+// }

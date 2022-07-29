@@ -1,0 +1,68 @@
+@import 'styles/variables.scss';
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #0713498a;
+
+    .content {
+        display: absolute;
+        padding: 1rem;
+
+        .title {
+            font-size: $h3FontSize;
+            font-weight: $h1FontWeight;
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 756px) {
+    .container {
+        height: fit-content;
+        
+        .content {
+            margin-top: 1rem;
+            display: flex;
+            overflow: hidden;
+            
+            // background-color: aqua;
+
+            .title {
+                font-size: $bodyFontSize;
+            }
+        }
+    }
+}
+
+@media (max-width: 1180px) {
+    .container {
+        
+        .content {
+            margin-top: 1rem;
+            display: flex;
+            overflow: hidden;
+            
+            // background-color: aqua;
+
+            .title {
+                font-size: 0.5rem;
+            }
+        }
+    }
+}
