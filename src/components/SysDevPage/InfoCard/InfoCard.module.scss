@@ -11,10 +11,11 @@
     align-items: center;
     flex-direction: column;
     background-color: white;
-    width: 500px;
-    height: 700px;
+    width: fit-content;
+    height: fit-content;
     border-radius: 16px;
-    padding: 4rem 0;
+    padding: 4rem;
+    margin: 2rem;
 }
 
 .Image-Container {
@@ -28,6 +29,29 @@
 
 .Text-Container { 
     margin-top: 2rem; // c patrick ani soy
-    width: 200px;
-    height: 300px;
+    width: 350px;
+    height: fit-content;
+    padding: 2rem 0;
+    color: black;
+    text-align: center;
+}
+
+.Info-Name{
+    font-size: $h4FontSize;
+    font-weight: $h4FontWeight;
+    padding-bottom: 1rem ;
+    white-space: nowrap;
+    
+}
+
+.Info-Pos{
+    font-size: $h5FontSize;
+    font-weight: $h5FontWeight;
+    padding-bottom: 1rem;
+    
+}
+.Info-Course{
+    font-size: $bodyFontSize;
+    font-weight: $bodyFontWeight;
+    padding-bottom: 1rem;
 }

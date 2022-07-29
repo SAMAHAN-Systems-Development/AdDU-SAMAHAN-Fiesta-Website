@@ -9,10 +9,13 @@
 .Container {
     background-color: $color--palaro--darkblue;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Row{
-    flex-direction: row;
+    display: flex;
+ 
     width: fit-content;
 }
 
