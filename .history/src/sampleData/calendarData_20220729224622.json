@@ -1,0 +1,33 @@
+{
+    "events":[
+        {
+            "title":"DAY 1",
+            "sched":[
+                {"place":"ONE", "time":"1:00 AM","activity":"ONE GAMES"},
+                {"place":"ONE GARDEN", "time":"1:30 PM","activity":"ONE FAIR"},
+                {"place":"ONE", "time":"1:00 AM","activity":"ONE GAMES"},
+                {"place":"ONE GARDEN", "time":"1:30 PM","activity":"ONE FAIR"},
+                {"place":"ONE", "time":"1:00 AM","activity":"ONE GAMES"},
+                {"place":"ONE GARDEN", "time":"1:30 PM","activity":"ONE FAIR"},
+                {"place":"ONE", "time":"1:00 AM","activity":"ONE GAMES"},
+                {"place":"ONE GARDEN", "time":"1:30 PM","activity":"ONE FAIR"}
+            ]
+        },
+        {
+            "title":"DAY 2",
+            "sched":[
+                {"place":"TWO", "time":"2:00 AM","activity":"TWO GAMES"},
+                {"place":"TWO GARDEN", "time":"2:30 AM","activity":"TWO FAIR"},
+                {"place":"TWO", "time":"2:00 AM","activity":"TWO GAMES"},
+                {"place":"TWO GARDEN", "time":"2:30 AM","activity":"TWO FAIR"}
+            ]
+        },
+        {
+            "title":"DAY 3",
+            "sched":[
+                {"place":"THREE", "time":"3:00 PM","activity":"THREE GAMES"},
+                {"place":"THREE HALL", "time":"3:30 PM","activity":"THREE FAIR"}
+            ]
+        }
+    ]
+}
