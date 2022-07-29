@@ -9,8 +9,8 @@ export default class FacebookFeed extends Component {
         <div className={styles["container"]}>
         <h1  className={styles["header"]}> Facebook </h1>
         
-        <FacebookProvider appId="777843193336100"> 
-          <Page href="https://www.facebook.com/SAMAHANSysDev" tabs="timeline" width='700' height='400' small_header="true"/>
+        <FacebookProvider appId="475123037773076"> 
+          <Page href="https://www.facebook.com/AdDUSAMAHAN/" tabs="timeline" width='700' height='400'/>
         </FacebookProvider>    
         </div>
       );
