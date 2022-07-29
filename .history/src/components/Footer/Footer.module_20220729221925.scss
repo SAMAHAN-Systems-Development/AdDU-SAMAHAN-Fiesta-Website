@@ -1,0 +1,36 @@
+@import 'styles/variables.scss';
+
+.section {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    background-color: $color--palaro--darkblue;
+}
+
+.footer-left {
+    text-align: left;
+    color: white;
+    padding: 1.5rem 3rem;
+    font-size: $bodyFontSize;
+    width: 50%;
+
+}
+
+.footer-right {
+    text-align: right;
+    width: 50%;
+    padding: 1.5rem 3rem;
+    color: white;
+    font-weight: $h1FontWeight;
+
+    .img-wrapper {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+    }
+}

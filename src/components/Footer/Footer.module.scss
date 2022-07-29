@@ -5,6 +5,7 @@
     width: 100%;
     display: flex;
     background-color: $color--palaro--darkblue;
+    position: relative;
 }
 
 .footer-left {
@@ -24,9 +25,14 @@
     font-weight: $h1FontWeight;
 
     .img-wrapper {
-        height: 50px;
-        width: 50px;
+        height: 10vh;
+        width: 100%;
+        position: relative;
+    }
 
+    div {
+        display: flex;
+        flex-direction: column;
     }
 }
 
