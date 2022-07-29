@@ -36,6 +36,7 @@ const HeroSection = () => {
               src={'/vid.mp4'}
               autoPlay
               loop
+              controlsList="nodownload"
               muted
               />
           </div>
