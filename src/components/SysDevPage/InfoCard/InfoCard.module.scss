@@ -1,0 +1,33 @@
+@import '/styles/variables.scss';
+
+.header {
+    background-color: $color--palaro--darkblue;
+    width: 100%;
+    z-index: 999;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    border-radius: 16px;
+    padding: 4rem 0;
+}
+
+.Image-Container {
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    background-color: #2D419D;
+    border-color: black;
+
+}
+
+.Text-Container { 
+    margin-top: 2rem; // c patrick ani soy
+    width: 200px;
+    height: 300px;
+}

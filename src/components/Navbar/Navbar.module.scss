@@ -2,12 +2,11 @@
 
 .header {
     background-color: $color--palaro--darkblue;
-    width: 100%;
     z-index: 999;
+    position: relative;
 }
 
 .navbar {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

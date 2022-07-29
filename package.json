@@ -34,6 +34,7 @@
     "eslint-config-next": "12.2.3",
     "eslint-plugin-storybook": "^0.6.1",
     "sass": "^1.54.0",
-    "sass-loader": "^13.0.2"
+    "sass-loader": "^13.0.2",
+    "storybook-addon-next": "^1.6.7"
   }
 }
