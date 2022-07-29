@@ -1,0 +1,47 @@
+@import 'styles/variables.scss';
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #0713498a;
+
+    .title {
+        font-size: $bodyFontSize;
+        font-weight: $h1FontWeight;
+        padding-bottom: 1rem;
+    }
+
+    .content {
+        display: absolute;
+        padding: 1rem;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-height: 756px) {
+    .container {
+
+        .title {
+            display: none;
+        }
+
+        .content {
+            display: flex;
+            background-color: aqua;
+        }
+    }
+}

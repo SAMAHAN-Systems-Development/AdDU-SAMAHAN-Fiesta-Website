@@ -1,0 +1,16 @@
+@import 'styles/variables.scss';
+
+.details {
+    h2 {
+        font-size: $h5FontSize;
+    }
+    h3 {
+        font-size: $bodyFontSize;
+    }
+    h4 {
+        font-size: $bodyFontSize;
+    }
+    p {
+        font-size: $bodyFontSize;
+    }
+}

@@ -1,0 +1,37 @@
+@import 'styles/variables.scss';
+
+.details {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: $h5FontSize;
+    }
+    h3 {
+        font-size: $bodyFontSize;
+    }
+    h4 {
+        font-size: $bodyFontSize;
+    }
+    p {
+        font-size: $bodyFontSize;
+    }
+}
+
+@media (max-height: 756px) {
+    .details {
+    
+        h2 {
+            font-size: $bodyFontSize;
+        }
+        h3 {
+            font-size: $body2FontSize;
+        }
+        h4 {
+            font-size: $body2FontSize;
+        }
+        p {
+            font-size: $body2FontSize;
+        }
+    }
+}
