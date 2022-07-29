@@ -66,6 +66,7 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
+        // filter: grayscale(100%);
     }
 
     .video-container {
@@ -90,12 +91,7 @@
     }
 
     &:hover div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #0713498a;
-        height: 100%;
-        width: 100%;
+        display: block;
     }
 
 }
@@ -114,8 +110,8 @@
     .video-container {
         height: 100%;
         width: 100%;
-        // -webkit-filter: sepia(100%) hue-rotate(170deg) brightness(50%);
-        // filter: sepia(100%) hue-rotate(170deg) brightness(50%);
+        -webkit-filter: sepia(100%) hue-rotate(170deg) brightness(50%) blur(700%);
+        filter: sepia(100%) hue-rotate(170deg) brightness(50%) blur(100%);
     }
 
 }

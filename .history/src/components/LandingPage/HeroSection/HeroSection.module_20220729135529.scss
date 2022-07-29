@@ -68,12 +68,17 @@
         object-fit: cover;
     }
 
+    div {
+        background-color: #0713498a;
+    }
+
     .video-container {
         height: 100%;
         width: 100%;
         display: none;
         animation: fade;
         animation-duration: 1s;
+        background-color: #0713498a;
     }
 
     .h1-hover {
@@ -90,12 +95,7 @@
     }
 
     &:hover div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #0713498a;
-        height: 100%;
-        width: 100%;
+        display: block;
     }
 
 }

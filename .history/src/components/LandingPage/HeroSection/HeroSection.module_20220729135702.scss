@@ -83,6 +83,9 @@
         font-weight: $h1FontWeight;
         animation: fade;
         animation-duration: 1s;
+        background-color: #0713498a;
+        height: 100%;
+        width: 100%;
     }
 
     &:hover h1 {
@@ -90,12 +93,7 @@
     }
 
     &:hover div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #0713498a;
-        height: 100%;
-        width: 100%;
+        display: block;
     }
 
 }

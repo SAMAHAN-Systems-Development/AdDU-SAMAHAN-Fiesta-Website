@@ -11,10 +11,8 @@
     background-color: #0713498a;
 
     .title {
-        font-size: $bodyFontSize;
-        font-weight: $h1FontWeight;
-        // text-align: center;
-        padding-bottom: 1rem;
+        font-size: $hFontSize;
+        text-align: right;
     }
 
     .content {

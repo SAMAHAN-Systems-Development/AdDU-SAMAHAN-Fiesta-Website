@@ -2,25 +2,19 @@
 
 .container {
     height: 100%;
-    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding: 1rem;
-    background-color: #0713498a;
-
-    .title {
-        font-size: $bodyFontSize;
-        font-weight: $h1FontWeight;
-        // text-align: center;
-        padding-bottom: 1rem;
-    }
+    transition: display 1s ease;
 
     .content {
         display: absolute;
         padding: 1rem;
+        animation: fade;
+        animation-duration: 1s;
+        background-color: aqua;
     }
+
 }
 
 @keyframes fade {

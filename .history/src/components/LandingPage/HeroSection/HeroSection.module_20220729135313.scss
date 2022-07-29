@@ -56,7 +56,7 @@
 
 .two {
     grid-column: 6 / -1;
-    background-color: $color--blue;
+    background-color: #0713498a;
 
     h1 {
         position: absolute;
@@ -66,6 +66,7 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
+        // filter: grayscale(100%);
     }
 
     .video-container {
@@ -90,12 +91,7 @@
     }
 
     &:hover div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #0713498a;
-        height: 100%;
-        width: 100%;
+        display: block;
     }
 
 }

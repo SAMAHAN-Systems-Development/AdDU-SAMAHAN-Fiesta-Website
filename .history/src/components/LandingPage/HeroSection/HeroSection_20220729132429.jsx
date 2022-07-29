@@ -38,7 +38,7 @@ const HeroSection = () => {
               loop
               muted
               />
-          </div>
+            </div>
           <NowHappening />
         </div>
         <div className={`${styles["grid-item"]} ${styles["four"]}`}>
