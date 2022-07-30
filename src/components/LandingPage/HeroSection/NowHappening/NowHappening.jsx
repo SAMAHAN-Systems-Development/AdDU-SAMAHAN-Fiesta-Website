@@ -12,7 +12,6 @@ const NowHappening=()=>{
 
     useEffect(() => {
         SetCHContent(FilterContents(CHContent));
-        
         const interval = setInterval(() => {
           SetCHContent(FilterContents(CHContent));
         }, 10000)
@@ -26,12 +25,11 @@ const NowHappening=()=>{
                 <div className={styles['title']}>NOW HAPPENING</div>
                 {CHContent.map((item) => {
                     return (
-                        <React.Fragment key={item.DateTime}>
+                        <React.Fragment key={item.ItemNum}>
                             <NowHappeningContent
                                 time={item.DateTime}
                                 event={item.event}
                                 platform={item.platform}
-                                description={item.desc}
                             />
                         </React.Fragment>
                     );
