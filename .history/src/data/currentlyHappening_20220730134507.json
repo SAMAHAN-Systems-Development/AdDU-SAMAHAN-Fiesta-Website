@@ -1,0 +1,21 @@
+{
+    "content":{
+        "title":"CURRENTLY HAPPENING",
+        "contents":[
+            {
+                "ItemNum":"Item #1",
+                "DateTime":"August 11, 2022 | 8:00 AM",
+                "event":"Sadya 2022: 74th Ateneo Fiesta Parade",
+                "platform": "Venue: Ateneo de Davao University, Jacinto Campus",
+                "expiry": "August 11 2022 9:00 AM"
+            },
+            {
+                "ItemNum":"Item #1",
+                "DateTime":"August 11, 2022 | 8:00 AM",
+                "event":"Sadya 2022: 74th Ateneo Fiesta Parade",
+                "platform": "Venue: Ateneo de Davao University, Jacinto Campus",
+                "expiry": "August 11 2022 9:00 AM"
+            },
+        ]
+        }   
+}
