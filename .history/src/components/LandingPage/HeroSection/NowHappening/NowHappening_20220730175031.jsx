@@ -25,7 +25,7 @@ const NowHappening=()=>{
                 <div className={styles['title']}>NOW HAPPENING</div>
                 {CHContent.map((item) => {
                     return (
-                        <React.Fragment key={item.ItemNum}>
+                        <React.Fragment key={item.start}>
                             <NowHappeningContent
                                 time={item.DateTime}
                                 event={item.event}
