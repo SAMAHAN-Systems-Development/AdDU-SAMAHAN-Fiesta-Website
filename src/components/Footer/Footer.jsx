@@ -29,12 +29,14 @@ const Footer = () => {
         </div>
 
         <div className={styles['footer-right']}>
-          <h3> SIDLAKAN </h3>
+          <h2> SIDLAKAN </h2>
+          <div className={styles['img-container']}>
           <div className={styles['img-wrapper']}>
             <Image
               src="/assets/Smiley_Logo.png" 
               alt="Smiley Sysdev Logo"
-              layout='fill'
+              width = '100'
+              height = '100'
               objectFit='contain'
               />
           </div>
@@ -42,10 +44,12 @@ const Footer = () => {
             <Image
               src="/assets/SYSDEV_Logo.png" 
               alt="SysDev Logo"
-              layout='fill'
+              width = '100'
+              height = '100'
               objectFit='contain'
             />
           </div>
+        </div>
         </div>
     </div>
   )
