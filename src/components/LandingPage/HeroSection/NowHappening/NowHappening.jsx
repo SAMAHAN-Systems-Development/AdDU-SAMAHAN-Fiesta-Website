@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from "react";
 
 import styles from "./NowHappening.module.scss";
-import { CHData } from '../../../../sampleData/dataIndex'
+import { CHData } from '../../../../data/dataIndex';
 import { NowHappeningContent } from '../../../ComponentIndex'
 import { FilterContents } from "../../../../utilities/datetime";
 
