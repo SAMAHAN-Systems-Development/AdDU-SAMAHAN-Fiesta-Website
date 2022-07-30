@@ -11,7 +11,7 @@ const CalendarBox = ({title, sched}) => {
             <div className={styles['line']} key={index}>
               <div className={styles['element']}><h3>{perSched.activity}</h3></div>
               <div className={styles['element']}><p>{perSched.time}</p></div>
-              <div className={styles['element']}><h4>{perSched.place}</h4></div>
+              <div className={styles['element']}><h5>{perSched.place}</h5></div>
             </div>
             )
         })}

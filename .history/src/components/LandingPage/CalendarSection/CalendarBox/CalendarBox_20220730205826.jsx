@@ -9,9 +9,9 @@ const CalendarBox = ({title, sched}) => {
         {sched.map((perSched, index)=>{
           return (
             <div className={styles['line']} key={index}>
-              <div className={styles['element']}><h3>{perSched.activity}</h3></div>
-              <div className={styles['element']}><p>{perSched.time}</p></div>
-              <div className={styles['element']}><h4>{perSched.place}</h4></div>
+              <div className={styles['element']}>{perSched.place}</div>
+              <div className={styles['element']}>{perSched.time}</div>
+              <div className={styles['element']}>{perSched.activity}</div>
             </div>
             )
         })}

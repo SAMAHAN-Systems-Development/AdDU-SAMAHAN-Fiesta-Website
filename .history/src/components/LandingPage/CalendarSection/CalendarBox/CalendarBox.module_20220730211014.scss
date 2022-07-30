@@ -2,7 +2,7 @@
 
 .container {
     height: 100%;
-    width:  25vw;
+    width:  27vw;
     display: flex;
     flex: 1 auto;
     flex-direction: column;
@@ -36,7 +36,7 @@
 
         .line {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             text-align: center;
             padding: 1rem;
             border: 1px;
@@ -44,26 +44,7 @@
             font-weight: $h5FontWeight;
             border-bottom: 0.1rem solid rgb(210, 210, 210);
             flex-wrap: wrap;
-
-            .element {
-                padding: 0.3rem 0;
-                text-align: center;
-
-                h3 {
-                    color: $color--palaro--darkblue;
-                    font-size: $bodyFontSize;
-                    font-weight: $h2FontWeight;
-                }
-                h4 {
-                    color: $color--palaro--blue;
-                    font-size: $body2FontSize;
-                    font-weight: $h3FontWeight;
-                }
-                p {
-                    font-size: 0.7rem;
-                    font-weight: $h5FontWeight;
-                }
-            }
+            margin: 1rem;
         }
         
         &::-webkit-scrollbar-track {

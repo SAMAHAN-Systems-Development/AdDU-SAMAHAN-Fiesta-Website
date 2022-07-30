@@ -53,15 +53,19 @@
                     color: $color--palaro--darkblue;
                     font-size: $bodyFontSize;
                     font-weight: $h2FontWeight;
+                    text-align: left;
                 }
                 h4 {
                     color: $color--palaro--blue;
                     font-size: $body2FontSize;
                     font-weight: $h3FontWeight;
+                    text-align: right;
                 }
                 p {
                     font-size: 0.7rem;
                     font-weight: $h5FontWeight;
+                    text-align: right;
+
                 }
             }
         }
