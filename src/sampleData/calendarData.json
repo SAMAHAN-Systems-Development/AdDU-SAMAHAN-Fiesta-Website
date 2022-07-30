@@ -3,48 +3,36 @@
         {
             "title":"DAY 1",
             "sched":[
-                {"place":"ONE", "time":"1:00 AM","activity":"ONE GAMES"},
-                {"place":"ONE GARDEN", "time":"1:30 PM","activity":"ONE FAIR"},
-                {"place":"ONE", "time":"1:00 AM","activity":"ONE GAMES"},
-                {"place":"ONE GARDEN", "time":"1:30 PM","activity":"ONE FAIR"},
-                {"place":"ONE", "time":"1:00 AM","activity":"ONE GAMES"},
-                {"place":"ONE GARDEN", "time":"1:30 PM","activity":"ONE FAIR"},
-                {"place":"ONE", "time":"1:00 AM","activity":"ONE GAMES"},
-                {"place":"ONE GARDEN", "time":"1:30 PM","activity":"ONE FAIR"},
-                {"place":"ONE", "time":"1:00 AM","activity":"ONE GAMES"},
-                {"place":"ONE GARDEN", "time":"1:30 PM","activity":"ONE FAIR"},
-                {"place":"ONE", "time":"1:00 AM","activity":"ONE GAMES"},
-                {"place":"ONE GARDEN", "time":"1:30 PM","activity":"ONE FAIR"},
-                {"place":"ONE", "time":"1:00 AM","activity":"ONE GAMES"},
-                {"place":"ONE GARDEN", "time":"1:30 PM","activity":"ONE FAIR"},
-                {"place":"ONE", "time":"1:00 AM","activity":"ONE GAMES"},
-                {"place":"ONE GARDEN", "time":"1:30 PM","activity":"ONE FAaIR"}
+                {"place":"Jacinto Campus", "time":"8:00 AM-9:00 PM","activity":"sadya 2022: 74th Ateneo Fiesta Parade"},
+                {"place":"4F Martin Hall", "time":"9:30 AM-12:00 PM","activity":"74th Ateneo Fiesta Opening Ceremonies"},
+                {"place":"Arrupe Hall", "time":"12:00 PM-1:00 PM","activity":"Fiesta Pakaon"},
+                {"place":"7F Martin Hall", "time":"1:00 PM-4:00 PM","activity":"Palarong Atenista 2022 Championships: Volleyball Finals (M/W)"},
+                {"place":"Arrupe Hall", "time":"1:00 PM-2:00 PM","activity":"Pista sa Nayon: Ribbon Cutting Ceremony & COA-huts Launching"},
+                {"place":"Arrupe Hall", "time":"2:00PM-3:00PM","activity":"Kantahan: The Karaoke Challenge"},
+                {"place":"Arrupe Hall", "time":"3:00PM-4:00PM","activity":"COA Sessionistas"},
+                {"place":"4F Martin Building", "time":"5:00PM-9:00PM","activity":"Musikahan & Creative Series Short Film Showcase"},
+                {"place":"Sunken Garden", "time":"5:00PM-7:00PM","activity":"Popcorn Knights"}
             ]
         },
         {
             "title":"DAY 2",
             "sched":[
-                {"place":"TWO", "time":"2:00 AM","activity":"TWO GAMES"},
-                {"place":"TWO GARDEN", "time":"2:30 AM","activity":"TWO FAIR"},
-                {"place":"TWO", "time":"2:00 AM","activity":"TWO GAMES"},
-                {"place":"TWO GARDEN", "time":"2:30 AM","activity":"TWO FAIR"},
-                {"place":"TWO", "time":"2:00 AM","activity":"TWO GAMES"},
-                {"place":"TWO GARDEN", "time":"2:30 AM","activity":"TWO FAIR"},
-                {"place":"TWO", "time":"2:00 AM","activity":"TWO GAMES"},
-                {"place":"TWO GARDEN", "time":"2:30 AM","activity":"TWO FAIR"}
+                {"place":"Arrupe Hall", "time":"8:00AM-7:00PM","activity":"COA-huts (Ateneo Merch & Self-Portrait Photobooths"},
+                {"place":"Media Room (8F CCFC)", "time":"8:00AM-10:00AM","activity":"Sulat Tinyo"},
+                {"place":"4F Martin Building", "time":"9:00AM-1:00PM","activity":"University Mass"},
+                {"place":"4F Martin Building", "time":"1:00PM-5:00PM","activity":"Palarong Atenista 2022 Championships: Basketball Finals (M)"},
+                {"place":"Arrupe Hall", "time":"1:00PM-3:00PM","activity":"Trivia Wars: Winner Takes All"},
+                {"place":"New Auditorium", "time":"5:00PM-8:00PM","activity":"Star Search"},
+                {"place":"Sunken Garden", "time":"5:00PM-7:00PM","activity":"Popcorn Knights"}
             ]
         },
         {
             "title":"DAY 3",
             "sched":[
-                {"place":"THREE", "time":"3:00 PM","activity":"THREE GAMES"},
-                {"place":"THREE HALL", "time":"3:30 PM","activity":"THREE FAIR"},
-                {"place":"THREE", "time":"3:00 PM","activity":"THREE GAMES"},
-                {"place":"THREE HALL", "time":"3:30 PM","activity":"THREE FAIR"},
-                {"place":"THREE", "time":"3:00 PM","activity":"THREE GAMES"},
-                {"place":"THREE HALL", "time":"3:30 PM","activity":"THREE FAIR"},
-                {"place":"THREE", "time":"3:00 PM","activity":"THREE GAMES"},
-                {"place":"THREE HALL", "time":"3:30 PM","activity":"THREE FAIR"}
+                {"place":"Arrupe Hall/4F Martin Hall", "time":"8:00AM-11:00AM","activity":"Event for Faculty Club and Faculty Union"},
+                {"place":"Arrupe Hall", "time":"10:00AM-5:00PM","activity":"COA-huts (Ateneo Merch & Self-Portrait Photobooths"},
+                {"place":"4F Martin Building", "time":"3:00PM-5:00PM","activity":"Palarong Atenista Awarding Ceremony"},
+                {"place":"4F Martin Building", "time":"5:00PM-9:00PM","activity":"Closing Ceremonies, Ateneo Fiesta Awarding Ceremony & Sayawtenista"}
             ]
         }
     ]
