@@ -3,10 +3,19 @@
 .container{
    
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    width: fit-content;
 }
 .header{
     font-size: $h1FontSize;
     font-weight: $h1FontWeight;
+}
+
+.container-1{
+    border-radius: 16px;
+    background-color: white;
+    width: fit-content;
+    padding: 2rem;
+    
+  
+    
 }
