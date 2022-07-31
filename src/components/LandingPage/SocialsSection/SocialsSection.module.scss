@@ -7,3 +7,9 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 756px) {
+    .section {
+        height: fit-content;
+    }
+}

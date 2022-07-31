@@ -1,0 +1,28 @@
+{
+    "content":{
+        "title":"CURRENTLY HAPPENING",
+        "contents":[
+            {
+                "start":"July 30 8:00 AM",
+                "DateTime":"August 11, 2022 | 8:00 AM",
+                "event":"Sadya 2022: 74th Ateneo Fiesta Parade",
+                "platform": "Venue: Ateneo de Davao University, Jacinto Campus",
+                "expiry": "July 31 9:00 PM"
+            },
+            {
+                "start":"August 11 2022 9:00 AM",
+                "DateTime":"August 11, 2022 | 9:30 AM",
+                "event":"74th Ateneo Fiesta Opening Ceremonies",
+                "platform": "Venue: Ateneo de Davao University, 4F Martin Hall",
+                "expiry": "August 1 2022 12:00 PM"
+            },
+            {
+                "start":"August 11 2022 12:00 PM",
+                "DateTime":"August 11, 2022 | 12:00 PM",
+                "event":"Fiesta Pakaoan",
+                "platform": "Venue: Ateneo de Davao University, Arrupe Hall",
+                "expiry": "August 11 2022 1:00 PM"
+            }
+        ]
+        }   
+}

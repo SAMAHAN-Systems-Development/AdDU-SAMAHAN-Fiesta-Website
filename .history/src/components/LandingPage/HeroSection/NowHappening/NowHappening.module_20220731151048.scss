@@ -1,0 +1,98 @@
+@import 'styles/variables.scss';
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #0713498a;
+
+    .divider {
+        display: none;
+    }
+    
+    .content {
+        flex: 1;
+        display: absolute;
+        padding: 0 1rem;
+
+        .title {
+            font-size: $h3FontSize;
+            font-weight: $h1FontWeight;
+            padding-bottom: 1rem;
+        }
+        .no-events {
+            font-size: $bodyFontSize;
+            font-weight: $bodyFontWeight;
+            color: rgba(255, 255, 255, 0.63);
+            text-align: center;
+        }
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 756px) {
+    .container {
+        margin-top: 0;
+
+        .divider {
+            display: block;
+            background-color: rgba(255, 255, 255, 0.26);
+            height: 50%;
+            width: 1px;
+        }
+
+        .content {
+            display: flex;
+
+            .title {
+                font-size: $captionFontSize !important;
+                padding: 0 0.5rem;
+                text-align: center;
+            }
+            
+            div {
+                flex: 1;
+            }
+            
+            .no-events {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-left: 1px solid $color--palaro--darkblue;
+                width: 50%;
+                padding: 0 0.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 1187px) {
+    .container {
+        
+        .content {
+            // margin-top: 1rem;
+            align-items: center;
+            justify-content: center;
+
+            .title {
+                text-align: left;
+                display: flex;
+                align-items: center;
+                font-size: $body2FontSize;
+            }
+        }
+    }
+}

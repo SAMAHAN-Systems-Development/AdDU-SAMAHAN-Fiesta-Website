@@ -1,0 +1,13 @@
+@import 'styles/variables.scss';
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 756px) {
+    .section {
+        height: fit-content;
+    }
+}

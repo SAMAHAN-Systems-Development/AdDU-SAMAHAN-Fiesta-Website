@@ -1,0 +1,1 @@
+export { default as CHData } from '../sampleData/currentlyHappening.json';
