@@ -1,11 +1,13 @@
 @import 'styles/variables.scss';
 
 .section {
-    height: 100vh;
-    width: fit-content;
+    //height: 100vh;
+    width: 100%;
     display: flex;
-    align-items: center;
+   // align-items: center;
     justify-content: center;
+   // background-color: $color--palaro--darkblue;
+   padding: 1.5rem;
 }
 
 @media (max-width: 756px) {
