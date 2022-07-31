@@ -1,0 +1,167 @@
+{
+    "content":{
+        "title":"CURRENTLY HAPPENING",
+        "contents":[
+            {
+                "start":"August 11 2022 8:00 AM",
+                "ItemNum":"Item #1",
+                "DateTime":"DAY 1 | 8:00 AM - 9:00 AM",
+                "event":"Sadya 2022: 74th Ateneo Fiesta Parade",
+                "platform": "Venue: Jacinto Campus",
+                "expiry": "August 11 2022 9:00 AM"
+            },
+            {
+                "start":"August 11 2022 9:30 AM",
+                "ItemNum":"Item #2",
+                "DateTime":"DAY 1 | 9:30 AM - 12:00 PM",
+                "event":"Sadya 2022: 74th Ateneo Fiesta Opening Ceremonies",
+                "platform": "Venue: 4F MArtin Hall",
+                "expiry": "August 11 2022 12:00 PM"
+            },
+            {
+                "start":"August 11 2022 12:00 PM",
+                "ItemNum":"Item #3",
+                "DateTime":"DAY 1 | 12:00 PM - 1:00 PM",
+                "event":"Fiesta Pakaon",
+                "platform": "Venue: Arrupe Hall",
+                "expiry": "August 11 2022 1:00 PM"
+            },
+            {
+                "start":"August 11 2022 1:00 PM",
+                "ItemNum":"Item #4",
+                "DateTime":"DAY 1 | 1:00 PM - 4:00 PM",
+                "event":"Palarong Atenista 2022 Championships: Volleyball Finals (M/W)",
+                "platform": "Venue: 7F Martin Hall",
+                "expiry": "August 11 2022 4:00 PM"
+            },
+            {
+                "start":"August 11 2022 1:00 PM",
+                "ItemNum":"Item #5",
+                "DateTime":"DAY 1 | 1:00 - 2:00 PM",
+                "event":"Pista sa Nayon: Ribbon Cutting Ceremony & COA-huts Launching",
+                "platform": "Venue: Arrupe Hall",
+                "expiry": "August 11 2022 2:00 PM"
+            },
+            {
+                "start":"August 11 2022 2:00 PM",
+                "ItemNum":"Item #6",
+                "DateTime":"DAY 1 | 2:00 PM - 3:00 PM",
+                "event":"Kantawanan: The Karaoke Challenge",
+                "platform": "Venue: Arrupe Hall",
+                "expiry": "August 11 2022 3:00 PM"
+            },
+            {
+                "start":"August 11 2022 3:00 PM",
+                "ItemNum":"Item #7",
+                "DateTime":"DAY 1 | 3:00 PM - 4:00 PM",
+                "event":"COA Sessionistas",
+                "platform": "Venue: Arrupe Hall",
+                "expiry": "August 11 2022 4:00 PM"
+            },
+            {
+                "start":"August 11 2022 5:00 PM",
+                "ItemNum":"Item #8",
+                "DateTime":"DAY 1 | 5:00 PM - 9:00 PM",
+                "event":"Musikahan & Creative Series Short Film Showcase",
+                "platform": "Venue: 4F Martin Building",
+                "expiry": "August 11 2022 9:00 PM"
+            },
+            {
+                "start":"August 11 2022 5:00 PM",
+                "ItemNum":"Item #9",
+                "DateTime":"DAY 1 | 5:00 PM - 7:00 PM",
+                "event":"Popcorn Knights",
+                "platform": "Venue: Sunken Garden",
+                "expiry": "August 11 2022 7:00 PM"
+            },
+            {
+                "start":"July 12 2022 8:00 AM",
+                "ItemNum":"Item #10",
+                "DateTime":"DAY 2 | 8:00 AM - 7:00 PM",
+                "event":"COA-huts (Ateneo Merch & Self-Portrait Photobooths)",
+                "platform": "Venue: Arrupe Hall",
+                "expiry": "August 12 2022 7:00 PM"
+            },
+            {
+                "start":"August 12 2022 8:00 AM",
+                "ItemNum":"Item #11",
+                "DateTime":"DAY 2 | 8:00 AM - 10:00 AM",
+                "event":"Sulat Tinyo",
+                "platform": "Venue: Media Room (8F CCFC)",
+                "expiry": "August 12 2022 10:00 AM"
+            },
+            {
+                "start":"August 12 2022 9:00 AM",
+                "ItemNum":"Item #12",
+                "DateTime":"DAY 2 | 9:00 AM - 1:00 PM",
+                "event":"University Mass",
+                "platform": "Venue: 4F Martin Building",
+                "expiry": "August 12 2022 1:00 PM"
+            },
+            {
+                "start":"July 12 2022 1:00 PM",
+                "ItemNum":"Item #13",
+                "DateTime":"DAY 2 | 1:00 PM - 5:00 PM",
+                "event":"Palarong Atenista 2022 Championships: Basketball Finals (M/W)",
+                "platform": "Venue: 4F Martin Building",
+                "expiry": "August 12 2022 5:00 PM"
+            },
+            {
+                "start":"August 12 2022 1:00 PM",
+                "ItemNum":"Item #14",
+                "DateTime":"DAY 2 | 1:00 PM - 3:00 PM",
+                "event":"Trivia Wars: Winner Takes All",
+                "platform": "Venue: Arrupe Hall",
+                "expiry": "August 12 2022 3:00 PM"
+            },
+            {
+                "start":"August 12 2022 5:00 PM",
+                "ItemNum":"Item #15",
+                "DateTime":"DAY 2 | 5:00 PM - 8:00 PM",
+                "event":"Star Search",
+                "platform": "Venue: New Auditorium",
+                "expiry": "August 12 2022 8:00 PM"
+            },
+            {
+                "start":"August 12 2022 5:00 PM",
+                "ItemNum":"Item #16",
+                "DateTime":"DAY 2 | 5:00 PM - 7:00 PM",
+                "event":"Popcorn Knights",
+                "platform": "Venue: Sunken Garden",
+                "expiry": "August 12 2022 7:00 PM"
+            },
+            {
+                "start":"August 13 2022 8:00 AM",
+                "ItemNum":"Item #17",
+                "DateTime":"DAY 3 | 8:00 AM - 11:00 AM",
+                "event":"Event for Faculty Club and Faculty Union",
+                "platform": "Venue: Arrupe Hall/4F Martin Hall",
+                "expiry": "August 13 2022 11:00 AM"
+            },
+            {
+                "start":"August 13 2022 10:00 AM",
+                "ItemNum":"Item #18",
+                "DateTime":"DAY 3 | 10:00 AM - 5:00 PM",
+                "event":"COA-huts (Ateneo Merch & Self-Portrait Photobooths)",
+                "platform": "Venue: Arrupe Hall/4F Martin Hall",
+                "expiry": "August 13 2022 5:00PM"
+            },
+            {
+                "start":"August 13 2022 3:00 PM",
+                "ItemNum":"Item #19",
+                "DateTime":"DAY 3 | 3:00 PM - 4:00 PM",
+                "event":"Palarong Atenista Awarding Ceremony",
+                "platform": "Venue: 4F Martin Building",
+                "expiry": "August 13 2022 4:00 PM"
+            },
+            {
+                "start":"August 13 2022 5:00 PM",
+                "ItemNum":"Item #20",
+                "DateTime":"DAY 3 | 5:00 PM - 9:00 PM",
+                "event":"Closing Ceremonies, Ateneo Fiesta Awarding Ceremony & Sayawtenista",
+                "platform": "Venue: 4F Martin Building",
+                "expiry": "August 13 2022 9:00 PM"
+            }
+        ]
+        }   
+}

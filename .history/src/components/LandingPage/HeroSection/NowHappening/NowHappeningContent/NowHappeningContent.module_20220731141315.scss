@@ -1,0 +1,68 @@
+@import 'styles/variables.scss';
+
+.details {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.1px solid rgba(255, 255, 255, 0.459);
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.459);
+    padding: 0.15rem 0;
+
+    h2 {
+        font-size: $h5FontSize;
+    }
+    h3 {
+        font-size: $bodyFontSize;
+        font-weight: $body2FontWeight;
+    }
+    h4 {
+        font-size: $bodyFontSize;
+    }
+    p {
+        font-size: $bodyFontSize;
+    }
+}
+
+@media (max-width: 756px) {
+    .details {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 0.5rem;
+        border-top: 0;
+    }
+}
+
+@media (max-width: 869px) {
+    .details {
+        
+        h2 {
+            font-size: 0.65rem !important;
+        }
+        h3 {
+            font-size: 0.55rem !important;
+        }
+        h4 {
+            font-size: 0.45rem !important;
+        }
+        p {
+            font-size: 0.4rem !important;
+        }
+    }
+}
+
+@media (max-width: 1180px) {
+    .details {
+        h2 {
+            font-size: 0.9rem;
+        }
+        h3 {
+            font-size: 0.8rem;
+        }
+        h4 {
+            font-size: 0.7rem;
+        }
+        p {
+            font-size: 0.6rem;
+        }
+    }
+}
