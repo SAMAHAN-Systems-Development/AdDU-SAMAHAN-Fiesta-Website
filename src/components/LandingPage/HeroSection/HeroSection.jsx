@@ -12,12 +12,21 @@ const HeroSection = () => {
         <div className={`${styles["grid-item"]} ${styles["one"]}`}>
           <div className={styles["img_wrapper"]}>
             <Image
-              src="/assets/here-and-now.png"
-              alt="AdDU Logo"
+              src="/assets/samahan-circle.png"
+              alt="Samahan Logo"
               layout="fill"
               objectFit="contain"
               priority
             />
+          </div>
+          <div className={styles['img_hover']}>
+            <Image
+                src="/assets/han-circle.png"
+                alt="Here and Now Logo"
+                layout="fill"
+                objectFit="contain"
+                priority
+              />
           </div>
         </div>
         <div className={`${styles["grid-item"]} ${styles["two"]}`}>
@@ -52,6 +61,15 @@ const HeroSection = () => {
             <Image
               src="/assets/cheer.png"
               alt="Cheer don't jeer"
+              layout="fill"
+              objectFit="cover"
+              priority
+            />
+          </div>
+          <div className={styles["img_hover"]}>
+            <Image
+              src="/assets/cheer-hover.png"
+              alt="Cheer don't jeer - hover"
               layout="fill"
               objectFit="cover"
               priority
@@ -99,8 +117,8 @@ const HeroSection = () => {
                   <div className={styles['img-wrapper']}>
                     <div className={styles['logo-1']}>
                       <Image
-                        src="/assets/here-and-now.png"
-                        alt="Cheer don't jeer"
+                        src="/assets/samahan-white.png"
+                        alt="logo 1"
                         layout="fill"
                         objectFit="contain"
                         priority
@@ -108,8 +126,8 @@ const HeroSection = () => {
                     </div>
                     <div className={styles['logo-2']}>
                       <Image
-                        src="/assets/here-and-now.png"
-                        alt="Cheer don't jeer"
+                        src="/assets/han-white.png"
+                        alt="logo 2"
                         layout="fill"
                         objectFit="contain"
                         priority

@@ -10,13 +10,14 @@
     transition: transform 0.1s ease-in-out;
 
     h1 {
-       color: $color--palaro--darkblue; 
-       font-weight: $h1FontWeight;
-       font-size: $bodyFontSize;
+        white-space: nowrap;
+        color: $color--blue; 
+        font-weight: $h1FontWeight;
+        font-size: $h5FontSize;
     }
 
     &:hover h1 {
-        color: $color--palaro--purple;
+        color: $color--palaro--blue;
     }
 
     &:hover {

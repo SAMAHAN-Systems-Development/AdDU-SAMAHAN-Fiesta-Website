@@ -1,0 +1,37 @@
+@import '/styles/variables.scss';
+
+.TicketsButton {
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    padding: 0.6rem 1.5rem;
+
+    transition: transform 0.1s ease-in-out;
+
+    h1 {
+        white-space: nowrap;
+        color: $color--blue; 
+        font-weight: $h1FontWeight;
+        font-size: $h5FontSize;
+    }
+
+    &:hover h1 {
+        color: $color--skyblue;
+    }
+
+    &:hover {
+        transform: scale(102%);
+    }
+}
+
+@media (max-width: 756px) {
+    .TicketsButton {
+        padding: 0.5rem 1rem;
+
+        h1 {
+            font-weight: $h1FontWeight;
+            font-size: $captionFontSize;
+        }
+    }
+}

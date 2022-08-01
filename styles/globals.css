@@ -19,6 +19,14 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "brant bold";
+  src: url("/assets/fonts/brant/brant-bold-webfont.woff2") format("woff2"),
+    url("/assets/fonts/brant/brant-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
