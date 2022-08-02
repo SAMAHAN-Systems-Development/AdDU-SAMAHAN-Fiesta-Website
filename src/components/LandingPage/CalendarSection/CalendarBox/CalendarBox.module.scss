@@ -1,7 +1,7 @@
 @import 'styles/variables.scss';
 
 .container {
-    height: 100%;
+    height: 50rem;
     width: 25rem;
     display: flex;
     flex-direction: column;
@@ -242,30 +242,169 @@
 @media (max-width: 900px) {
     .container {
         width: 100% !important;
-
-        .title {
-            padding: 1rem;
-
-            h1 {
-                font-size: $bodyFontSize;
-                font-weight: $h2FontWeight;
-            }
-        }
-
+        height: 100%;
+        
         .content {
-            overflow-y: hidden;
-
-            .line {
-                .element {
-                    h3 {
-                        font-size: 0.9rem;
+            &-Day1 {
+                background-color: $color--yellow;
+                color: $color--darkyellow;
+                height: 85%;
+                color: $color--darkyellow;
+                display: flex;
+                justify-content: top;
+                padding: 0 1rem;
+                flex-direction: column;
+                overflow-y: scroll;
+                border-radius: 1rem;
+    
+                .line {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    padding: 1rem;
+                    border: 1px;
+                    font-size: $body2FontSize;
+                    font-weight: $h5FontWeight;
+                    border-bottom: 1px solid $color--darkyellow;
+                    flex-wrap: wrap;
+        
+                    .element {
+                        padding: 0.3rem 0;
+                        text-align: center;
+        
+                        h3 {
+                            font-size: $bodyFontSize;
+                            font-weight: $h2FontWeight;
+                        }
+                        h4 {
+                            font-size: $body2FontSize;
+                            font-weight: $h3FontWeight;
+                        }
+                        p {
+                            font-size: 0.7rem;
+                            font-weight: $h5FontWeight;
+                        }
                     }
-                    h4 {
-                        font-size: 0.85rem;
+                }
+                
+                &::-webkit-scrollbar-track {
+                    display: none;
+                }
+                
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+                
+                &::-webkit-scrollbar-thumb {
+                    display: none;
+                }
+            }
+    
+            &-Day2 {
+                background-color: $color--skyblue;
+                color: $color--darkskyblue;
+                height: 85%;
+                display: flex;
+                justify-content: top;
+                padding: 0 1rem;
+                flex-direction: column;
+                overflow-y: scroll;
+                border-radius: 1rem;
+    
+                .line {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    padding: 1rem;
+                    border: 1px;
+                    font-size: $body2FontSize;
+                    font-weight: $h5FontWeight;
+                    border-bottom: 1px solid $color--darkskyblue;
+                    flex-wrap: wrap;
+        
+                    .element {
+                        padding: 0.3rem 0;
+                        text-align: center;
+        
+                        h3 {
+                            font-size: $bodyFontSize;
+                            font-weight: $h2FontWeight;
+                        }
+                        h4 {
+                            font-size: $body2FontSize;
+                            font-weight: $h3FontWeight;
+                        }
+                        p {
+                            font-size: 0.7rem;
+                            font-weight: $h5FontWeight;
+                        }
                     }
-                    p {
-                        font-size: 0.75rem;
+                }
+                
+                &::-webkit-scrollbar-track {
+                    display: none;
+                }
+                
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+                
+                &::-webkit-scrollbar-thumb {
+                    display: none;
+                }
+            }
+    
+            &-Day3 {
+                background-color: $color--pink;
+                color: $color--darkpink;
+                height: 85%;
+                display: flex;
+                justify-content: top;
+                padding: 0 1rem;
+                flex-direction: column;
+                overflow-y: scroll;
+                border-radius: 1rem;
+    
+                .line {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    padding: 1rem;
+                    border: 1px;
+                    font-size: $body2FontSize;
+                    font-weight: $h5FontWeight;
+                    border-bottom: 1px solid $color--darkpink;
+                    flex-wrap: wrap;
+        
+                    .element {
+                        padding: 0.3rem 0;
+                        text-align: center;
+        
+                        h3 {
+                            font-size: $bodyFontSize;
+                            font-weight: $h2FontWeight;
+                        }
+                        h4 {
+                            font-size: $body2FontSize;
+                            font-weight: $h3FontWeight;
+                        }
+                        p {
+                            font-size: 0.7rem;
+                            font-weight: $h5FontWeight;
+                        }
                     }
+                }
+                
+                &::-webkit-scrollbar-track {
+                    display: none;
+                }
+                
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+                
+                &::-webkit-scrollbar-thumb {
+                    display: none;
                 }
             }
         }
