@@ -30,7 +30,7 @@ const SysDevPage = () => {
       Email = 'olanolancyrilm@gmail.com'      
       />
       <InfoCard
-      Name = 'Julienne Panes'
+      Name = 'Julienne Andrea Panes'
       Position = 'Front-End Developer'
       Course = 'BS-Computer Science'
       Email = 'juliennepanes@gmail.com'      

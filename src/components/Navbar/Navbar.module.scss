@@ -1,6 +1,7 @@
 @import '/styles/variables.scss';
 
 .header {
+    width: 100%;
     background-color: $color--blue;
     z-index: 999;
     position: relative;
@@ -20,6 +21,10 @@
         position: relative;
         width: 10.875rem;
         height: 5.8rem;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 
