@@ -12,8 +12,9 @@ const Navbar = () => {
                 layout="fill"
                 objectFit="contain"
                 draggable="false"
+                alt='Sadya 2022 Logo'
                 priority
-                />
+              />
             </div>
             <div className={styles.tickets_btn}>
               <TicketsButton />

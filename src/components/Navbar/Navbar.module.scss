@@ -14,11 +14,13 @@
     position: relative;
     padding: 0 5rem;
     // box-shadow: 1px 1px 1px #222222b0;
-    height: 10vh;
+    height: 6.5rem;
 
-    // .fiesta_logo {
-    //     position: relative;
-    // }
+    .fiesta_logo {
+        position: relative;
+        width: 10.875rem;
+        height: 5.8rem;
+    }
 }
 
 @media (max-width: 756px) {
