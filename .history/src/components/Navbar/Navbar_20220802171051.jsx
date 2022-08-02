@@ -10,8 +10,8 @@ const Navbar = () => {
               <Image 
                 src="/assets/sadya.png"
                 layout="fill"
-                objectFit="contain"
-                draggable="false"
+                objectFit="cover"
+                draggable="contain"
                 priority
                 />
             </div>

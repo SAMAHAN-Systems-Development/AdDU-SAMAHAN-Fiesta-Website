@@ -10,7 +10,6 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: 46vh;
-    color: $color--white;
 }
 
 .grid-item {
@@ -37,7 +36,7 @@
 
 .one {
     grid-column: 1 / span 5;
-    background-color: $color--orange;
+    background-color: $color--palaro--blue;
     position: relative;
     
     .img_hover{
@@ -62,7 +61,7 @@
 
 .two {
     grid-column: 6 / -1;
-    background-color: $color--skyblue;
+    background-color: $color--pink;
 
     .text {
         position: absolute;
@@ -109,7 +108,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #54ccff54;
+        background-color: #f46b9b48;
         height: 100%;
         width: 100%;
     }
@@ -118,7 +117,7 @@
 
 .three {
     grid-column: 1 / span 5;
-    background-color: $color--skyblue;
+    background-color: $color--blue;
     
     video {
         height: 100%;
@@ -138,7 +137,7 @@
 
 .four {
     grid-column: 6 / -1;
-    background-color: $color--orange;
+    background-color: $color--palaro--blue;
 
     transition: all 0s;
 
@@ -249,6 +248,7 @@
         }
     }
 }
+
 
 @media (max-width: 1180px) {
     .grid-container {
