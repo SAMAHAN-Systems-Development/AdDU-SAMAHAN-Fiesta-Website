@@ -63,5 +63,14 @@
         display:inline-block;
         flex-direction: column;
         padding: 1rem 0.5rem;
+        transition: transform 0.3s ease-out;
+
+    }
+    .Icon-Section:hover{
+        display:inline-block;
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+        transform: translateY(-5px);
+
     }
 }

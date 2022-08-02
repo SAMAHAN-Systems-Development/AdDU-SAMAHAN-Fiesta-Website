@@ -16,13 +16,13 @@ const Footer = () => {
           <p> Developed by SAMAHAN Systems Development & SCT</p>
           <div className={styles['icons-container']}>
             <div className={styles['icons-section-first']}>
-            <a href = "https://www.facebook.com/SAMAHANSysDev"><Icon icon={facebookFill} color="white" /></a>
+            <a href = "https://www.facebook.com/SAMAHANSysDev"><Icon icon={facebookFill} color="white" height = "24"/></a>
             </div>
             <div className={styles['icons-section']}>
-            <a href = "https://twitter.com/SAMAHANSysDev"> <Icon icon={twitterFill} color="white" /></a>
+            <a href = "https://twitter.com/SAMAHANSysDev"> <Icon icon={twitterFill} color="white" height = "24" /></a>
             </div>
             <div className={styles['icons-section']}>
-            <a href = "https://www.instagram.com/samahansysdev/"><Icon icon={instagramFill} color="white" /></a>
+            <a href = "https://www.instagram.com/samahansysdev/"><Icon icon={instagramFill} color="white" height = "24"/></a>
             </div>
           </div>
         </div>
