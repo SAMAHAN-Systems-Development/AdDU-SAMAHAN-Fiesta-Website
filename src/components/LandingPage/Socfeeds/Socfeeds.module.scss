@@ -2,8 +2,9 @@
 .container {
     display: flex;
     background-color: $color--palaro--darkblue;
+    align-items: center;
     padding: 1rem;
-    width: fit-content;
+    width: 100%;
     border-radius: 16px;
 }
 
