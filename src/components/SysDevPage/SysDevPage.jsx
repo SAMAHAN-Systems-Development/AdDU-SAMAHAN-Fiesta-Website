@@ -7,6 +7,10 @@ const SysDevPage = () => {
   return (
     <div className={styles["Container"]}>
       <Navbar />
+      <div className={styles["Title"]}> 
+      <h3> SAMAHAN </h3>
+      <h1>Systems Development Team</h1>
+      </div>
       <div className={styles["Row"]}>
       <InfoCard 
       Name = 'Laarni Ives Booc'

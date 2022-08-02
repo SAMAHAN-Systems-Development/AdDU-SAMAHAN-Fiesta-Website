@@ -12,8 +12,8 @@ const Footer = () => {
 
     <div className={styles['section']}>
         <div className={styles['footer-left']}>
-          <p> Copyright © 2022 SAMAHAN</p>
-          <p> Developed by <Link href = "/SystemsDevelopmentPage"> SAMAHAN Systems Development</Link> & SCT</p>
+          <p> Copyright © 2022 <span><a href ="https://samahan.addu.edu.ph/"> SAMAHAN </a></span></p>
+          <p> Developed by <span> <Link href = "/SystemsDevelopmentPage"> SAMAHAN Systems Development </Link> </span> & SCT</p>
           <div className={styles['icons-container']}>
             <div className={styles['icons-section-first']}>
             <a href = "https://www.facebook.com/SAMAHANSysDev"><Icon icon={facebookFill} color="white" height = "24"/></a>

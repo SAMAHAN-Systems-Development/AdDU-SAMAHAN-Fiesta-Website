@@ -15,6 +15,23 @@
     font-size: $bodyFontSize;
     width: 50%;
 
+    span{
+        color: white;
+        transition: color .2s ease-in;
+    }
+    span:hover{
+        color: $color--palaro--darkblue;
+    }
+    span:active{
+        font-weight: bold;
+        transition: color .1s ease;
+    }
+
+    .text-section-left{
+        display: flex;
+        flex-direction: row;
+
+    }
     .icons-container {
         display:flex;
         justify-content: flex-start;
