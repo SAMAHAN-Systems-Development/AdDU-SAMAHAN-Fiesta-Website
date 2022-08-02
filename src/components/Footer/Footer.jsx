@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 import twitterFill from '@iconify/icons-akar-icons/twitter-fill';
 import facebookFill from '@iconify/icons-akar-icons/facebook-fill';
 import instagramFill from '@iconify/icons-akar-icons/instagram-fill';
-import githubFill from '@iconify/icons-akar-icons/github-fill';
+import Link from 'next/link'
 
 
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
     <div className={styles['section']}>
         <div className={styles['footer-left']}>
           <p> Copyright © 2022 SAMAHAN</p>
-          <p> Developed by SAMAHAN Systems Development & SCT</p>
+          <p> Developed by <Link href = "/SystemsDevelopmentPage"> SAMAHAN Systems Development</Link> & SCT</p>
           <div className={styles['icons-container']}>
             <div className={styles['icons-section-first']}>
             <a href = "https://www.facebook.com/SAMAHANSysDev"><Icon icon={facebookFill} color="white" height = "24"/></a>

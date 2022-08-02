@@ -20,19 +20,19 @@ const InfoCard = ({Name, Position, Course, Email}) => {
                 <p>Socials: </p>
                 <div className={styles["Icon-Container"]}>
                   <div className={styles["Icon-Section"]}>
-                  <Icon icon={twitterFill} color="white" /> 
+                  <Icon icon={twitterFill} color="white" height = "26"/> 
                   </div>
 
                   <div className={styles["Icon-Section"]}>
-                  <Icon icon={facebookFill} color="white" />
+                  <Icon icon={facebookFill} color="white" height = "26" />
                   </div>
 
                   <div className={styles["Icon-Section"]}>
-                  <Icon icon={instagramFill} color="white" />
+                  <Icon icon={instagramFill} color="white" height = "26" />
                   </div>
 
                   <div className={styles["Icon-Section"]}>
-                  <Icon icon={githubFill} color="white" />
+                  <Icon icon={githubFill} color="white" height = "26" />
                   </div>
                 </div>
             </div>

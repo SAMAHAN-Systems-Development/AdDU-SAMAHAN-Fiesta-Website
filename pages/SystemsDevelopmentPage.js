@@ -3,7 +3,7 @@ import React from 'react'
 
 const SystemsDevelopmentPage = () => {
   return (
-    <div>SystemsDevelopmentPage
+    <div>
         <SysDevPage />
     </div>
   )
