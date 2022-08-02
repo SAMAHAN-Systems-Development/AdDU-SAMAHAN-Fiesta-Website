@@ -6,6 +6,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
+    &:hover {
+        cursor:default;
+    }
     
     .title {
         &-Day1 {
@@ -82,7 +86,7 @@
                 .element {
                     padding: 0.3rem 0;
                     text-align: center;
-    
+                    
                     h3 {
                         font-size: $bodyFontSize;
                         font-weight: $h2FontWeight;

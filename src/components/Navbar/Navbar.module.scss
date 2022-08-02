@@ -5,6 +5,7 @@
     background-color: $color--blue;
     z-index: 999;
     position: relative;
+    box-shadow: 5px 5px 10px #222222b0;
 }
 
 .navbar {
@@ -14,7 +15,6 @@
     align-items: center;
     position: relative;
     padding: 0 5rem;
-    box-shadow: 1px 1px 1px #222222b0;
     height: 6.5rem;
 
     .fiesta_logo {
