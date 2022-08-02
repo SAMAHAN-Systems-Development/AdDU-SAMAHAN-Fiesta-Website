@@ -10,7 +10,7 @@ const CalendarSection = () => {
           {Calendar.events.map((item) =>{
             return(
               <div key={item.title}>
-                <CalendarBox title={item.title} sched={item.sched}/>
+                <CalendarBox title={item.title} sched={item.sched} itemNum={item.itemNum}/>
               </div>
             )
           })}

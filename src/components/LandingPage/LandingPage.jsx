@@ -8,7 +8,7 @@ const LandingPage = () => {
     <div className={styles["LandingPage"]}>
       <HeroSection />
       <CalendarSection />
-      {/* <SocialsSection /> */}
+      <SocialsSection />
       <Footer />
     </div>
   );

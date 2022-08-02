@@ -2,6 +2,7 @@
     "events":[
         {
             "title":"DAY 1",
+            "itemNum":"Day1",
             "sched":[
                 {"place":"Jacinto Campus", "time":"8:00 AM-9:00 PM","activity":"Sadya 2022: 74th Ateneo Fiesta Parade"},
                 {"place":"4F Martin Hall", "time":"9:30 AM-12:00 PM","activity":"74th Ateneo Fiesta Opening Ceremonies"},
@@ -16,6 +17,7 @@
         },
         {
             "title":"DAY 2",
+            "itemNum":"Day2",
             "sched":[
                 {"place":"Arrupe Hall", "time":"8:00AM-7:00PM","activity":"COA-huts (Ateneo Merch & Self-Portrait Photobooths)"},
                 {"place":"Media Room (8F CCFC)", "time":"8:00AM-10:00AM","activity":"Sulat Tinyo"},
@@ -28,6 +30,7 @@
         },
         {
             "title":"DAY 3",
+            "itemNum":"Day3",
             "sched":[
                 {"place":"Arrupe Hall/4F Martin Hall", "time":"8:00AM-11:00AM","activity":"Event for Faculty Club and Faculty Union"},
                 {"place":"Arrupe Hall", "time":"10:00AM-5:00PM","activity":"COA-huts (Ateneo Merch & Self-Portrait Photobooths)"},

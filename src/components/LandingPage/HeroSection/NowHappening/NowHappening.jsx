@@ -45,8 +45,9 @@ const NowHappening=()=>{
         <div className={styles['container']}>
             <div className={styles['content']}>
                 <div className={styles['title']}>NOW HAPPENING</div>
-                {/* <div className={styles['divider']}></div> */}
-                {checkData()}
+                <div className={styles['details']}>
+                    {checkData()}
+                </div>
             </div>
         </div>
     )

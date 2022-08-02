@@ -10,7 +10,6 @@
 }
 
 .calendar-container {
-    position: relative;
     display: flex;
     flex-direction: row;
     align-items: top;
@@ -19,7 +18,7 @@
     padding: 0.5rem;
 }
 
-@media (max-width: 756px) {
+@media (max-width: 900px) {
     .section {
         display: block;
         height: fit-content;
