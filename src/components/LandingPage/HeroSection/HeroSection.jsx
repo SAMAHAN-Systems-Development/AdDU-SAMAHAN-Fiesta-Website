@@ -3,8 +3,19 @@ import styles from "./HeroSection.module.scss";
 import NowHappening from "./NowHappening/NowHappening";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { motion } from "framer-motion"
 
 const HeroSection = () => {
+
+  const scaleUp = {
+    initial: {
+      transform: "scale(1)"
+    },
+    animate: {
+      transform: "scale(1.2)"
+    },
+    
+  }
   
   return (
     <div className={styles["section"]}>
@@ -56,27 +67,24 @@ const HeroSection = () => {
           </div>
           <NowHappening />
         </div>
+
         <div className={`${styles["grid-item"]} ${styles["four"]}`}>
-          <div className={styles["img_wrapper"]}>
+          <motion.div
+            className={styles["img_wrapper"]}
+            initial="initial"
+            whileHover="animate"
+            variants={scaleUp}
+          >
             <Image
-              src="/assets/cheer.png"
-              alt="Cheer don't jeer"
+              src="/assets/svg/CheerDontJeer.svg"
+              alt=""
               layout="fill"
               objectFit="cover"
-              priority
+              draggable={false}
             />
-          </div>
-          <div className={styles["img_hover"]}>
-            <Image
-              src="/assets/cheer-hover.png"
-              alt="Cheer don't jeer - hover"
-              layout="fill"
-              objectFit="cover"
-              priority
-            />
-          </div>
+          </motion.div>
         </div>
-    
+
       </div>
       <div className={styles['carousel-container']}>
         <Carousel autoPlay infiniteLoop showStatus={false} showThumbs={false}>

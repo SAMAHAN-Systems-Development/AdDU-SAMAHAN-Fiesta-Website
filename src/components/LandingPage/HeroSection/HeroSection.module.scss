@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: 46vh;
+    color: $color--white;
 }
 
 .grid-item {
@@ -137,7 +138,7 @@
 
 .four {
     grid-column: 6 / -1;
-    background-color: $color--palaro--blue;
+    background-color: $color--orange;
 
     transition: all 0s;
 
