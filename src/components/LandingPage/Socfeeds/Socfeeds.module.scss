@@ -1,15 +1,21 @@
 @import '/styles/variables.scss';
 .container {
     display: flex;
-    background-color: $color--palaro--darkblue;
-    align-items: center;
-    padding: 1rem;
+    background-color: $color--orange;
+    padding-top: 1rem;
+    position: relative;
     width: 100%;
     border-radius: 16px;
+    color: #B77B46;
+    
 }
 
 
 
-.feed{
-   margin: 1rem; 
+
+.tfeed{
+   padding-left: 10rem;
 }
+.ffeed{
+   float: right;
+ }

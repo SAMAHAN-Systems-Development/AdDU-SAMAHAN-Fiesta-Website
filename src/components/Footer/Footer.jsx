@@ -5,7 +5,7 @@ import twitterFill from '@iconify/icons-akar-icons/twitter-fill';
 import facebookFill from '@iconify/icons-akar-icons/facebook-fill';
 import instagramFill from '@iconify/icons-akar-icons/instagram-fill';
 import githubFill from '@iconify/icons-akar-icons/github-fill';
-
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -13,25 +13,24 @@ const Footer = () => {
     <div className={styles['section']}>
         <div className={styles['footer-left']}>
           <p> Copyright © 2022 SAMAHAN</p>
-          <p> Developed by SAMAHAN Systems Development </p>
-          <div className={styles['icons-section']}>
-          <a href = "https://twitter.com/SAMAHANSysDev"> <Icon icon={twitterFill} color="white" /></a>
-          </div>
-          <div className={styles['icons-section']}>
-          <a href = "https://www.facebook.com/SAMAHANSysDev"><Icon icon={facebookFill} color="white" /></a>
-          </div>
-          <div className={styles['icons-section']}>
-          <a href = "https://www.instagram.com/samahansysdev/"><Icon icon={instagramFill} color="white" /></a>
-          </div>
-          <div className={styles['icons-section']}>
-          <a href = "https://github.com/SAMAHANSysDev"><Icon icon={githubFill} color="white" /></a>
+          <p> Developed by SAMAHAN <Link href="/SysDevPage">Systems Development</Link> & SCT</p>
+          <div className={styles['icons-container']}>
+            <div className={styles['icons-section-first']}>
+            <a href = "https://www.facebook.com/SAMAHANSysDev"><Icon icon={facebookFill} color="white" /></a>
+            </div>
+            <div className={styles['icons-section']}>
+            <a href = "https://twitter.com/SAMAHANSysDev"> <Icon icon={twitterFill} color="white" /></a>
+            </div>
+            <div className={styles['icons-section']}>
+            <a href = "https://www.instagram.com/samahansysdev/"><Icon icon={instagramFill} color="white" /></a>
+            </div>
           </div>
         </div>
 
         <div className={styles['footer-right']}>
-          <h2> SIDLAKAN </h2>
+          <h2> SADYA 2022 </h2>
           <div className={styles['img-container']}>
-          <div className={styles['img-wrapper']}>
+          <div className={styles['img-wrapper-1']}>
             <Image
               src="/assets/Smiley_Logo.png" 
               alt="Smiley Sysdev Logo"
@@ -40,7 +39,7 @@ const Footer = () => {
               objectFit='contain'
               />
           </div>
-          <div className={styles['img-wrapper']}>
+          <div className={styles['img-wrapper-2']}>
             <Image
               src="/assets/SYSDEV_Logo.png" 
               alt="SysDev Logo"

@@ -6,11 +6,11 @@ import styles from './Socfeeds.module.scss'
 const Socfeeds = () => {
     return (
     <div className={styles["container"]}>
-            <div className={styles["feed"]}>
+            <div className={styles["ffeed"]}>
                 <FacebookFeed />
             </div>
             
-            <div className={["feed"]}>
+            <div className={styles["tfeed"]}>
                 <TwitterFeed /> 
             </div>
 

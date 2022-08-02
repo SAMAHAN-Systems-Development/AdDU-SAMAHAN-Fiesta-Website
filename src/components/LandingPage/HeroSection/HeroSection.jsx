@@ -3,8 +3,19 @@ import styles from "./HeroSection.module.scss";
 import NowHappening from "./NowHappening/NowHappening";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { motion } from "framer-motion"
 
 const HeroSection = () => {
+
+  const scaleUp = {
+    initial: {
+      transform: "scale(1)"
+    },
+    animate: {
+      transform: "scale(1.2)"
+    },
+    
+  }
   
   return (
     <div className={styles["section"]}>
@@ -12,12 +23,21 @@ const HeroSection = () => {
         <div className={`${styles["grid-item"]} ${styles["one"]}`}>
           <div className={styles["img_wrapper"]}>
             <Image
-              src="/assets/here-and-now.png"
-              alt="AdDU Logo"
+              src="/assets/samahan-circle.png"
+              alt="Samahan Logo"
               layout="fill"
               objectFit="contain"
               priority
             />
+          </div>
+          <div className={styles['img_hover']}>
+            <Image
+                src="/assets/han-circle.png"
+                alt="Here and Now Logo"
+                layout="fill"
+                objectFit="contain"
+                priority
+              />
           </div>
         </div>
         <div className={`${styles["grid-item"]} ${styles["two"]}`}>
@@ -27,6 +47,7 @@ const HeroSection = () => {
             autoPlay
             loop
             muted
+            controlsList="nodownload"
             />
           </div>
             <div className={styles['text']}>
@@ -47,18 +68,24 @@ const HeroSection = () => {
           </div>
           <NowHappening />
         </div>
+
         <div className={`${styles["grid-item"]} ${styles["four"]}`}>
-          <div className={styles["img_wrapper"]}>
+          <motion.div
+            className={styles["img_wrapper"]}
+            initial="initial"
+            whileHover="animate"
+            variants={scaleUp}
+          >
             <Image
-              src="/assets/cheer.png"
-              alt="Cheer don't jeer"
+              src="/assets/svg/CheerDontJeer.svg"
+              alt=""
               layout="fill"
               objectFit="cover"
-              priority
+              draggable={false}
             />
-          </div>
+          </motion.div>
         </div>
-    
+
       </div>
       <div className={styles['carousel-container']}>
         <Carousel autoPlay infiniteLoop showStatus={false} showThumbs={false}>
@@ -99,8 +126,8 @@ const HeroSection = () => {
                   <div className={styles['img-wrapper']}>
                     <div className={styles['logo-1']}>
                       <Image
-                        src="/assets/here-and-now.png"
-                        alt="Cheer don't jeer"
+                        src="/assets/samahan-circle.png"
+                        alt="logo 1"
                         layout="fill"
                         objectFit="contain"
                         priority
@@ -108,8 +135,8 @@ const HeroSection = () => {
                     </div>
                     <div className={styles['logo-2']}>
                       <Image
-                        src="/assets/here-and-now.png"
-                        alt="Cheer don't jeer"
+                        src="/assets/han-circle.png"
+                        alt="logo 2"
                         layout="fill"
                         objectFit="contain"
                         priority

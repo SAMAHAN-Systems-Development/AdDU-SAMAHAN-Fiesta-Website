@@ -18,10 +18,12 @@ const InfoCard = ({Name, Position, Course, Email}) => {
                 <p>E-mail:</p>
                 <p>{Email}</p>
                 <p>Socials: </p>
-                <Icon icon={twitterFill} color="#010a30" />
-                <Icon icon={facebookFill} color="#010a30" />
-                <Icon icon={instagramFill} color="#010a30" />
-                <Icon icon={githubFill} color="#010a30" />
+                <div className={styles["Icon-Section"]}>
+                <Icon icon={twitterFill} color="white" /> 
+                <Icon icon={facebookFill} color="white" />
+                <Icon icon={instagramFill} color="white" />
+                <Icon icon={githubFill} color="white" />
+                </div>
             </div>
         </div>
   )

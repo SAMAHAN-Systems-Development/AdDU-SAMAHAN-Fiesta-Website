@@ -1,9 +1,13 @@
 import styles from './SysDevPage.module.scss';
 import InfoCard from './InfoCard/InfoCard.jsx';
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar.jsx";
+
 
 const SysDevPage = () => {
   return (
     <div className={styles["Container"]}>
+      <Navbar />
       <div className={styles["Row"]}>
       <InfoCard 
       Name = 'Laarni Ives Booc'
@@ -48,8 +52,10 @@ const SysDevPage = () => {
       Email = 'jaytan3825@gmail.com'      
       />
       </div>
+      <Footer />
 
     </div>
+    
   )
 }
 

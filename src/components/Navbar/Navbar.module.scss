@@ -1,7 +1,7 @@
 @import '/styles/variables.scss';
 
 .header {
-    background-color: $color--orange;
+    background-color: $color--blue;
     z-index: 999;
     position: relative;
 }
@@ -12,13 +12,14 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding: 1rem 3rem;
+    padding: 0 5rem;
+    // box-shadow: 1px 1px 1px #222222b0;
+    height: 6.5rem;
 
-    h1 {
-        white-space: nowrap;
-        color: white;
-        font-weight: 900;
-        font-size: $h4FontSize;
+    .fiesta_logo {
+        position: relative;
+        width: 10.875rem;
+        height: 5.8rem;
     }
 }
 

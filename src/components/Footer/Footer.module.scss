@@ -4,7 +4,7 @@
     height: 30vh;
     width: 100%;
     display: flex;
-    background-color: $color--palaro--darkblue;
+    background-color: $color--pink;
     position: relative;
 }
 
@@ -14,12 +14,25 @@
     padding: 1.5rem 3rem;
     font-size: $bodyFontSize;
     width: 50%;
-    
-    .icons-section {
-        display:inline-block;
-        flex-direction: column;
-        padding: 1rem 0.5rem;
+
+    .icons-container {
+        display:flex;
+        justify-content: flex-start;
+        .icons-section-first{
+            display:inline-block;
+            flex-direction: column;
+            padding-top: 1rem;
+            padding-right: 0.5rem;
+            position: relative;
+        }
+        .icons-section {
+            display:inline-block;
+            flex-direction: column;
+            padding: 1rem 0.5rem;
+            position: relative;
+        }
     }
+
 
 }
 
@@ -40,7 +53,14 @@
         display:flex;
         justify-content: flex-end;
 
-        .img-wrapper {
+        .img-wrapper-1 {
+            height: auto;
+            width: 3rem;
+            margin-right: 0.7rem;
+            position: relative;
+    
+        }
+        .img-wrapper-2 {
             height: auto;
             width: 3rem;
             position: relative;
