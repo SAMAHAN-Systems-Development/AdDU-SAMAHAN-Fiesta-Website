@@ -3,7 +3,6 @@ import InfoCard from './InfoCard/InfoCard.jsx';
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar.jsx";
 
-
 const SysDevPage = () => {
   return (
     <div className={styles["Container"]}>

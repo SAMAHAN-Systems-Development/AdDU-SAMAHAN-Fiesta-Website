@@ -18,11 +18,22 @@ const InfoCard = ({Name, Position, Course, Email}) => {
                 <p>E-mail:</p>
                 <p>{Email}</p>
                 <p>Socials: </p>
-                <div className={styles["Icon-Section"]}>
-                <Icon icon={twitterFill} color="white" /> 
-                <Icon icon={facebookFill} color="white" />
-                <Icon icon={instagramFill} color="white" />
-                <Icon icon={githubFill} color="white" />
+                <div className={styles["Icon-Container"]}>
+                  <div className={styles["Icon-Section"]}>
+                  <Icon icon={twitterFill} color="white" /> 
+                  </div>
+
+                  <div className={styles["Icon-Section"]}>
+                  <Icon icon={facebookFill} color="white" />
+                  </div>
+
+                  <div className={styles["Icon-Section"]}>
+                  <Icon icon={instagramFill} color="white" />
+                  </div>
+
+                  <div className={styles["Icon-Section"]}>
+                  <Icon icon={githubFill} color="white" />
+                  </div>
                 </div>
             </div>
         </div>
