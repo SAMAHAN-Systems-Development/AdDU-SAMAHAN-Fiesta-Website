@@ -10,7 +10,7 @@ const Socfeeds = () => {
                 <FacebookFeed />
             </div>
             
-            <div className={["feed"]}>
+            <div className={styles["feed"]}>
                 <TwitterFeed /> 
             </div>
 
