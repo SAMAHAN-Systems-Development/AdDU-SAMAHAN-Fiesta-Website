@@ -6,22 +6,6 @@ import {useMediaQuery} from '@mui/material';
 
 
 export default function TwitterFeed() {
-  const [currentWidth , SetcurrentWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () =>{
-      SetcurrentWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return() => {
-      window.removeEventListener("resize", handleResize);
-    };
-
-  },[]
-  
-  )
   const matches = useMediaQuery('(min-width:1057px)');
   const height = matches ? 700 : 700;
   const width = matches ? 500 : 900;
@@ -41,7 +25,7 @@ export default function TwitterFeed() {
         screenName="CyrilOlanolan"
          options={{height: height ,width:width}}
          />
-         {console.log(currentWidth)}
+         
         
       </div>
 
