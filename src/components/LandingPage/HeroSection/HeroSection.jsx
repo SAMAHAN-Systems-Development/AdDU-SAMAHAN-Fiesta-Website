@@ -68,7 +68,6 @@ const HeroSection = () => {
           </div>
           <NowHappening />
         </div>
-
         <div className={`${styles["grid-item"]} ${styles["four"]}`}>
           <motion.div
             className={styles["img_wrapper"]}
@@ -85,7 +84,6 @@ const HeroSection = () => {
             />
           </motion.div>
         </div>
-
       </div>
       <div className={styles['carousel-container']}>
         <Carousel autoPlay infiniteLoop showStatus={false} showThumbs={false}>
@@ -114,37 +112,33 @@ const HeroSection = () => {
                       />
                 </div>
                 <div>
+                <motion.div
+                  className={styles["img_wrapper"]}
+                  initial="initial"
+                  whileHover="animate"
+                  variants={scaleUp}
+                >
                   <Image
-                    src="/assets/cheer-hover.png"
-                    alt="Cheer don't jeer"
+                    src="/assets/svg/CheerDontJeer.svg"
+                    alt=""
                     layout="fill"
                     objectFit="cover"
-                    priority
+                    draggable={false}
                   />
+                </motion.div>
                 </div>
                 <div>
                   <div className={styles['img-wrapper']}>
-                    <div className={styles['logo-1']}>
-                      <Image
-                        src="/assets/samahan-circle.png"
-                        alt="logo 1"
-                        layout="fill"
-                        objectFit="contain"
-                        priority
-                      />
-                    </div>
-                    <div className={styles['logo-2']}>
-                      <Image
-                        src="/assets/han-circle.png"
-                        alt="logo 2"
-                        layout="fill"
-                        objectFit="contain"
-                        priority
-                      />
-                    </div>
+                    <Image
+                          src="/assets/samahan-logo-big.png"
+                          alt="samahan logo"
+                          layout="fill"
+                          objectFit="cover"
+                          priority
+                        />
                   </div>
                 </div>
-          </Carousel>
+        </Carousel>
       </div>
     </div>
   )

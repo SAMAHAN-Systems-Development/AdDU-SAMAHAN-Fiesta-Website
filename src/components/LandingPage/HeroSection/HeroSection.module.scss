@@ -109,7 +109,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #54ccff54;
+        background-color: #2769855e;
         height: 100%;
         width: 100%;
     }
@@ -165,40 +165,28 @@
     position: relative;
     display: none;
     height: 100%;
-    background-color: $color--palaro--blue;
+    background-color: $color--orange;
 
     div {
-        height: 30vh;
+        height: 18rem;
 
         .title {
             position: absolute;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: #0713498a;
+            background-color: #2769855e;
             width: 100%;
         }
 
         .img-wrapper {
-            // height: 80%;
-            // width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            // flex: 1;
-            transform: scale(0.7);
+            // transform: scale(0.7);
             padding: 1rem;
             gap: 2rem;
-
-            .logo-1 {
-                position: relative;
-                width: 50%;
-            }
-
-            .logo-2 {
-                position: relative;
-                width: 50%;
-            }
+            background-color: $color--palaro--blue;
         }
     }
 

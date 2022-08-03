@@ -3,11 +3,14 @@ import InfoCard from './InfoCard/InfoCard.jsx';
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar.jsx";
 
-
 const SysDevPage = () => {
   return (
     <div className={styles["Container"]}>
       <Navbar />
+      <div className={styles["Title"]}> 
+      <h3> SAMAHAN </h3>
+      <h1>Systems Development Team</h1>
+      </div>
       <div className={styles["Row"]}>
       <InfoCard 
       Name = 'Laarni Ives Booc'
@@ -31,7 +34,7 @@ const SysDevPage = () => {
       Email = 'olanolancyrilm@gmail.com'      
       />
       <InfoCard
-      Name = 'Julienne Panes'
+      Name = 'Julienne Andrea Panes'
       Position = 'Front-End Developer'
       Course = 'BS-Computer Science'
       Email = 'juliennepanes@gmail.com'      

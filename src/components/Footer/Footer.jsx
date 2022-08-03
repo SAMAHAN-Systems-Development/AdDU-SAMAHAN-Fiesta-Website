@@ -4,25 +4,25 @@ import { Icon } from '@iconify/react';
 import twitterFill from '@iconify/icons-akar-icons/twitter-fill';
 import facebookFill from '@iconify/icons-akar-icons/facebook-fill';
 import instagramFill from '@iconify/icons-akar-icons/instagram-fill';
-import githubFill from '@iconify/icons-akar-icons/github-fill';
-import Link from 'next/link';
+import Link from 'next/link'
+
 
 const Footer = () => {
   return (
 
     <div className={styles['section']}>
         <div className={styles['footer-left']}>
-          <p> Copyright © 2022 SAMAHAN</p>
-          <p> Developed by SAMAHAN <Link href="/SysDevPage">Systems Development</Link> & SCT</p>
+          <p> Copyright © 2022 <span><a href ="https://samahan.addu.edu.ph/"> SAMAHAN </a></span></p>
+          <p> Developed by <span> <Link href = "/SystemsDevelopmentPage"> SAMAHAN Systems Development </Link> </span> & SCT</p>
           <div className={styles['icons-container']}>
             <div className={styles['icons-section-first']}>
-            <a href = "https://www.facebook.com/SAMAHANSysDev"><Icon icon={facebookFill} color="white" /></a>
+            <a href = "https://www.facebook.com/SAMAHANSysDev"><Icon icon={facebookFill} color="white" height = "24"/></a>
             </div>
             <div className={styles['icons-section']}>
-            <a href = "https://twitter.com/SAMAHANSysDev"> <Icon icon={twitterFill} color="white" /></a>
+            <a href = "https://twitter.com/SAMAHANSysDev"> <Icon icon={twitterFill} color="white" height = "24" /></a>
             </div>
             <div className={styles['icons-section']}>
-            <a href = "https://www.instagram.com/samahansysdev/"><Icon icon={instagramFill} color="white" /></a>
+            <a href = "https://www.instagram.com/samahansysdev/"><Icon icon={instagramFill} color="white" height = "24"/></a>
             </div>
           </div>
         </div>

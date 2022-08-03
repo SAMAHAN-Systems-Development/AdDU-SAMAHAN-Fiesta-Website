@@ -1,11 +1,13 @@
 import React from 'react'
 import styles from '../CalendarBox/CalendarBox.module.scss';
 
-const CalendarBox = ({title, sched}) => {
+const CalendarBox = ({title, sched, itemNum}) => {
   return (
-    <div className={styles['container']}>
-      <div className={styles['title']}><h1>{title}</h1></div>
-        <div className={styles['content']}>
+    <div className={styles["container"]}>
+        <div className={styles[`title-${itemNum}`]}>
+          <h1>{title}</h1>
+        </div>
+        <div className={styles[`content-${itemNum}`]}>
         {sched.map((perSched, index)=>{
           return (
             <div className={styles['line']} key={index}>

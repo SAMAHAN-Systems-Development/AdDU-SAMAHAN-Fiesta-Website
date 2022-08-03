@@ -1,7 +1,7 @@
 @import 'styles/variables.scss';
 
 .section {
-    height: 30vh;
+    height: 18vh;
     width: 100%;
     display: flex;
     background-color: $color--pink;
@@ -15,21 +15,57 @@
     font-size: $bodyFontSize;
     width: 50%;
 
+    span{
+        color: white;
+        transition: color .2s ease-in;
+    }
+    span:hover{
+        color: $color--palaro--darkblue;
+    }
+    span:active{
+        font-weight: bold;
+        transition: color .1s ease;
+    }
+
+    .text-section-left{
+        display: flex;
+        flex-direction: row;
+
+    }
     .icons-container {
         display:flex;
         justify-content: flex-start;
+
         .icons-section-first{
             display:inline-block;
             flex-direction: column;
             padding-top: 1rem;
             padding-right: 0.5rem;
             position: relative;
+            transition: transform 0.3s ease-out;
+        }
+        .icons-section-first:hover{
+            display:inline-block;
+            flex-direction: column;
+            padding-top: 1rem;
+            padding-right: 0.5rem;
+            position: relative;
+            transform: translateY(-5px);
         }
         .icons-section {
             display:inline-block;
             flex-direction: column;
             padding: 1rem 0.5rem;
             position: relative;
+            transition: transform 0.3s ease-out;
+        }
+        .icons-section:hover {
+            display:inline-block;
+            flex-direction: column;
+            padding: 1rem 0.5rem;
+            position: relative;
+            transform: translateY(-5px);
+
         }
     }
 
@@ -58,8 +94,21 @@
             width: 3rem;
             margin-right: 0.7rem;
             position: relative;
-    
+
+
         }
+        .img-wrapper-1:hover {
+            height: auto;
+            width: 3rem;
+            margin-right: 0.7rem;
+            position: relative;
+            transform: rotate(360deg);
+            transition: width 2s, height 2s, transform 2s;
+
+
+
+        }
+
         .img-wrapper-2 {
             height: auto;
             width: 3rem;
@@ -75,6 +124,34 @@
 @media (max-width: 756px) {
     .section {
         height: fit-content;
+    
+        .footer-left{
+            width: 100%;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            font-size: $bodyFontSize;
+            font-weight: $h5FontWeight;
+
+            .icons-container{
+                justify-content: center;
+
+            }
+        }
+        .footer-right{
+            width: 0%;
+            display: none;
+            .img-container{
+                display: none;
+
+                .img-wrapper-1{
+                    display: none;
+                }
+                .img-wrapper-2{
+                    display: none;
+                }
+            }
+        }
     }
 }
 

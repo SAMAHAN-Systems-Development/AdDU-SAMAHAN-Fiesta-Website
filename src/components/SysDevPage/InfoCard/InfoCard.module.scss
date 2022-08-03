@@ -54,3 +54,23 @@
     font-weight: $bodyFontWeight;
     padding-bottom: 1rem;
 }
+.Icon-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .Icon-Section{
+        display:inline-block;
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+        transition: transform 0.3s ease-out;
+
+    }
+    .Icon-Section:hover{
+        display:inline-block;
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+        transform: translateY(-5px);
+
+    }
+}

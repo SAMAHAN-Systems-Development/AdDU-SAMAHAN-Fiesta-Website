@@ -1,9 +1,11 @@
 @import '/styles/variables.scss';
 
 .header {
+    width: 100%;
     background-color: $color--blue;
     z-index: 999;
     position: relative;
+    box-shadow: 5px 5px 10px #222222b0;
 }
 
 .navbar {
@@ -13,20 +15,21 @@
     align-items: center;
     position: relative;
     padding: 0 5rem;
-    // box-shadow: 1px 1px 1px #222222b0;
     height: 6.5rem;
 
     .fiesta_logo {
         position: relative;
         width: 10.875rem;
         height: 5.8rem;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 
 @media (max-width: 756px) {
    .navbar {
-        h1 {
-            font-size: $bodyFontSize;
-        }
+        padding: 0.5rem;
    }
 }

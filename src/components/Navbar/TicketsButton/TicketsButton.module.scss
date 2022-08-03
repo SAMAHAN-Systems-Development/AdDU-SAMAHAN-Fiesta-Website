@@ -27,11 +27,11 @@
 
 @media (max-width: 756px) {
     .TicketsButton {
-        padding: 0.5rem 1rem;
+        padding: 1rem 1rem;
 
         h1 {
+            font-size: $body2FontSize;
             font-weight: $h1FontWeight;
-            font-size: $captionFontSize;
         }
     }
 }

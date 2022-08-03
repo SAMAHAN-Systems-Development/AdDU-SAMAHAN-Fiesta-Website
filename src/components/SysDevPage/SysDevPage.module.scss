@@ -1,25 +1,127 @@
 @import '/styles/variables.scss';
 
-.header {
-    background-color: white;
+/* Extra small devices (phones, 600px and down) */
+.Title{
+    background-color: $color--pink;
     width: 100%;
-    z-index: 999;
-}
-
-.Container {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    justify-content: center;
     align-items: center;
+    height: 30vh;
+    flex-direction: column;
+    color: $color--palaro--darkblue;
+}
+@media only screen and (max-width: 600px) {
+    .header {
+        background-color: white;
+        width: 100%;
+        z-index: 999;
+    }
+    
+    .Container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Row{
+        display: flex;
+        width: fit-content;
+        flex-direction: column;
+    }
 }
 
-.Row{
-    display: flex;
- 
-    width: fit-content;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .header {
+        background-color: white;
+        width: 100%;
+        z-index: 999;
+    }
+    
+    .Container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Row{
+        display: flex;
+        width: fit-content;
+        
+    }
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .header {
+        background-color: white;
+        width: 100%;
+        z-index: 999;
+    }
+    
+    .Container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Row{
+        display: flex;
+        width: fit-content;
+        
+    }
 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .header {
+        background-color: white;
+        width: 100%;
+        z-index: 999;
+    }
+    
+    .Container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Row{
+        display: flex;
+        width: fit-content;
+        
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .header {
+        background-color: white;
+        width: 100%;
+        z-index: 999;
+    }
+    
+    .Container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Row{
+        display: flex;
+        width: fit-content;
+        
+    }
+
+}
 
 
 
