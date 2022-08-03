@@ -3,11 +3,14 @@ import TwitterFeed  from './TwitterFeed/TwitterFeed.jsx';
 import FacebookFeed from './FacebookFeed/FacebookFeed.jsx';
 import styles from './Socfeeds.module.scss'
 
+import { FacebookEmbed  } from '../../ComponentIndex'
+
 const Socfeeds = () => {
     return (
     <div className={styles["container"]}>
             <div className={styles["feed"]}>
-                <FacebookFeed />
+                {/* <FacebookFeed /> */}
+                <FacebookEmbed />
             </div>
             
             <div className={styles["feed"]}>
