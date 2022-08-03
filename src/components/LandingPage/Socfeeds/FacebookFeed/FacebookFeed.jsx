@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import { FacebookProvider, Page } from 'react-facebook';
 import styles from './FacebookFeed.module.scss'
 
-
 export default class FacebookFeed extends Component {
     render() {
       return (
