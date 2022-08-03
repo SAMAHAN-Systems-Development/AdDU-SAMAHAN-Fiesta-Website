@@ -1,0 +1,42 @@
+{
+    "events":[
+        {
+            "title":"DAY 1",
+            "itemNum":"Day1",
+            "sched":[
+                {"place":"Jacinto Campus", "time":"7:30 AM-8:30 AM","activity":"Sadya 2022: 74th Ateneo Fiesta Parade"},
+                {"place":"4F Martin Hall", "time":"9:00 AM-12:00 PM","activity":"74th Ateneo Fiesta Opening Ceremonies"},
+                {"place":"Arrupe Hall", "time":"12:00 PM-1:00 PM","activity":"Fiesta Pakaon"},
+                {"place":"7F Martin Hall", "time":"1:00 PM-4:00 PM","activity":"Palarong Atenista 2022 Championships: Volleyball Finals (M/W)"},
+                {"place":"Arrupe Hall", "time":"1:00 PM-2:00 PM","activity":"Pista sa Nayon: Ribbon Cutting Ceremony & COA-huts Launching"},
+                {"place":"Arrupe Hall", "time":"2:00 PM-3:00 PM","activity":"Kantawanan: The Karaoke Challenge"},
+                {"place":"Arrupe Hall", "time":"3:00 PM-4:00 PM","activity":"COA Sessionistas"},
+                {"place":"Bapa Benny Tudtud", "time":"5:00 PM-8:00 PM","activity":"Star Search"},
+                {"place":"Open Grounds", "time":"5:00 PM-7:00 PM","activity":"Popcorn Knights"}
+            ]
+        },
+        {
+            "title":"DAY 2",
+            "itemNum":"Day2",
+            "sched":[
+                {"place":"Arrupe Hall", "time":"8:00 AM-7:00 PM","activity":"COA-huts (Ateneo Merch & Self-Portrait Photobooths)"},
+                {"place":"Media Room (8F CCFC)", "time":"8:00 AM-10:00 AM","activity":"Sulat Tinyo"},
+                {"place":"4F Martin Building", "time":"9:00 AM-1:00 PM","activity":"Mass for Our LAdy of Assumption"},
+                {"place":"4F Martin Building", "time":"1:00 PM-5:00 PM","activity":"Palarong Atenista 2022 Championships: Basketball Finals"},
+                {"place":"Arrupe Hall", "time":"1:00 PM-3:00 PM","activity":"Trivia Wars: Winner Takes All"},
+                {"place":"4F Martin Building", "time":"5:00 PM-9:00 PM","activity":"Musikahan & Creative Series Short Film Showcase"},
+                {"place":"Open Grounds", "time":"5:00 PM-7:00 PM","activity":"Popcorn Knights"}
+            ]
+        },
+        {
+            "title":"DAY 3",
+            "itemNum":"Day3",
+            "sched":[
+                {"place":"Arrupe Hall/4F Martin Hall", "time":"8:00 AM-11:00 AM","activity":"Event for Faculty Club and Faculty Union"},
+                {"place":"Arrupe Hall", "time":"10:00 AM-5:00 PM","activity":"COA-huts (Ateneo Merch & Self-Portrait Photobooths)"},
+                {"place":"4F Martin Building", "time":"3:00 PM-4:00 PM","activity":"Palarong Atenista Awarding Ceremony"},
+                {"place":"4F Martin Building", "time":"5:00 PM-9:00 PM","activity":"Closing Ceremonies, Ateneo Fiesta Awarding Ceremony, & Sayawtenista"}
+            ]
+        }
+    ]
+}
