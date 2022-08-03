@@ -61,10 +61,10 @@
             {
                 "start":"August 11 2022 5:00 PM",
                 "ItemNum":"Item #8",
-                "DateTime":"DAY 1 | 5:00 PM - 9:00 PM",
-                "event":"Musikahan & Creative Series Short Film Showcase",
-                "platform": "Venue: 4F Martin Building",
-                "expiry": "August 11 2022 9:00 PM"
+                "DateTime":"DAY 1 | 5:00 PM - 8:00 PM",
+                "event":"Star Search",
+                "platform": "Venue: New Auditorium",
+                "expiry": "August 11 2022 8:00 PM"
             },
             {
                 "start":"August 11 2022 5:00 PM",
@@ -117,10 +117,10 @@
             {
                 "start":"August 12 2022 5:00 PM",
                 "ItemNum":"Item #15",
-                "DateTime":"DAY 2 | 5:00 PM - 8:00 PM",
-                "event":"Star Search",
-                "platform": "Venue: New Auditorium",
-                "expiry": "August 12 2022 8:00 PM"
+                "DateTime":"DAY 2 | 5:00 PM - 8:30 PM",
+                "event":"Musikahan & Creative Series Short Film Showcase",
+                "platform": "Venue: 4F Martin Building",
+                "expiry": "August 12 2022 8:30 PM"
             },
             {
                 "start":"August 12 2022 5:00 PM",
