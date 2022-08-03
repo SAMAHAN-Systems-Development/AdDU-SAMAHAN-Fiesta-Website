@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../CalendarSection/CalendarSection.module.scss'
 import CalendarBox from './CalendarBox/CalendarBox'
-import Calendar from '../../../sampleData/calendarData.json'
+import Calendar from '../../../data/calendarData.json'
 
 const CalendarSection = () => {
   return (

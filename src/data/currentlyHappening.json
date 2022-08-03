@@ -3,17 +3,17 @@
         "title":"CURRENTLY HAPPENING",
         "contents":[
             {
-                "start":"August 11 2022 8:00 AM",
+                "start":"August 11 2022 7:30 AM",
                 "ItemNum":"Item #1",
-                "DateTime":"DAY 1 | 8:00 AM - 9:00 AM",
+                "DateTime":"DAY 1 | 7:30 AM - 8:30 AM",
                 "event":"Sadya 2022: 74th Ateneo Fiesta Parade",
                 "platform": "Venue: Jacinto Campus",
-                "expiry": "August 11 2022 9:00 AM"
+                "expiry": "August 11 2022 8:30 AM"
             },
             {
-                "start":"August 11 2022 9:30 AM",
+                "start":"August 11 2022 9:00 AM",
                 "ItemNum":"Item #2",
-                "DateTime":"DAY 1 | 9:30 AM - 12:00 PM",
+                "DateTime":"DAY 1 | 9:00 AM - 12:00 PM",
                 "event":"Sadya 2022: 74th Ateneo Fiesta Opening Ceremonies",
                 "platform": "Venue: 4F MArtin Hall",
                 "expiry": "August 11 2022 12:00 PM"
@@ -63,7 +63,7 @@
                 "ItemNum":"Item #8",
                 "DateTime":"DAY 1 | 5:00 PM - 8:00 PM",
                 "event":"Star Search",
-                "platform": "Venue: New Auditorium",
+                "platform": "Venue: Bapa Denny Tudtud",
                 "expiry": "August 11 2022 8:00 PM"
             },
             {
@@ -71,7 +71,7 @@
                 "ItemNum":"Item #9",
                 "DateTime":"DAY 1 | 5:00 PM - 7:00 PM",
                 "event":"Popcorn Knights",
-                "platform": "Venue: Sunken Garden",
+                "platform": "Venue: Open Grounds",
                 "expiry": "August 11 2022 7:00 PM"
             },
             {
@@ -94,7 +94,7 @@
                 "start":"August 12 2022 9:00 AM",
                 "ItemNum":"Item #12",
                 "DateTime":"DAY 2 | 9:00 AM - 1:00 PM",
-                "event":"University Mass",
+                "event":"Mass of Our Lady of Assumption",
                 "platform": "Venue: 4F Martin Building",
                 "expiry": "August 12 2022 1:00 PM"
             },
@@ -102,7 +102,7 @@
                 "start":"August 12 2022 1:00 PM",
                 "ItemNum":"Item #13",
                 "DateTime":"DAY 2 | 1:00 PM - 5:00 PM",
-                "event":"Palarong Atenista 2022 Championships: Basketball Finals (M/W)",
+                "event":"Palarong Atenista 2022 Championships: Basketball Finals",
                 "platform": "Venue: 4F Martin Building",
                 "expiry": "August 12 2022 5:00 PM"
             },
@@ -117,17 +117,17 @@
             {
                 "start":"August 12 2022 5:00 PM",
                 "ItemNum":"Item #15",
-                "DateTime":"DAY 2 | 5:00 PM - 8:30 PM",
+                "DateTime":"DAY 2 | 5:00 PM - 9:00 PM",
                 "event":"Musikahan & Creative Series Short Film Showcase",
                 "platform": "Venue: 4F Martin Building",
-                "expiry": "August 12 2022 8:30 PM"
+                "expiry": "August 12 2022 9:00 PM"
             },
             {
                 "start":"August 12 2022 5:00 PM",
                 "ItemNum":"Item #16",
                 "DateTime":"DAY 2 | 5:00 PM - 7:00 PM",
                 "event":"Popcorn Knights",
-                "platform": "Venue: Sunken Garden",
+                "platform": "Venue: Open Grounds",
                 "expiry": "August 12 2022 7:00 PM"
             },
             {
