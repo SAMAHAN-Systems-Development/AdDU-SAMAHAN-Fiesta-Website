@@ -52,7 +52,7 @@ const HeroSection = () => {
           </div>
             <div className={styles['text']}>
               <h1>SADYA 2022</h1>
-              <h4>Theme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."</h4>
+              <h4>Theme: &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&quot;</h4>
             </div>
           <div className={styles['h1-hover']}>74th Ateneo de Davao University Fiesta</div>
         </div>
@@ -81,6 +81,7 @@ const HeroSection = () => {
               layout="fill"
               objectFit="cover"
               draggable={false}
+              priority
             />
           </motion.div>
         </div>
@@ -91,7 +92,7 @@ const HeroSection = () => {
                   <div className={styles['title']}>
                     <p>74th Ateneo de Davao University Fiesta</p>
                     <h1>SADYA 2022</h1>
-                    <h5>Theme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."</h5>
+                    <h5>Theme: &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&quot;</h5>
                   </div>
                   <video 
                     src={'/assets/vid1.mp4'}
@@ -124,6 +125,7 @@ const HeroSection = () => {
                     layout="fill"
                     objectFit="cover"
                     draggable={false}
+                    priority
                   />
                 </motion.div>
                 </div>

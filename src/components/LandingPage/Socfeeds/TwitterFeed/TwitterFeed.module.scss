@@ -6,11 +6,12 @@
     display: flex;
     flex-direction: column;
     width: fit-content;
+    
 }
 .header{
     font-size: $h1FontSize;
     font-weight: $h1FontWeight;
-    padding: 1rem 0 0;
+  //  padding: 1rem 0 0;
 }
 .container-1{
     border-radius: 16px;

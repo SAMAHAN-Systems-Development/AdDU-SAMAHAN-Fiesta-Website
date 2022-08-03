@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
     <header className={styles.header}>
         <nav className={styles.navbar}>
-            <div className={styles.fiesta_logo}>
-              <Link href="/">
+            <Link href="/">
+              <div className={styles.fiesta_logo}>
                 <Image 
                   src="/assets/sadya.png"
                   layout="fill"
@@ -17,8 +17,8 @@ const Navbar = () => {
                   alt='Sadya 2022 Logo'
                   priority
                 />
-              </Link>
-            </div>
+              </div>
+            </Link>
             <div className={styles.tickets_btn}>
               <TicketsButton />
             </div>
