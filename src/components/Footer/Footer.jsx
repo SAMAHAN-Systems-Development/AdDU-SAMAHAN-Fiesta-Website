@@ -37,6 +37,7 @@ const Footer = () => {
               width = '100'
               height = '100'
               objectFit='contain'
+              draggable = 'false'
               />
           </div>
           <div className={styles['img-wrapper-2']}>
@@ -46,6 +47,7 @@ const Footer = () => {
               width = '100'
               height = '100'
               objectFit='contain'
+              draggable = 'false'
             />
           </div>
         </div>
