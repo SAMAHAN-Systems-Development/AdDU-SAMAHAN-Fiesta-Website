@@ -10,10 +10,13 @@
     justify-content: center;
 }
 
-
-
-
 .feed{
    margin: 1rem;
+}
+
+@media (max-width: 756px) {
+    .container {
+        display: block;
+    }
 }
 
