@@ -9,8 +9,7 @@ const Socfeeds = () => {
     return (
     <div className={styles["container"]}>
             <div className={styles["feed"]}>
-                {/* <FacebookFeed /> */}
-                <FacebookEmbed />
+                <FacebookFeed />
             </div>
             
             <div className={styles["feed"]}>
