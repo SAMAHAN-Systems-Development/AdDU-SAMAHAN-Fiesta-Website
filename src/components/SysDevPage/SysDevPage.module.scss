@@ -2,7 +2,6 @@
 
 /* Extra small devices (phones, 600px and down) */
 .Title{
-    background-color: $color--pink;
     width: 100%;
     display:flex;
     justify-content: center;
@@ -10,7 +9,49 @@
     height: 30vh;
     flex-direction: column;
     color: $color--palaro--darkblue;
+    z-index: 1;
+    .img-wrapper{
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 0;
+    }
+    h3{
+        z-index: 2;
+        color: $color--white;
+        position: absolute;
+    }
+    h1{
+        z-index: 2;
+        color: $color--white;
+        position: absolute;
+    }
 }
+
+.row-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    &.one {
+        background-image: url('/assets/sysdev-bg-orange.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &.two {
+        background-image: url('/assets/sysdev-bg-star.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &.three {
+        background-image: url('/assets/sysdev-bg-pink.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+
 @media only screen and (max-width: 600px) {
     .header {
         background-color: white;
