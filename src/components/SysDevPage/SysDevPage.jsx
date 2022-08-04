@@ -9,17 +9,8 @@ const SysDevPage = () => {
     <div className={styles["Container"]}>
       <Navbar />
       <div className={styles["Title"]}> 
-      <div className={styles['img-wrapper']}>
-            <Image
-              src="/assets/sysdev-bg.png" 
-              alt="Sysdev Page Background"
-              width = '2000'
-              height = '2000'
-              objectFit='contain'
-              />
-          </div>      
           <h3> SAMAHAN </h3>
-      <h1>Systems Development Team</h1>
+          <h1>Systems Development Team</h1>
       </div>
       <div className={`${styles["row-container"]} ${styles["one"]}`}>
         <div className={styles["Row"]}>

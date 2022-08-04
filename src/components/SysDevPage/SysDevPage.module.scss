@@ -9,23 +9,20 @@
     height: 30vh;
     flex-direction: column;
     color: $color--palaro--darkblue;
-    z-index: 1;
-    .img-wrapper{
-        width: 100%;
-        height: auto;
-        position: relative;
-        z-index: 0;
+    background-image: url('/assets/sysdev-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: relative;
+    h1{ 
+        z-index: 1;
+        position:absolute;
     }
-    h3{
-        z-index: 2;
-        color: $color--white;
-        position: absolute;
+    h3{ 
+        z-index: 1;
+        position:absolute;
     }
-    h1{
-        z-index: 2;
-        color: $color--white;
-        position: absolute;
-    }
+ 
 }
 
 .row-container {
