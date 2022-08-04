@@ -23,7 +23,7 @@ const SysDevPage = () => {
         fbLink= "https://www.facebook.com/laarnives"
         twitterLink= "https://twitter.com/arlbbooc" 
         instaLink= "https://www.instagram.com/lbbooc/"
-        
+        gitLink= "https://github.com/libbooc"
         />
         <InfoCard
         Name = 'Jan Patrick Matayabas'
@@ -59,7 +59,7 @@ const SysDevPage = () => {
         Picture= "/assets/JuliennePanes.png" 
         fbLink= "https://www.facebook.com/iyaapanes/"
         twitterLink= "https://www.twitter.com/eyayayah" 
-
+        instaLink = "https://www.instagram.com/SAMAHANSysDev/"
         gitLink= "https://github.com/iyabc"    
         />
         </div>
