@@ -20,9 +20,10 @@ const SysDevPage = () => {
         Course = 'BS-Computer Science'
         Email = 'lbooc04@gmail.com'
         Picture= "/assets/LaarniBooc.png"
-        fbLink= "https://www.instagram.com/lbbooc/"
+        fbLink= "https://www.facebook.com/laarnives"
         twitterLink= "https://twitter.com/arlbbooc" 
-        instaLink= "https://www.facebook.com/laarnives"
+        instaLink= "https://www.instagram.com/lbbooc/"
+        
         />
         <InfoCard
         Name = 'Jan Patrick Matayabas'
@@ -57,8 +58,8 @@ const SysDevPage = () => {
         Email = 'juliennepanes@gmail.com' 
         Picture= "/assets/JuliennePanes.png" 
         fbLink= "https://www.facebook.com/iyaapanes/"
-        twitterLink= "https://twitter.com/eyayayah" 
-        
+        twitterLink= "https://www.twitter.com/eyayayah" 
+
         gitLink= "https://github.com/iyabc"    
         />
         </div>
@@ -72,7 +73,7 @@ const SysDevPage = () => {
         Email = 'lpawaon@gmail.com'
         Picture= "/assets/LouisMiguelPawaon.png"  
         fbLink= "https://www.facebook.com/miggypawaon"
-        twitterLink= "https://twitter.com/miggy_pawaon" 
+        twitterLink= "https://www.twitter.com/miggy_pawaon" 
         instaLink= "https://www.instagram.com/miggy_pawaon/"
         gitLink= "https://github.com/louispawaon"    
         />
@@ -83,7 +84,7 @@ const SysDevPage = () => {
         Email = 'jaytan3825@gmail.com' 
         Picture= "/assets/JayTan.png"  
         fbLink= "https://www.facebook.com/jayinnhahn"
-        twitterLink= "https://twitter.com/Jayinnhahn" 
+        twitterLink= "https://www.twitter.com/Jayinnhahn" 
         instaLink= "https://www.instagram.com/innhahn/"
         gitLink= "https://github.com/innhahn3825"     
         />
