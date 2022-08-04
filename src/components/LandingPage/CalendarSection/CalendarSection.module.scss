@@ -4,7 +4,10 @@
     display: flex;
     align-items: top;
     justify-content: center;
-    padding: 2rem 0;
+    background-image: url('/assets/calendar-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .calendar-container {
@@ -23,5 +26,11 @@
     }
     .calendar-container {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 1300px) {
+    .section {
+        background-image: none;
     }
 }
