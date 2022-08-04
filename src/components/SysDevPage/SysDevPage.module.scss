@@ -2,6 +2,7 @@
 
 /* Extra small devices (phones, 600px and down) */
 .Title{
+    text-align: center;
     width: 100%;
     display:flex;
     justify-content: center;
@@ -9,8 +10,9 @@
     height: 20rem;
     flex-direction: column;
     color: $color--palaro--darkblue;
-    background-image: url('/assets/sysdev-bg.png');
+    background-image: url('/assets/sysdev-title-bg.png');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     color: white;
     h1 {
@@ -23,11 +25,17 @@
  
 }
 
+.Row {
+    display: flex;
+}
+
 .row-container {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    background-color: $color--white;
+    position: relative;
 
     &.one {
         background-image: url('/assets/sysdev-bg-orange.png');
@@ -46,161 +54,189 @@
     }
 }
 
-
-@media only screen and (max-width: 600px) {
-    .header {
-        background-color: white;
-        width: 100%;
-        z-index: 999;
-    }
-    .Title{
-        width: 100%;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        height: 20rem;
-        flex-direction: column;
-        color: $color--palaro--darkblue;
-        background-image: url('/assets/sysdev-bg.png');
-        background-size: cover;
+@media (max-width: 900px) {
+    .Title {
+        background-image: url('/assets/sysdev-title-bg-small.png');
+        background-size: cont;
+        background-position: center;
         background-repeat: no-repeat;
-        color: white;
+        height: 11rem;
+
         h1 {
-            font-size: 2rem;
+            font-size: 1.9rem;
         }
-        h3{
-            font-size: 1rem;
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+    .Row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1102px) {
+    .row-container {
+        background-image: none !important;
+    }
+}
+
+
+// @media only screen and (max-width: 600px) {
+//     .header {
+//         background-color: white;
+//         width: 100%;
+//         z-index: 999;
+//     }
+//     .Title{
+//         width: 100%;
+//         display:flex;
+//         justify-content: center;
+//         align-items: center;
+//         height: 20rem;
+//         flex-direction: column;
+//         color: $color--palaro--darkblue;
+//         background-image: url('/assets/sysdev-bg.png');
+//         background-size: cover;
+//         background-repeat: no-repeat;
+//         color: white;
+//         h1 {
+//             font-size: 2rem;
+//         }
+//         h3{
+//             font-size: 1rem;
     
-        }
+//         }
      
-    }
+//     }
     
-    .Container {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        background-image: url("/assets/sadya.png");
-        align-items: center;
-    }
+//     .Container {
+//         background-color: white;
+//         display: flex;
+//         flex-direction: column;
+//         background-image: url("/assets/sadya.png");
+//         align-items: center;
+//     }
     
-    .Row{
-        display: flex;
-        width: fit-content;
-        flex-direction: column;
+//     .Row{
+//         display: flex;
+//         width: fit-content;
+//         flex-direction: column;
        
-    }
-}
+//     }
+// }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .header {
-        background-color: white;
-        width: 100%;
-        z-index: 999;
-    }
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {
+//     .header {
+//         background-color: white;
+//         width: 100%;
+//         z-index: 999;
+//     }
     
-    .Container {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+//     .Container {
+//         background-color: white;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//     }
     
-    .Row{
-        display: flex;
-        width: fit-content;
+//     .Row{
+//         display: flex;
+//         width: fit-content;
         
-    }
-}
+//     }
+// }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .header {
-        background-color: white;
-        width: 100%;
-        z-index: 999;
-    }
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {
+//     .header {
+//         background-color: white;
+//         width: 100%;
+//         z-index: 999;
+//     }
     
-    .Container {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+//     .Container {
+//         background-color: white;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//     }
     
-    .Row{
-        display: flex;
-        width: fit-content;
+//     .Row{
+//         display: flex;
+//         width: fit-content;
         
-    }
+//     }
 
-}
+// }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .header {
-        background-color: white;
-        width: 100%;
-        z-index: 999;
-    }
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {
+//     .header {
+//         background-color: white;
+//         width: 100%;
+//         z-index: 999;
+//     }
     
-    .Container {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+//     .Container {
+//         background-color: white;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//     }
     
-    .Row{
-        display: flex;
-        width: fit-content;
+//     .Row{
+//         display: flex;
+//         width: fit-content;
         
-    }
+//     }
 
-}
+// }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .Title{
-        width: 100%;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        height: 20rem;
-        flex-direction: column;
-        color: $color--palaro--darkblue;
-        background-image: url('/assets/sysdev-bg.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        color: white;
-        h1 {
-            font-size: 3rem;
-        }
-        h3{
-            font-size: 1.5rem;
-        }
-    }
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {
+//     .Title{
+//         width: 100%;
+//         display:flex;
+//         justify-content: center;
+//         align-items: center;
+//         height: 20rem;
+//         flex-direction: column;
+//         color: $color--palaro--darkblue;
+//         background-image: url('/assets/sysdev-bg.png');
+//         background-size: cover;
+//         background-repeat: no-repeat;
+//         color: white;
+//         h1 {
+//             font-size: 3rem;
+//         }
+//         h3{
+//             font-size: 1.5rem;
+//         }
+//     }
 
-    .header {
-        background-color: white;
-        width: 100%;
-        z-index: 999;
-    }
+//     .header {
+//         background-color: white;
+//         width: 100%;
+//         z-index: 999;
+//     }
     
-    .Container {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+//     .Container {
+//         background-color: white;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//     }
     
-    .Row{
-        display: flex;
-        width: fit-content;
+//     .Row{
+//         display: flex;
+//         width: fit-content;
         
-    }
+//     }
 
-}
+// }
 
 
 

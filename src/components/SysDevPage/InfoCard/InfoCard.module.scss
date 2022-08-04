@@ -77,3 +77,27 @@
 
     }
 }
+
+@media (max-width: 756px) {
+    .Container {
+        width: 20rem !important;
+        margin: 1rem 0;
+
+        .Info-Name {
+            font-size: 1.3rem;
+            font-weight: $h2FontWeight;
+        }
+        .Info-Pos {
+            font-size: 1rem;
+        }
+        .Info-Course {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media (max-width: 1102px) {
+    .Container {
+        width: 25rem;
+    }
+}
