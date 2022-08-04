@@ -15,7 +15,7 @@ export default function TwitterFeed() {
       
       <div>
 
-        <h1  className={styles["header"]}>TWITTER</h1>
+        <h1  className={styles["header"]}>STAY UPDATED</h1>
       </div>
       <div className={styles["container-1"]}>
       {console.log(matches)}

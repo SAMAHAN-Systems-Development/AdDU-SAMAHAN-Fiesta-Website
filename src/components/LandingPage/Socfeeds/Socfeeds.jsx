@@ -8,10 +8,7 @@ import { FacebookEmbed  } from '../../ComponentIndex'
 const Socfeeds = () => {
     return (
     <div className={styles["container"]}>
-            <div className={styles["feed"]}>
-                 <FacebookFeed /> 
-                
-            </div>
+            
             
             <div className={styles["feed"]}>
                 <TwitterFeed /> 
