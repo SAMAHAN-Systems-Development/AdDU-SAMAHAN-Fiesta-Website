@@ -92,7 +92,7 @@ const HeroSection = () => {
                   <div className={styles['title']}>
                     <p>74th Ateneo de Davao University Fiesta</p>
                     <h1>SADYA 2022</h1>
-                    <h5>Theme: &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&quot;</h5>
+                    {/* <h5>Theme: &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&quot;</h5> */}
                   </div>
                   <video 
                     src={'/assets/vid1.mp4'}
