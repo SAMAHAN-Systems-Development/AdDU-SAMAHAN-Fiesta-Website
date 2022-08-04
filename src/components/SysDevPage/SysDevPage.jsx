@@ -19,7 +19,7 @@ const SysDevPage = () => {
         Position = 'UI/UX Designer'
         Course = 'BS-Computer Science'
         Email = 'lbooc04@gmail.com'
-        Picture= "assets/LaarniBooc.png"
+        Picture= "/assets/LaarniBooc.png"
         fbLink= "https://www.instagram.com/lbbooc/"
         twitterLink= "https://twitter.com/arlbbooc" 
         instaLink= "https://www.facebook.com/laarnives"
@@ -29,7 +29,7 @@ const SysDevPage = () => {
         Position = 'Front-End Developer'
         Course = 'BS-Information Technology'
         Email = 'patmatayabas@gmail.com'
-        Picture= "assets/PatrickMatayabas.png"
+        Picture= "/assets/PatrickMatayabas.png"
         fbLink= "https://www.facebook.com/janpatrick.matayabas"
         twitterLink= "https://twitter.com/Jpmatayabas" 
         instaLink= "https://www.instagram.com/patmatss/"
@@ -44,7 +44,7 @@ const SysDevPage = () => {
         Position = 'Front-End Developer'
         Course = 'BS-Computer Science'
         Email = 'olanolancyrilm@gmail.com'
-        Picture= "assets/Smiley_Logo.png"  
+        Picture= "/assets/Smiley_Logo.png"  
         fbLink= "https://www.facebook.com/CyrilOlanolan"
         twitterLink= "https://twitter.com/CyrilOlanolan" 
         instaLink= "https://www.instagram.com/cyrilolanolan/"
@@ -55,7 +55,7 @@ const SysDevPage = () => {
         Position = 'Front-End Developer'
         Course = 'BS-Computer Science'
         Email = 'juliennepanes@gmail.com' 
-        Picture= "assets/JuliennePanes.png" 
+        Picture= "/assets/JuliennePanes.png" 
         fbLink= "https://www.facebook.com/iyaapanes/"
         twitterLink= "https://twitter.com/eyayayah" 
         
@@ -70,7 +70,7 @@ const SysDevPage = () => {
         Position = 'Front-End Developer'
         Course = 'BS-Computer Science'
         Email = 'lpawaon@gmail.com'
-        Picture= "assets/LouisMiguelPawaon.png"  
+        Picture= "/assets/LouisMiguelPawaon.png"  
         fbLink= "https://www.facebook.com/miggypawaon"
         twitterLink= "https://twitter.com/miggy_pawaon" 
         instaLink= "https://www.instagram.com/miggy_pawaon/"
@@ -81,7 +81,7 @@ const SysDevPage = () => {
         Position = 'Front-End Developer'
         Course = 'BS-Computer Science'
         Email = 'jaytan3825@gmail.com' 
-        Picture= "assets/JayTan.png"  
+        Picture= "/assets/JayTan.png"  
         fbLink= "https://www.facebook.com/jayinnhahn"
         twitterLink= "https://twitter.com/Jayinnhahn" 
         instaLink= "https://www.instagram.com/innhahn/"
