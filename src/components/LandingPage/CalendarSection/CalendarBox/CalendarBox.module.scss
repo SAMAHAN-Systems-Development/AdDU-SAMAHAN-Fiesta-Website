@@ -50,7 +50,7 @@
             border-radius: 1rem;
             background-color: $color--pink;
             color: rgba(0, 0, 0, 0.6);;
-             
+
             h1 {
                 font-size: $h4FontSize;
                 font-weight: $h2FontWeight;
@@ -68,7 +68,7 @@
             justify-content: top;
             padding: 0 1rem;
             flex-direction: column;
-            overflow-y: scroll;
+            overflow-y: auto;
             border-radius: 1rem;
 
             .line {
@@ -128,7 +128,7 @@
             justify-content: top;
             padding: 0 1rem;
             flex-direction: column;
-            overflow-y: scroll;
+            overflow-y: auto;
             border-radius: 1rem;
 
             .line {
@@ -188,7 +188,7 @@
             justify-content: top;
             padding: 0 1rem;
             flex-direction: column;
-            overflow-y: scroll;
+            overflow-y: auto;
             border-radius: 1rem;
 
             .line {
