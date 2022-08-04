@@ -4,11 +4,19 @@ import twitterFill from '@iconify/icons-akar-icons/twitter-fill';
 import facebookFill from '@iconify/icons-akar-icons/facebook-fill';
 import instagramFill from '@iconify/icons-akar-icons/instagram-fill';
 import githubFill from '@iconify/icons-akar-icons/github-fill';
+import Image from 'next/image';
 
-const InfoCard = ({Name, Position, Course, Email}) => {
+const InfoCard = ({Name, Position, Course, Email, Picture}) => {
   return (
         <div className={styles["Container"]}>
             <div className={styles["Image-Container"]}>
+            <Image
+            src={Picture}
+            layout="fill"
+            objectFit="contain"
+            draggable="false"
+            alt={Name + "'s Picture"}
+          />
             </div>
             <div className={styles["Text-Container"]}>
                 <h3 className={styles["Info-Name"]}>{Name}</h3>
