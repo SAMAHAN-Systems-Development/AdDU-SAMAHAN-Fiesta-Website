@@ -6,7 +6,7 @@ import instagramFill from '@iconify/icons-akar-icons/instagram-fill';
 import githubFill from '@iconify/icons-akar-icons/github-fill';
 import Image from 'next/image';
 
-const InfoCard = ({Name, Position, Course, Email, Picture}) => {
+const InfoCard = ({Name, Position, Course, Email, Picture,fbLink,twitterLink,gitLink,instaLink}) => {
   return (
         <div className={styles["Container"]}>
             <div className={styles["Image-Container"]}>
@@ -28,19 +28,19 @@ const InfoCard = ({Name, Position, Course, Email, Picture}) => {
                 <p>Socials: </p>
                 <div className={styles["Icon-Container"]}>
                   <div className={styles["Icon-Section"]}>
-                  <Icon icon={twitterFill} color="white" height = "26"/> 
+                  <a href={twitterLink}><Icon icon={twitterFill} color="white" height = "26"/> </a>
                   </div>
 
                   <div className={styles["Icon-Section"]}>
-                  <Icon icon={facebookFill} color="white" height = "26" />
+                  <a href ={fbLink}><Icon icon={facebookFill} color="white" height = "26" /></a>
                   </div>
 
                   <div className={styles["Icon-Section"]}>
-                  <Icon icon={instagramFill} color="white" height = "26" />
+                  <a href={instaLink}>'<Icon icon={instagramFill} color="white" height = "26" /></a>
                   </div>
 
                   <div className={styles["Icon-Section"]}>
-                  <Icon icon={githubFill} color="white" height = "26" />
+                 <a href={gitLink}> <Icon icon={githubFill} color="white" height = "26" /></a>
                   </div>
                 </div>
             </div>
