@@ -54,7 +54,7 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 940px) {
     .Title {
         background-image: url('/assets/sysdev-title-bg-small.png');
         background-size: cont;
@@ -73,6 +73,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 }
 

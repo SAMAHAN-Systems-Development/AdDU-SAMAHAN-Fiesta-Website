@@ -16,7 +16,7 @@ const InfoCard = ({Name, Position, Course, Email, Picture}) => {
             objectFit="contain"
             draggable="false"
             alt={Name + "'s Picture"}
-          />
+            />
             </div>
             <div className={styles["Text-Container"]}>
                 <h3 className={styles["Info-Name"]}>{Name}</h3>
