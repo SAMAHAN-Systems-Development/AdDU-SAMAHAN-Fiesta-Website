@@ -22,7 +22,7 @@ export default function TwitterFeed() {
       
       <TwitterTimelineEmbed
        sourceType="profile"
-        screenName="CyrilOlanolan"
+        screenName="addusamahan"
          options={{height: height ,width:width}}
          />
          
