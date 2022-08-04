@@ -6,21 +6,19 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 20rem;
     flex-direction: column;
     color: $color--palaro--darkblue;
     background-image: url('/assets/sysdev-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: 0;
-    position: relative;
-    h1{ 
-        z-index: 1;
-        position:absolute;
+    color: white;
+    h1 {
+        font-size: 3rem;
     }
-    h3{ 
-        z-index: 1;
-        position:absolute;
+    h3{
+        font-size: 1.5rem;
+
     }
  
 }
@@ -54,6 +52,27 @@
         background-color: white;
         width: 100%;
         z-index: 999;
+    }
+    .Title{
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 20rem;
+        flex-direction: column;
+        color: $color--palaro--darkblue;
+        background-image: url('/assets/sysdev-bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        h1 {
+            font-size: 2rem;
+        }
+        h3{
+            font-size: 1rem;
+    
+        }
+     
     }
     
     .Container {
@@ -142,6 +161,26 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .Title{
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 20rem;
+        flex-direction: column;
+        color: $color--palaro--darkblue;
+        background-image: url('/assets/sysdev-bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        h1 {
+            font-size: 3rem;
+        }
+        h3{
+            font-size: 1.5rem;
+        }
+    }
+
     .header {
         background-color: white;
         width: 100%;
