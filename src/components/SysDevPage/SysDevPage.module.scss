@@ -28,6 +28,29 @@
     }
 }
 
+.row-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    &.one {
+        background-image: url('/assets/sysdev-bg-orange.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &.two {
+        background-image: url('/assets/sysdev-bg-star.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &.three {
+        background-image: url('/assets/sysdev-bg-pink.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
 
 @media only screen and (max-width: 600px) {
     .header {

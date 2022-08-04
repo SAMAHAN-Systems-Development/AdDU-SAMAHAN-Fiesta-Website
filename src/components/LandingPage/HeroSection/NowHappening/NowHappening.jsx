@@ -8,15 +8,15 @@ import { FilterContents } from "../../../../utilities/datetime";
 
 const NowHappening=()=>{
 
-    const [CHContent, SetCHContent ] = useState(CHData.content.contents);
+    // const [CHContent, SetCHContent ] = useState(CHData.content.contents);
+    const [CHContent, SetCHContent ] = useState(FilterContents(CHData.content.contents));
 
     useEffect(() => {
-        SetCHContent(FilterContents(CHContent));
         const interval = setInterval(() => {
-          SetCHContent(FilterContents(CHContent));
+            SetCHContent(FilterContents(CHContent));
         }, 10000)
         return () => clearInterval(interval);
-      }, [])    
+    }, [CHContent])    
 
     function checkData(){
         if(CHContent.length != 0){
