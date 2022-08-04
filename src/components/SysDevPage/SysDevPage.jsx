@@ -2,13 +2,23 @@ import styles from './SysDevPage.module.scss';
 import InfoCard from './InfoCard/InfoCard.jsx';
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar.jsx";
+import Image from "next/image";
 
 const SysDevPage = () => {
   return (
     <div className={styles["Container"]}>
       <Navbar />
       <div className={styles["Title"]}> 
-      <h3> SAMAHAN </h3>
+      <div className={styles['img-wrapper']}>
+            <Image
+              src="/assets/sysdev-bg.png" 
+              alt="Sysdev Page Background"
+              width = '2000'
+              height = '2000'
+              objectFit='contain'
+              />
+          </div>      
+          <h3> SAMAHAN </h3>
       <h1>Systems Development Team</h1>
       </div>
       <div className={styles["Row"]}>
