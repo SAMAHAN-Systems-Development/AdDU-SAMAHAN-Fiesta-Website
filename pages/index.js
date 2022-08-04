@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>SADYA 2022: The 74th AdDU Fiesta</title>
         <meta name="description" content="SAMAHAN Fiesta Website" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/assets/favicon.ico" />
 
       </Head>
 
