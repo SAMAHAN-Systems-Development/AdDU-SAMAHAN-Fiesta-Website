@@ -11,5 +11,6 @@ export const Main = {
     Position: 'Front-End Developer',
     Course: 'BS-Information Technology',
     Email: 'patmatayabas@gmail.com',
+    Picture: "/assets/PatrickMatayabas.png"
   }
 };
