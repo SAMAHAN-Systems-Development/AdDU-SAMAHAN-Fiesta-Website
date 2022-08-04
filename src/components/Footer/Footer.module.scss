@@ -103,15 +103,12 @@
             transform: rotate(360deg);
             transition: width 2s, height 2s, transform 2s;
 
-
-
         }
 
         .img-wrapper-2 {
             height: auto;
             width: 3rem;
             position: relative;
-            pointer-events: none;
 
     
         }
@@ -148,9 +145,6 @@
             justify-content: center;
             gap: 1rem;
 
-            .img-container {
-                
-            }
             
 
             // width: 0%;
