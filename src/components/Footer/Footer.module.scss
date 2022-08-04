@@ -1,7 +1,7 @@
 @import 'styles/variables.scss';
 
 .section {
-    height: 10rem;
+    height: 8rem;
     width: 100%;
     display: flex;
     background-color: $color--pink;
@@ -121,7 +121,7 @@
 @media (max-width: 756px) {
     .section {
         display: block;
-        height: fit-content;
+        height: fit-content !important;
 
         .footer-left{
             padding: 1rem;
@@ -162,5 +162,12 @@
         }
     }
 }
+
+@media (max-width: 1080px) {
+    .section {
+        height: fit-content;
+    }
+}
+
 
 
