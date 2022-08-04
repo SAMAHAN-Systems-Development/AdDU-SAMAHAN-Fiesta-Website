@@ -13,7 +13,7 @@ const Footer = () => {
     <div className={styles['section']}>
         <div className={styles['footer-left']}>
           <p> Copyright © 2022 <span><a href ="https://samahan.addu.edu.ph/"> SAMAHAN </a></span></p>
-          <p> Developed by <span> <Link href = "/SystemsDevelopmentPage"> SAMAHAN Systems Development </Link> </span> & SCT</p>
+          <p> Developed by <span> <Link href = "/SystemsDevelopmentPage"> SAMAHAN Systems Development </Link></span> & <span><Link href ="https://www.facebook.com/SAMAHANCreativeTeam"> SCT</Link>  </span> </p>
           <div className={styles['icons-container']}>
             <div className={styles['icons-section-first']}>
             <a href = "https://www.facebook.com/AdDUSAMAHAN/"><Icon icon={facebookFill} color="white" height = "24"/></a>
