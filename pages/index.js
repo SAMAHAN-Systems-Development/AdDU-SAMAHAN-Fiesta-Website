@@ -12,7 +12,7 @@ export default function Home() {
 
       </Head>
 
-      <Navbar />
+      {/* <Navbar /> */}
       <main>
         <LandingPage />
       </main>
