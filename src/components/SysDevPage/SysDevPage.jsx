@@ -44,7 +44,7 @@ const SysDevPage = () => {
         Position = 'Front-End Developer'
         Course = 'BS-Computer Science'
         Email = 'olanolancyrilm@gmail.com'
-        Picture= "/assets/Smiley_Logo.png"  
+        Picture= "/assets/CyrilOlanolan.png"  
         fbLink= "https://www.facebook.com/CyrilOlanolan"
         twitterLink= "https://twitter.com/CyrilOlanolan" 
         instaLink= "https://www.instagram.com/cyrilolanolan/"
