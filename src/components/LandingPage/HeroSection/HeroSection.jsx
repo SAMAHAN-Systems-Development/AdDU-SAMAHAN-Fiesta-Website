@@ -52,7 +52,7 @@ const HeroSection = () => {
           </div>
             <div className={styles['text']}>
               <h1>SADYA 2022</h1>
-              <h4>Theme: &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&quot;</h4>
+              {/* <h4>Theme: &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&quot;</h4> */}
             </div>
           <div className={styles['h1-hover']}>74th Ateneo de Davao University Fiesta</div>
         </div>
