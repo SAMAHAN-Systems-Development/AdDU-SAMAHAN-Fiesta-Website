@@ -14,7 +14,7 @@ const LandingPage = () => {
       <CurrentlyHappening />
       <TribalDivider />
       <CalendarSection />
-      <CalendarModal />
+      {/**<CalendarModal />*/}
       <SocialsSection />
       <Footer />
     </div>
