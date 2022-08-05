@@ -92,7 +92,7 @@ const SysDevPage = () => {
         fbLink= "https://www.facebook.com/jayinnhahn"
         twitterLink= "https://www.twitter.com/Jayinnhahn" 
         instaLink= "https://www.instagram.com/innhahn/"
-        gitLink= "https://github.com/innhahn3825"     
+        gitLink= "https://github.com/Jayinnhahn"     
         />
         </div>
       </div>

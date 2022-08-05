@@ -52,6 +52,14 @@
             position: relative;
             transform: translateY(-5px);
         }
+        .icons-section-first:active{
+            display:inline-block;
+            flex-direction: column;
+            padding-top: 1rem;
+            padding-right: 0.5rem;
+            position: relative;
+            transform: scale(1.5);
+        }
         .icons-section {
             display:inline-block;
             flex-direction: column;
@@ -65,8 +73,15 @@
             padding: 1rem 0.5rem;
             position: relative;
             transform: translateY(-5px);
-
         }
+        .icons-section:active {
+            display:inline-block;
+            flex-direction: column;
+            padding: 1rem 0.5rem;
+            position: relative;
+            transform: scale(1.5);
+        }
+
     }
 
 
@@ -102,7 +117,6 @@
             position: relative;
             transform: rotate(360deg);
             transition: width 2s, height 2s, transform 2s;
-
         }
 
         .img-wrapper-2 {
@@ -110,7 +124,13 @@
             width: 3rem;
             position: relative;
 
-    
+        }
+        .img-wrapper-2:active {
+            height: auto;
+            width: 3rem;
+            position: relative;
+            transform: scale(1.2);
+
         }
     }
 

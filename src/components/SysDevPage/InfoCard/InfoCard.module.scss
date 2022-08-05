@@ -76,6 +76,14 @@
         transform: translateY(-5px);
 
     }
+    .Icon-Section:active{
+        display:inline-block;
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+        transform: scale(1.5);
+
+    }
+
 }
 
 @media (max-width: 756px) {

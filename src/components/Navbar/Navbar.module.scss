@@ -25,7 +25,12 @@
         height: 5.8rem;
 
         &:hover {
+            position: relative;
             cursor: pointer;
+        }
+        &:active {
+            transform: scale(1.5);
+
         }
     }
 }
