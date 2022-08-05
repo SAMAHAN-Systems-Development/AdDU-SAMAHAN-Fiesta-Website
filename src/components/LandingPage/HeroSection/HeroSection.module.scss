@@ -39,6 +39,17 @@
 }
 
 @media (max-width: 756px) {
+    .section {
+        height: 30rem;
+    
+        .title_container {
+    
+            .img_wrapper {
+                height: 15rem;
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media (max-width: 1180px) {
