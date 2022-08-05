@@ -1,4 +1,4 @@
-import { HeroSection, CalendarSection} from "../ComponentIndex";
+import { HeroSection, CalendarSection } from "../ComponentIndex";
 import CurrentlyHappening from "../CurrentlyHappening/CurrentlyHappening";
 import Footer from "../Footer/Footer";
 import styles from "./LandingPage.module.scss";
