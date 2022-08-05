@@ -3,7 +3,7 @@
         "title":"CURRENTLY HAPPENING",
         "contents":[
             {
-                "start":"July 11 2022 7:30 AM",
+                "start":"August 11 2022 7:30 AM",
                 "ItemNum":"Item #1",
                 "DateTime":"DAY 1 | 7:30 AM - 8:30 AM",
                 "event":"Sadya 2022: 74th Ateneo Fiesta Parade",
@@ -11,7 +11,7 @@
                 "expiry": "August 11 2022 8:30 AM"
             },
             {
-                "start":"July 11 2022 9:00 AM",
+                "start":"August 11 2022 9:00 AM",
                 "ItemNum":"Item #2",
                 "DateTime":"DAY 1 | 9:00 AM - 12:00 PM",
                 "event":"Sadya 2022: 74th Ateneo Fiesta Opening Ceremonies",
@@ -19,7 +19,7 @@
                 "expiry": "August 11 2022 12:00 PM"
             },
             {
-                "start":"July 11 2022 12:00 PM",
+                "start":"August 11 2022 12:00 PM",
                 "ItemNum":"Item #3",
                 "DateTime":"DAY 1 | 12:00 PM - 1:00 PM",
                 "event":"Fiesta Pakaon",
@@ -27,7 +27,7 @@
                 "expiry": "August 11 2022 1:00 PM"
             },
             {
-                "start":"July 11 2022 1:00 PM",
+                "start":"August 11 2022 1:00 PM",
                 "ItemNum":"Item #4",
                 "DateTime":"DAY 1 | 1:00 PM - 4:00 PM",
                 "event":"Palarong Atenista 2022 Championships: Volleyball Finals (M/W)",
