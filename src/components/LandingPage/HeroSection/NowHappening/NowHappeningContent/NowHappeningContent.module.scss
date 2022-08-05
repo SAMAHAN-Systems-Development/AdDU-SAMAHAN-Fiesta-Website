@@ -3,70 +3,61 @@
 .details {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
+    height: fit-content;
+
+    .lower {
+        display: flex;
+        // gap: 1rem;
+
+        h4 {
+            font-size: 0.8rem;
+            font-weight: $h5FontWeight;
+    
+        }
+        p {
+            font-size: 0.8rem;
+            font-weight: $h5FontWeight;
+        }
+    }
 
     h2 {
-        font-size: $h5FontSize;
-        font-weight: $h3FontWeight;
-    }
-    h4 {
-        font-size: 0.8rem;
-        font-weight: $h5FontWeight;
-
-    }
-    p {
-        font-size: 0.75rem;
-        font-weight: $bodyFontWeight;
+        font-size: $bodyFontSize;
+        font-weight: $h2FontWeight;
     }
 }
 
 @media (max-width: 756px) {
     .details {
-        align-items: center;
-        justify-content:center;
-        padding: 0 0.5rem;
-        border-top: 0;
-
+        
         h2 {
-            font-size: 0.5rem !important;
-            font-weight: bold !important;
+            font-size: 0.7rem;
         }
-        h4 {
-            font-size: 0.3rem !important;
-        }
-        p {
-            font-size: 0.45rem;
+        .lower {
+            h4 {
+                font-size: 0.65rem;
+            }
+            p {
+                font-size: 0.65rem;
+            }
         }
     }
 }
 
-@media (max-width: 500px){
-    .details {
-        h2 {
-            font-size: 0.5rem !important;
-            font-weight: bold !important;
-        }
-        h4 {
-            text-align: left !important;
-            font-size: 0.4rem !important;
-        }
-        p {
-            font-size: 0.45rem;
-        }
-    }
-}
-
-@media (max-width: 1180px) {
+@media (max-width: 980px) {
     .details {
         
         h2 {
-            font-size: 0.65rem;
+            font-size: 0.75rem;
         }
-        h4 {
-            font-size: 0.5rem;
-        }
-        p {
-            font-size: 0.45rem;
+        
+        .lower {
+            h4 {
+                font-size: 0.65rem;
+            }
+            p {
+                font-size: 0.65rem;
+            }
         }
     }
 }

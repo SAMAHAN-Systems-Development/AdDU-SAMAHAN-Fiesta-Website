@@ -2,14 +2,12 @@
 
 .section {
     height: 80vh;
-    width: 100%;
     background-image: linear-gradient(#8646E4, #4314AF);
     position: relative;
 
     .img_wrapper {
         height: 100%;
         width: 100%;
-        position: relative;
     }
 
     .title_container {
@@ -25,35 +23,35 @@
             position: relative;
             bottom: 1.125rem;
             height: 19.75rem;
-            width: 35.375rem;
+            width: 100%;
 
         }
     }
 }
 
-@media (max-width: 450px) {
+@media only screen and (max-height: 670px) {
     .section {
-        height: 30rem;
     
         .title_container {
     
             .img_wrapper {
-                height: 11rem !important;
+                height: 10rem;
                 bottom: 1rem;
             }
         }
     }
 }
 
-@media (max-width: 756px) {
+@media only screen and (max-width: 756px) {
     .section {
-        height: 30rem;
+        height: 60vh;
     
         .title_container {
     
             .img_wrapper {
-                height: 14rem;
-                bottom: 0.5rem;
+                height: 10rem;
+                // width: 100%;
+                bottom: 1rem;
             }
         }
     }

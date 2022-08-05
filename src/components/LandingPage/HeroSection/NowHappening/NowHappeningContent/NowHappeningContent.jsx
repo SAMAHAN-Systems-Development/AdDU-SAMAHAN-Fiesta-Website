@@ -6,9 +6,11 @@ const NowHappeningContent = ({ time, event, platform})=>{
     return(
         <div>
             <div className={styles["details"]}>
-                <h4>{time}</h4>
                 <h2>{event}</h2>
-                <p>{platform}</p>
+                <div className={styles['lower']}>
+                    <h4>{time}</h4>
+                    <p>{platform}</p>
+                </div>
             </div>
         </div>
     )

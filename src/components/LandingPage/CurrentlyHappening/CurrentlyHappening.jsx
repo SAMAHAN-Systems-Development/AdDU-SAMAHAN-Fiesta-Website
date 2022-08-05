@@ -6,7 +6,7 @@ const CurrentlyHappening = () => {
   return (
     <div className={styles.section}>
       <div className={styles.content}>
-          <h1 className={styles.title}>CURRENTLY</h1>
+          <div className={styles.title}>CURRENTLY</div>
           <div className={styles.divider}></div>
           <div className={styles.events}><NowHappening /></div> 
       </div>
