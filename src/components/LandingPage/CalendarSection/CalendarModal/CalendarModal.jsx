@@ -20,29 +20,44 @@ const style = {
     p: 4,
   };
 
-const CalendarModal=()=>{
-    const [open, setOpen] = useState(false);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
+const CalendarModal = () => {
+    const [open, setOpen] = useState(Calendar.events.map((item) => false));
+    const handleOpen = (currentIndex) =>
+        setOpen(
+        open.map((item, index) => (index === currentIndex ? true : item))
+        );
+    const handleClose = (currentIndex) =>
+        setOpen(
+        open.map((item, index) => (index === currentIndex ? false : item))
+        );
 
-    return(
+    return (
         <div className={styles.container}>
-            {Calendar.events.map((item) =>{
-                return(
-                    <div key={item.title}>
-                        <Button className={`${styles['button']} ${styles[item.itemNum]}`} variant="contained" color="primary" onClick={handleOpen}>
-                            {item.title}
-                        </Button>
-                        <Modal open={open} onClose={handleClose}>
-                            <Box style={style}>
-                                <CalendarModalContent title={item.title} sched={item.sched} itemNum={item.itemNum}/>
-                            </Box>
-                        </Modal>
-                    </div>
-                )
-            })}
+        {Calendar.events.map((item, index) => {
+            return (
+            <div key={item.title}>
+                <Button
+                    className={`${styles["button"]} ${styles[item.itemNum]}`}
+                    variant="contained"
+                    color="primary"
+                    onClick={() => handleOpen(index)}
+                >
+                {item.title}
+                </Button>
+                <Modal open={open[index]} onClose={() => handleClose(index)}>
+                <Box style={style}>
+                    <CalendarModalContent
+                        title={item.title}
+                        sched={item.sched}
+                        itemNum={item.itemNum}
+                    />
+                </Box>
+                </Modal>
+            </div>
+            );
+        })}
         </div>
-    )
-}
+    );
+    };
 
 export default CalendarModal
