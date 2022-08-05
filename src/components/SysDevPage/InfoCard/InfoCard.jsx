@@ -25,6 +25,7 @@ const InfoCard = ({Name, Position, Course, Email, Picture, twitterLink, fbLink, 
                 <br/>
                 <p>E-mail:</p>
                 <p>{Email}</p>
+                <br/>
                 <p>Socials: </p>
                 <div className={styles["Icon-Container"]}>
                   <div className={styles["Icon-Section"]}>

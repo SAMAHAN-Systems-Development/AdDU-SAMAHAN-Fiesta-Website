@@ -3,6 +3,8 @@ import InfoCard from './InfoCard/InfoCard.jsx';
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar.jsx";
 import Image from 'next/image';
+import { Divider } from '@mui/material';
+import { TribalDivider } from "../ComponentIndex";
 
 const SysDevPage = () => {
   return (
@@ -12,6 +14,8 @@ const SysDevPage = () => {
           <h3> SAMAHAN </h3>
           <h1>Systems Development Team</h1>
       </div>
+      <TribalDivider />
+
       <div className={`${styles["row-container"]} ${styles["one"]}`}>
         <div className={styles["Row"]}>
         <InfoCard 
@@ -38,6 +42,7 @@ const SysDevPage = () => {
         />
         </div>
       </div>
+      <TribalDivider />
       <div className={`${styles["row-container"]} ${styles["two"]}`}>
         <div className={styles["Row"]}>
         <InfoCard
@@ -64,6 +69,7 @@ const SysDevPage = () => {
         />
         </div>
       </div>
+      <TribalDivider />
       <div className={`${styles["row-container"]} ${styles["three"]}`}>
         <div className={styles["Row"]}>
         <InfoCard
@@ -90,6 +96,7 @@ const SysDevPage = () => {
         />
         </div>
       </div>
+      <TribalDivider />
       <Footer />
 
     </div>

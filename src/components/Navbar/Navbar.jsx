@@ -19,9 +19,6 @@ const Navbar = () => {
                 />
               </div>
             </Link>
-            <div className={styles.tickets_btn}>
-              <TicketsButton />
-            </div>
         </nav>
     </header>
   )
