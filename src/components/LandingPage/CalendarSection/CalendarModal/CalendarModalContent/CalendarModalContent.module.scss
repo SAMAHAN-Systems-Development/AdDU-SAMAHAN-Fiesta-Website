@@ -1,0 +1,66 @@
+@import '/styles/variables.scss';
+
+.container {
+    height: 25rem;
+    padding: 0 2rem;
+    color: rgba(0, 0, 0, 0.6);
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar-track {
+        border: 1px solid #a8a8a8;
+        // padding: 1px 0;
+        background-color: #a8a8a8;
+        border-radius: 1rem;
+    }
+    
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    // box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #777777;
+    border: 1px solid #777777;
+    }
+
+    .title {
+        font-size: $h2FontSize;
+        font-weight: $h1FontWeight;
+        text-align: center;
+    }
+
+    .content {
+
+        .line {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+        }
+    }
+}
+
+.Day1 {
+    background-color: $color--pink;
+}
+.Day2 {
+    background-color: $color--skyblue;
+}
+.Day3 {
+    background-color: $color--yellow;
+}
+
+@media (max-width: 380px) {
+    .container {
+        height: 25rem;
+        width: 100vw;
+        padding: 0 2rem;
+        margin: auto;
+    }
+}
+
+@media (max-width: 499px) {
+    .container {
+        height: 25rem;
+        padding: 0 2rem;
+        margin: auto;
+    }
+}
