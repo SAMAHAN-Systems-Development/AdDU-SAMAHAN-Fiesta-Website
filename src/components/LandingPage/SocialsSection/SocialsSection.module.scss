@@ -5,24 +5,27 @@
     height: fit-content;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
     background-color: white;
-    background-image: url('/assets/socials-bg.png');
+    background-image: url('/assets/twitter.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
     padding: 1.5rem;
 }
 
-@media (max-width: 756px) {
+@media (max-width: 1155px) {
     .section {
-        height: fit-content;
+        background-image: url('/assets/twitter2.png');
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 938px) {
     .section {
-        background-image: none;
+        background-image: url('/assets/twitter1.png');
+        align-items: center;
+    justify-content: center;
     }
 }

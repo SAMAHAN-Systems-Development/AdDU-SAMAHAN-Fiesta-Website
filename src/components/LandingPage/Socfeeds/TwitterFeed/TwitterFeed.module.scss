@@ -7,6 +7,7 @@
     flex-direction: column;
     width: fit-content;
     height: fit-content;
+
 }
 .header{
     font-size: $h1FontSize;
@@ -18,28 +19,14 @@
     background-color: white;
     padding: 2rem;
 
+
 }
 
-@media (max-width: 1333px) {
+@media (max-width: 938px) {
     .container{
-        width: 100%;
-       
+        padding-top: 2rem;
     }
-    .header{
-        font-size: $h2FontSize;
-        font-weight: $h1FontWeight;
-      //  padding: 1rem 0 0;
-    }
-}
-
-@media (max-width: 570px) {
-    
-    .header{
-        font-size: $h3FontSize;
-        font-weight: $h1FontWeight;
-      //  padding: 1rem 0 0;
-    }
-}
+}  
 
 
 
