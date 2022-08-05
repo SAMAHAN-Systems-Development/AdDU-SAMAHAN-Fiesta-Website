@@ -8,8 +8,8 @@ const TribalDivider = () => {
         <Image
             src="/assets/Tribal.png" 
             alt=""
-            layout = 'fill'
-            objectfit = 'cover'
+            layout='fill'
+            objectFit='cover'
         />
     </div>
   )

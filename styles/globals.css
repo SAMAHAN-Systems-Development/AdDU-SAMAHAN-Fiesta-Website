@@ -27,6 +27,75 @@ a {
   font-style: normal;
 }
 
+/* BOOTSTRAP-STYLE CONTAINER */
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    --bs-gutter-x: 2rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* SMALL DEVICES */
+@media (min-width: 576px) {
+    .container-sm,
+    .container {
+        max-width: 700px;
+        --bs-gutter-x: 3rem !important;
+    }
+}
+
+/* MEDIUM DEVICES */
+@media (min-width: 768px) {
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 850px;
+        --bs-gutter-x: 4rem !important;
+    }
+}
+
+/* LARGE DEVICES */
+@media (min-width: 992px) {
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 980px;
+    }
+}
+
+/* EXTRA LARGE DEVICES */
+@media (min-width: 1200px) {
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* EXTRA EXTRA LARGE DEVICES */
+@media (min-width: 1400px) {
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1320px;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
