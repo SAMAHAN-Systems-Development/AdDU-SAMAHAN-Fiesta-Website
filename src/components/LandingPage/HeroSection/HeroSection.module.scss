@@ -23,10 +23,24 @@
 
         .img_wrapper {
             position: relative;
-            bottom: 3.125rem;
+            bottom: 1.125rem;
             height: 19.75rem;
             width: 35.375rem;
 
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .section {
+        height: 30rem;
+    
+        .title_container {
+    
+            .img_wrapper {
+                height: 11rem !important;
+                bottom: 1rem;
+            }
         }
     }
 }
@@ -38,12 +52,9 @@
         .title_container {
     
             .img_wrapper {
-                height: 15rem;
-                width: 100%;
+                height: 14rem;
+                bottom: 0.5rem;
             }
         }
     }
-}
-
-@media (max-width: 1180px) {
 }
