@@ -22,13 +22,9 @@
             justify-content: center;
             font-size: $h2FontSize;
             font-weight: $h1FontWeight;
-<<<<<<< HEAD
             color: white;
             width: 50%;
             white-space: nowrap;
-=======
-            color: $color--white
->>>>>>> 6fce757644ba75452e9ba55e90275d3585085029
         }
         
         .divider {
@@ -39,19 +35,12 @@
         }
         
         .events {
-<<<<<<< HEAD
             display: flex;
             align-items: center;
             justify-content: center;
             width: 50%;
             color: white;
             white-space: nowrap;
-=======
-            padding: 0 5rem;
-            font-size: $h2FontSize;
-            font-weight: $h1FontWeight;
-            overflow-y: auto;
->>>>>>> 6fce757644ba75452e9ba55e90275d3585085029
         }
     }
 }
