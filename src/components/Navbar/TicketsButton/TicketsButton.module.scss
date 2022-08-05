@@ -15,12 +15,23 @@
     }
 }
 
+@media (max-width: 450px) {
+    .TicketsButton {
+        padding: 1rem 1rem !important;
+
+        h1 {
+            font-size: 1rem !important;
+            font-weight: $h1FontWeight;
+        }
+    }
+}
+
 @media (max-width: 756px) {
     .TicketsButton {
         padding: 1rem 2rem;
 
         h1 {
-            font-size: $h5FontSize;
+            font-size: 1.2rem;
             font-weight: $h1FontWeight;
         }
     }

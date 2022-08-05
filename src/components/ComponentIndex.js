@@ -21,3 +21,4 @@ export { default as NowHappeningContent } from "./LandingPage/HeroSection/NowHap
 export { default as InfoCard } from "./SysDevPage/InfoCard/InfoCard.jsx";
 export { default as Footer } from "./Footer/Footer.jsx";
 export { default as TribalDivider} from "./Divider/TribalDivider.jsx";
+export { default as CurrentlyHappening } from "./LandingPage/CurrentlyHappening/CurrentlyHappening.jsx";
