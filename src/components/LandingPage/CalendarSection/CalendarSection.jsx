@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../CalendarSection/CalendarSection.module.scss'
 import CalendarBox from './CalendarBox/CalendarBox'
 import Calendar from '../../../data/calendarData.json'
+import CalendarModal from './CalendarModal/CalendarModal'
 
 const CalendarSection = () => {
   return (
@@ -14,6 +15,9 @@ const CalendarSection = () => {
               </div>
             )
           })}
+        </div>
+        <div className={styles.calendar_modal}>
+          <CalendarModal />
         </div>
     </div>
   )

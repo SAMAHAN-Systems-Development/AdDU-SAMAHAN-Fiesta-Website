@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 
 import Modal from '@mui/material/Modal'
 import Box from '@mui/material/Box';
@@ -24,12 +24,13 @@ const CalendarModal=()=>{
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
+
     return(
-        <div>
+        <div className={styles.container}>
             {Calendar.events.map((item) =>{
                 return(
                     <div key={item.title}>
-                        <Button variant="contained" color="primary" onClick={handleOpen}>
+                        <Button className={`${styles['button']} ${styles[item.itemNum]}`} variant="contained" color="primary" onClick={handleOpen}>
                             {item.title}
                         </Button>
                         <Modal open={open} onClose={handleClose}>

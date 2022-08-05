@@ -1,37 +1,43 @@
 @import '/styles/variables.scss';
 
 .section {
-    padding: 2rem 0;
+    padding: 4rem 0;
     display: flex;
-    align-items: top;
+    align-items: center;
     justify-content: center;
     background-image: url('/assets/calendar-bg-big.png');
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
-}
 
-.calendar-container {
-    display: flex;
-    flex-direction: row;
-    align-items: top;
-    justify-content: center;
-    gap: 1rem;
-    padding: 0.5rem;
+    .calendar-container {
+        display: flex;
+        flex-direction: row;
+        align-items: top;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+    .calendar_modal {
+        display: none;
+    }
 }
 
 @media (max-width: 900px) {
     .section {
-        display: block;
+        padding: 4rem 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
         height: fit-content;
-    }
-    .calendar-container {
-        flex-direction: column;
-    }
-}
+        width: 100%;
+        position: relative;
 
-@media (max-width: 1300px) {
-    .section {
-        background-image: none;
+        .calendar-container {
+            display: none;
+        }
+        .calendar_modal {
+            display: block;
+        }
     }
 }

@@ -7,7 +7,7 @@ const CalendarBox = ({title, sched, itemNum}) => {
         <div className={styles[`title-${itemNum}`]}>
           <h1>{title}</h1>
         </div>
-        <div className={styles[`content-${itemNum}`]}>
+        <div className={`${styles['content']} ${styles[itemNum]}`}>
         {sched.map((perSched, index)=>{
           return (
             <div className={styles['line']} key={index}>

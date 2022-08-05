@@ -1,0 +1,24 @@
+@import '/styles/variables.scss';
+
+.container {
+    .button {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: $h3FontSize;
+        font-weight: $h1FontWeight;
+        padding: 0 1rem;
+        margin: 1rem;
+        border-radius: 1rem;
+        width: 15rem;
+        height: 5rem;
+    }
+
+    .Day1 {
+        background-color: $color--yellow;
+    }
+    .Day2 {
+        background-color: $color--skyblue;
+    }
+    .Day3 {
+        background-color: $color--pink;
+    }
+}

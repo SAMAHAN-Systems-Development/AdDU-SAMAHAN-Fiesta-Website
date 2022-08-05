@@ -1,11 +1,12 @@
 @import 'styles/variables.scss';
 
 .container {
-    height: 50rem;
+    height: 45rem;
     width: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    gap: 1rem;
 
     &:hover {
         cursor:default;
@@ -19,7 +20,7 @@
             padding: 1.5rem;
             border-radius: 1rem;
             background-color: $color--yellow;
-            color: rgba(0, 0, 0, 0.6);;
+            color: rgba(0, 0, 0, 0.6);
 
             h1 {
                 font-size: $h4FontSize;
@@ -34,7 +35,7 @@
             padding: 1.5rem;
             border-radius: 1rem;
             background-color: $color--skyblue;
-            color: rgba(0, 0, 0, 0.6);;
+            color: rgba(0, 0, 0, 0.6);
 
             h1 {
                 font-size: $h4FontSize;
@@ -49,7 +50,7 @@
             padding: 1.5rem;
             border-radius: 1rem;
             background-color: $color--pink;
-            color: rgba(0, 0, 0, 0.6);;
+            color: rgba(0, 0, 0, 0.6);
 
             h1 {
                 font-size: $h4FontSize;
@@ -59,186 +60,71 @@
     }
 
     .content {
-
-        &-Day1 {
-            background-color: $color--yellow;
-            color: rgba(0, 0, 0, 0.6);;
-            height: 85%;
+        color: rgba(0, 0, 0, 0.6);
+        height: 85%;
+        display: flex;
+        justify-content: top;
+        padding: 0 1rem;
+        flex-direction: column;
+        overflow-y: auto;
+        border-radius: 1rem;
+        .line {
             display: flex;
-            justify-content: top;
-            padding: 0 1rem;
             flex-direction: column;
-            overflow-y: auto;
-            border-radius: 1rem;
+            text-align: center;
+            padding: 1rem;
+            border: 1px;
+            font-size: $body2FontSize;
+            font-weight: $h5FontWeight;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+            flex-wrap: wrap;
 
-            .line {
-                display: flex;
-                flex-direction: column;
+            .element {
+                padding: 0.3rem 0;
                 text-align: center;
-                padding: 1rem;
-                border: 1px;
-                font-size: $body2FontSize;
-                font-weight: $h5FontWeight;
-                border-bottom: 1px solid rgba(0, 0, 0, 0.6);;
-                flex-wrap: wrap;
-    
-                .element {
-                    padding: 0.3rem 0;
-                    text-align: center;
-                    
-                    h3 {
-                        font-size: $bodyFontSize;
-                        font-weight: $h2FontWeight;
-                    }
-                    h4 {
-                        font-size: $body2FontSize;
-                        font-weight: $h3FontWeight;
-                    }
-                    p {
-                        font-size: 0.7rem;
-                        font-weight: $h5FontWeight;
-                    }
+                
+                h3 {
+                    font-size: $bodyFontSize;
+                    font-weight: $h2FontWeight;
+                }
+                h4 {
+                    font-size: $body2FontSize;
+                    font-weight: $h3FontWeight;
+                }
+                p {
+                    font-size: 0.7rem;
+                    font-weight: $h5FontWeight;
                 }
             }
-            
-            &::-webkit-scrollbar-track {
-                border: 1px solid #a8a8a8;
-                // padding: 1px 0;
-                background-color: #a8a8a8;
-                border-radius: 1rem;
-            }
-            
-            &::-webkit-scrollbar {
-                width: 8px;
-            }
-            
-            &::-webkit-scrollbar-thumb {
-            border-radius: 1rem;
-            // box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-            background-color: #777777;
-            border: 1px solid #777777;
-            }
         }
-
-        &-Day2 {
-            background-color: $color--skyblue;
-            color: rgba(0, 0, 0, 0.6);;
-            height: 85%;
-            display: flex;
-            justify-content: top;
-            padding: 0 1rem;
-            flex-direction: column;
-            overflow-y: auto;
+        
+        &::-webkit-scrollbar-track {
+            border: 1px solid #a8a8a8;
+            // padding: 1px 0;
+            background-color: #a8a8a8;
             border-radius: 1rem;
-
-            .line {
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                padding: 1rem;
-                border: 1px;
-                font-size: $body2FontSize;
-                font-weight: $h5FontWeight;
-                border-bottom: 1px solid rgba(0, 0, 0, 0.6);;
-                flex-wrap: wrap;
-    
-                .element {
-                    padding: 0.3rem 0;
-                    text-align: center;
-    
-                    h3 {
-                        font-size: $bodyFontSize;
-                        font-weight: $h2FontWeight;
-                    }
-                    h4 {
-                        font-size: $body2FontSize;
-                        font-weight: $h3FontWeight;
-                    }
-                    p {
-                        font-size: 0.7rem;
-                        font-weight: $h5FontWeight;
-                    }
-                }
-            }
-            
-            &::-webkit-scrollbar-track {
-                border: 1px solid #a8a8a8;
-                // padding: 1px 0;
-                background-color: #a8a8a8;
-                border-radius: 1rem;
-            }
-            
-            &::-webkit-scrollbar {
-                width: 8px;
-            }
-            
-            &::-webkit-scrollbar-thumb {
-            border-radius: 1rem;
-            // box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-            background-color: #777777;
-            border: 1px solid #777777;
-            }
         }
-
-        &-Day3 {
-            background-color: $color--pink;
-            color: rgba(0, 0, 0, 0.6);;
-            height: 85%;
-            display: flex;
-            justify-content: top;
-            padding: 0 1rem;
-            flex-direction: column;
-            overflow-y: auto;
-            border-radius: 1rem;
-
-            .line {
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                padding: 1rem;
-                border: 1px;
-                font-size: $body2FontSize;
-                font-weight: $h5FontWeight;
-                border-bottom: 1px solid rgba(0, 0, 0, 0.6);;
-                flex-wrap: wrap;
-    
-                .element {
-                    padding: 0.3rem 0;
-                    text-align: center;
-    
-                    h3 {
-                        font-size: $bodyFontSize;
-                        font-weight: $h2FontWeight;
-                    }
-                    h4 {
-                        font-size: $body2FontSize;
-                        font-weight: $h3FontWeight;
-                    }
-                    p {
-                        font-size: 0.7rem;
-                        font-weight: $h5FontWeight;
-                    }
-                }
-            }
-            
-            &::-webkit-scrollbar-track {
-                border: 1px solid #a8a8a8;
-                // padding: 1px 0;
-                background-color: #a8a8a8;
-                border-radius: 1rem;
-            }
-            
-            &::-webkit-scrollbar {
-                width: 8px;
-            }
-            
-            &::-webkit-scrollbar-thumb {
-            border-radius: 1rem;
-            // box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-            background-color: #777777;
-            border: 1px solid #777777;
-            }
+        
+        &::-webkit-scrollbar {
+            width: 8px;
         }
+        
+        &::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        // box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #777777;
+        border: 1px solid #777777;
+        }
+    }
+
+    .Day1 {
+        background-color: $color--yellow;
+    }
+    .Day2 {
+        background-color: $color--skyblue;
+    }
+    .Day3 {
+        background-color: $color--pink;
     }
 }
 
@@ -246,169 +132,18 @@
     .container {
         width: 100% !important;
         height: 100%;
-        
+
         .content {
-            &-Day1 {
-                background-color: $color--yellow;
-                color: rgba(0, 0, 0, 0.6);;
-                height: 85%;
-                color: rgba(0, 0, 0, 0.6);;
-                display: flex;
-                justify-content: top;
-                padding: 0 1rem;
-                flex-direction: column;
-                overflow-y: scroll;
-                border-radius: 1rem;
-    
-                .line {
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-                    padding: 1rem;
-                    border: 1px;
-                    font-size: $body2FontSize;
-                    font-weight: $h5FontWeight;
-                    border-bottom: 1px solid rgba(0, 0, 0, 0.6);;
-                    flex-wrap: wrap;
-        
-                    .element {
-                        padding: 0.3rem 0;
-                        text-align: center;
-        
-                        h3 {
-                            font-size: $bodyFontSize;
-                            font-weight: $h2FontWeight;
-                        }
-                        h4 {
-                            font-size: $body2FontSize;
-                            font-weight: $h3FontWeight;
-                        }
-                        p {
-                            font-size: 0.7rem;
-                            font-weight: $h5FontWeight;
-                        }
-                    }
-                }
-                
-                &::-webkit-scrollbar-track {
-                    display: none;
-                }
-                
-                &::-webkit-scrollbar {
-                    display: none;
-                }
-                
-                &::-webkit-scrollbar-thumb {
-                    display: none;
-                }
+            &::-webkit-scrollbar-track {
+                display: none;
             }
-    
-            &-Day2 {
-                background-color: $color--skyblue;
-                color: rgba(0, 0, 0, 0.6);;
-                height: 85%;
-                display: flex;
-                justify-content: top;
-                padding: 0 1rem;
-                flex-direction: column;
-                overflow-y: scroll;
-                border-radius: 1rem;
-    
-                .line {
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-                    padding: 1rem;
-                    border: 1px;
-                    font-size: $body2FontSize;
-                    font-weight: $h5FontWeight;
-                    border-bottom: 1px solid rgba(0, 0, 0, 0.6);;
-                    flex-wrap: wrap;
-        
-                    .element {
-                        padding: 0.3rem 0;
-                        text-align: center;
-        
-                        h3 {
-                            font-size: $bodyFontSize;
-                            font-weight: $h2FontWeight;
-                        }
-                        h4 {
-                            font-size: $body2FontSize;
-                            font-weight: $h3FontWeight;
-                        }
-                        p {
-                            font-size: 0.7rem;
-                            font-weight: $h5FontWeight;
-                        }
-                    }
-                }
-                
-                &::-webkit-scrollbar-track {
-                    display: none;
-                }
-                
-                &::-webkit-scrollbar {
-                    display: none;
-                }
-                
-                &::-webkit-scrollbar-thumb {
-                    display: none;
-                }
+            
+            &::-webkit-scrollbar {
+                display: none;
             }
-    
-            &-Day3 {
-                background-color: $color--pink;
-                color: rgba(0, 0, 0, 0.6);;
-                height: 85%;
-                display: flex;
-                justify-content: top;
-                padding: 0 1rem;
-                flex-direction: column;
-                overflow-y: scroll;
-                border-radius: 1rem;
-    
-                .line {
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-                    padding: 1rem;
-                    border: 1px;
-                    font-size: $body2FontSize;
-                    font-weight: $h5FontWeight;
-                    border-bottom: 1px solid rgba(0, 0, 0, 0.6);;
-                    flex-wrap: wrap;
-        
-                    .element {
-                        padding: 0.3rem 0;
-                        text-align: center;
-        
-                        h3 {
-                            font-size: $bodyFontSize;
-                            font-weight: $h2FontWeight;
-                        }
-                        h4 {
-                            font-size: $body2FontSize;
-                            font-weight: $h3FontWeight;
-                        }
-                        p {
-                            font-size: 0.7rem;
-                            font-weight: $h5FontWeight;
-                        }
-                    }
-                }
-                
-                &::-webkit-scrollbar-track {
-                    display: none;
-                }
-                
-                &::-webkit-scrollbar {
-                    display: none;
-                }
-                
-                &::-webkit-scrollbar-thumb {
-                    display: none;
-                }
+            
+            &::-webkit-scrollbar-thumb {
+                display: none;
             }
         }
     }
