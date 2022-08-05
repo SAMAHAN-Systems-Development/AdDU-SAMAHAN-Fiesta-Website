@@ -40,6 +40,7 @@ const Footer = () => {
               draggable = 'false'
               />
           </div>
+          <a href = "https://www.facebook.com/SAMAHANSysDev">
           <div className={styles['img-wrapper-2']}>
             <Image
               src="/assets/SYSDEV_Logo.png" 
@@ -50,6 +51,7 @@ const Footer = () => {
               draggable = 'false'
             />
           </div>
+          </a>
         </div>
         </div>
     </div>
