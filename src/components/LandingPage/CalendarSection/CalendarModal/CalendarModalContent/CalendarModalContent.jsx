@@ -1,14 +1,11 @@
 import React from 'react';
-import styles from '../../CalendarSection.module.scss';
+import styles from './CalendarModalContent.module.scss';
 
-const CalendarModalContent=({title,sched,itemNum})=>{
+const CalendarModalContent=({title,sched, itemNum})=>{
     return(
-        <div>
-            <div>
-                <div> {/*title-itemNum*/}
-                    <h4>{title}</h4>
-                </div>
-                <div> {/*content-itemNum*/}
+        <div className={`${styles['container']} ${styles[itemNum]}`}>
+            <div className={styles.title}>{title}</div>
+                <div className={styles.content}> {/*content-itemNum*/}
                 {sched.map((perSched, index)=>{
                     return (
                         <div className={styles['line']} key={index}>
@@ -18,9 +15,8 @@ const CalendarModalContent=({title,sched,itemNum})=>{
                         </div>
                     )
                     })}
-                    </div>
                 </div>
-            </div>
+        </div>
     )
 }
 

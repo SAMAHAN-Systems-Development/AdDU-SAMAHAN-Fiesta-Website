@@ -2,6 +2,10 @@
 
 .section {
     background-color: #2D167E;
+    background-image: url('/assets/tix-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .container {
         padding: 3rem 0;
@@ -40,7 +44,6 @@
             }
 
             .boxes {
-                
                 .row {
                     display: flex;
                     flex-direction: row;

@@ -4,14 +4,32 @@ import React from 'react'
 import { TribalDivider, Footer} from '../ComponentIndex'
 import EventCard from './EventCard/EventCard'
 import styles from './TicketsPage.module.scss'
+import { motion } from "framer-motion";
 
 const TicketsPage = () => {
+
+  const scale = {
+    initial: {
+      transform: "scale(0)",
+    },
+    animate: {
+      transform: "scale(1)",
+      transition: {
+        delay: 1.5,
+      },
+    },
+  };
+
   return (
     <div className={styles.section}>
         <TribalDivider />
         <div className={styles.container}>
           <div className={styles.logo}>
-            <div className={styles.img_wrapper}>
+            <motion.div
+              className={styles.img_wrapper}
+              variants={scale}
+              whileHover={{y: "-30px"}}
+            >
               <Link href="/">
                   <Image
                     src='/assets/header-logo.png'
@@ -20,7 +38,7 @@ const TicketsPage = () => {
                     objectFit='contain'
                   />
               </ Link>
-            </div>
+            </motion.div>
           </div>
           <div className={styles.content}>
             <div className={styles.heading}>
