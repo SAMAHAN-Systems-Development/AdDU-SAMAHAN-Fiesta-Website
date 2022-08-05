@@ -12,6 +12,7 @@ const LandingPage = () => {
       <TribalDivider />
       <CalendarSection />
       {/**<CalendarModal />*/}
+      <TribalDivider />
       <SocialsSection />
       <Footer />
     </div>
