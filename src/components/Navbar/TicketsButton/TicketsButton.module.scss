@@ -7,21 +7,11 @@
     cursor: pointer;
     padding: 1rem 2rem;
 
-    transition: transform 0.1s ease-in-out;
-
     h1 {
         white-space: nowrap;
         color: $color--palaro--blue; 
         font-weight: $h1FontWeight;
         font-size: $h4FontSize;
-    }
-
-    &:hover h1 {
-        // color: $color--pink;
-    }
-
-    &:hover {
-        transform: scale(102%);
     }
 }
 

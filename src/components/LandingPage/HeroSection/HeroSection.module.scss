@@ -1,7 +1,7 @@
 @import '/styles/variables.scss';
 
 .section {
-    height: 45rem;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(#8646E4, #4314AF);
     position: relative;
@@ -20,21 +20,14 @@
         justify-content: center;
         height: 100%;
         width: 100%;
-        background-image: linear-gradient(#0000006e, #0c228383);
 
         .img_wrapper {
-            height: 23rem;
-            width: 100%;
-        }
-    }
-}
+            position: relative;
+            bottom: 3.125rem;
+            height: 19.75rem;
+            width: 35.375rem;
 
-@keyframes fade {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
+        }
     }
 }
 
