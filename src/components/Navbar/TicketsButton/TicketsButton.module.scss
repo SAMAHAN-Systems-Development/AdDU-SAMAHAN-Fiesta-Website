@@ -2,35 +2,25 @@
 
 .TicketsButton {
     background-color: rgb(255, 255, 255);
-    border-radius: 100px;
+    border-radius: 1rem;
     border: none;
     cursor: pointer;
-    padding: 0.6rem 1.5rem;
-
-    transition: transform 0.1s ease-in-out;
+    padding: 1rem 2rem;
 
     h1 {
         white-space: nowrap;
-        color: $color--blue; 
+        color: $color--palaro--blue; 
         font-weight: $h1FontWeight;
-        font-size: $h5FontSize;
-    }
-
-    &:hover h1 {
-        color: $color--palaro--blue;
-    }
-
-    &:hover {
-        transform: scale(102%);
+        font-size: $h4FontSize;
     }
 }
 
 @media (max-width: 756px) {
     .TicketsButton {
-        padding: 1rem 1rem;
+        padding: 1rem 2rem;
 
         h1 {
-            font-size: $body2FontSize;
+            font-size: $h5FontSize;
             font-weight: $h1FontWeight;
         }
     }

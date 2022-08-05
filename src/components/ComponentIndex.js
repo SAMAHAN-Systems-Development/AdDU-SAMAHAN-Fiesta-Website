@@ -15,7 +15,9 @@ export { default as Socfeeds } from "./LandingPage/Socfeeds/Socfeeds.jsx";
 export { default as CalendarSection } from "./LandingPage/CalendarSection/CalendarSection.jsx";
 export { default as CalendarBox } from "./LandingPage/CalendarSection/CalendarBox/CalendarBox.jsx";
 export { default as NowHappening } from "./LandingPage/HeroSection/NowHappening/NowHappening.jsx";
+export { default as CalendarModal} from './LandingPage/CalendarSection/CalendarModal/CalendarModal.jsx'
+export { default as CalendarModalContent} from './LandingPage/CalendarSection/CalendarModal/CalendarModalContent/CalendarModalContent.jsx'
 export { default as NowHappeningContent } from "./LandingPage/HeroSection/NowHappening/NowHappeningContent/NowHappeningContent.jsx";
 export { default as InfoCard } from "./SysDevPage/InfoCard/InfoCard.jsx";
 export { default as Footer } from "./Footer/Footer.jsx";
-
+export { default as TribalDivider} from "./Divider/TribalDivider.jsx";

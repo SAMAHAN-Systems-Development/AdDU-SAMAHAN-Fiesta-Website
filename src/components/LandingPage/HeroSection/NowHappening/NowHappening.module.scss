@@ -3,17 +3,13 @@
 .container {
     height: 100%;
     width: 100%;
-    position: absolute;
+    // position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 1rem;
-    background-color: #2769855e;
-
-    .divider {
-        display: none;
-    }
+    // background-color: #2769855e;
     
     .content {
         padding: 0 1rem;
