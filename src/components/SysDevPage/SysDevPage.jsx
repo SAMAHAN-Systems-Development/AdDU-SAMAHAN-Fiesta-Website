@@ -10,6 +10,8 @@ const SysDevPage = () => {
   return (
     <div className={styles["Container"]}>
       <Navbar />
+      <TribalDivider />
+
       <div className={styles["Title"]}> 
           <h3> SAMAHAN </h3>
           <h1>Systems Development Team</h1>
@@ -42,7 +44,6 @@ const SysDevPage = () => {
         />
         </div>
       </div>
-      <TribalDivider />
       <div className={`${styles["row-container"]} ${styles["two"]}`}>
         <div className={styles["Row"]}>
         <InfoCard
@@ -69,7 +70,6 @@ const SysDevPage = () => {
         />
         </div>
       </div>
-      <TribalDivider />
       <div className={`${styles["row-container"]} ${styles["three"]}`}>
         <div className={styles["Row"]}>
         <InfoCard
@@ -96,7 +96,6 @@ const SysDevPage = () => {
         />
         </div>
       </div>
-      <TribalDivider />
       <Footer />
 
     </div>

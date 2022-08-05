@@ -37,20 +37,19 @@
     background-color: $color--white;
     position: relative;
     background-color: #54CDFF;
-    height: 45rem;
     &.one {
         background-image: url('/assets/sysdev-bg-orange.png');
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     &.two {
         background-image: url('/assets/sysdev-bg-star.png');
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     &.three {
         background-image: url('/assets/sysdev-bg-pink.png');
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 }
