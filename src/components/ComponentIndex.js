@@ -1,6 +1,8 @@
 /* PAGES */
 export { default as LandingPage } from "./LandingPage/LandingPage.jsx";
 export { default as SysDevPage } from "./SysDevPage/SysDevPage.jsx";
+export { default as TicketsPage} from "./TicketsPage/TicketsPage.jsx";
+
 
 /* SOCFEEDS */
 export { default as FacebookEmbed } from './LandingPage/Socfeeds/FacebookEmbed/FacebookEmbed.jsx';
