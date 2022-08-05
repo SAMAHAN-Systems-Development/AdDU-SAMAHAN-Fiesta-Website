@@ -1,4 +1,4 @@
-import { HeroSection, CalendarSection, TribalDivider, CurrentlyHappening } from "../ComponentIndex";
+import { HeroSection, CalendarSection, TribalDivider, CurrentlyHappening, CalendarModal } from "../ComponentIndex";
 import Footer from "../Footer/Footer";
 import styles from "./LandingPage.module.scss";
 import SocialsSection from "./SocialsSection/SocialsSection";
@@ -14,7 +14,7 @@ const LandingPage = () => {
       <CurrentlyHappening />
       <TribalDivider />
       <CalendarSection />
-      <CalendarModal/>
+      <CalendarModal />
       <SocialsSection />
       <Footer />
     </div>
