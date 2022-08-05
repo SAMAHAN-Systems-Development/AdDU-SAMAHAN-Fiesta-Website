@@ -1,31 +1,53 @@
 @import 'styles/variables.scss';
 
 .section {
-    //height: 100vh;
-    height: fit-content;
+    background: linear-gradient(180deg, #F46B9C 0%, #FCDA63 100%);
+    min-height: 600px;
     width: 100%;
     display: flex;
-    align-items: right;
-    justify-content: right;
-    background-color: white;
-    background-image: url('/assets/twitter.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    padding: 1.5rem;
-}
-
-@media (max-width: 1155px) {
-    .section {
-        background-image: url('/assets/twitter2.png');
-    }
-}
-
-@media (max-width: 938px) {
-    .section {
-        background-image: url('/assets/twitter1.png');
-        align-items: center;
     justify-content: center;
+
+    .container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    
+        .image_wrapper {
+            align-self: flex-end;
+            position: relative;
+            bottom: -3.2rem;
+            height: 740px;
+            max-width:60rem;
+            width: 100%;
+
+            @media (max-width: 992px) {
+                width: 308px;
+            }
+
+        }
+        
+        .socfeeds {
+            flex-basis: 50%;
+            position: relative;
+            top: -0.5rem;
+        }
+
+        @media (max-width: 586px) {
+            justify-content: center;
+
+            .image_wrapper {
+                display: none;
+            }
+
+            .socfeeds {
+                display: flex;
+                justify-content: center;
+                min-width: 100%;
+                top: -2rem;
+            }
+        }
     }
+
 }
