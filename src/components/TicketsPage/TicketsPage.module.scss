@@ -4,6 +4,70 @@
     background-color: #2D167E;
 
     .container {
-        height: 39rem;
+        padding: 3rem 0;
+        height: fit-content;
+
+        .logo {
+            padding: 1rem 0;
+            display: flex;
+            justify-content: center;
+
+            .img_wrapper {
+                width: 100%;
+                height: 10rem;
+                position: relative;
+
+                img:hover {
+                    cursor: pointer;
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+            .heading {
+                font-size: $h5FontSize;
+                font-weight: $h2FontWeight;
+                color: white;
+                display: flex;
+                text-align: center;
+            }
+
+            .boxes {
+                
+                .row {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 1rem;
+                    margin: 1rem 0;
+                }
+            }
+        }
     }
+}
+
+@media (max-width: 780px) {
+    .section {
+    
+        .container {
+    
+            .content {
+    
+                .boxes {
+                    
+                    .row {
+                        flex-direction: column;
+                        margin: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    
 }

@@ -55,7 +55,6 @@ const HeroSection = () => {
           draggable={false}
           priority
         />
-
         <motion.div
           className={styles.title_container}
           initial="initial"
