@@ -46,12 +46,21 @@ const CalendarModal = () => {
                 </Button>
                 <Modal open={open[index]} onClose={() => handleClose(index)}>
                 <Box style={style}>
+                <Button
+                    className={`${styles["button"]} ${styles[item.itemNum]}`}
+                    variant="contained"
+                    color="primary"
+                    onClick={() => handleClose(index)}
+                    >
+                    X
+                    </Button>
                     <CalendarModalContent
                         title={item.title}
                         sched={item.sched}
                         itemNum={item.itemNum}
                     />
                 </Box>
+                
                 </Modal>
             </div>
             );
