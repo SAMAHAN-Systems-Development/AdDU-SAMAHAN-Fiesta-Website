@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import styles from './CalendarModal.module.scss'
 import CalendarModalContent from './CalendarModalContent/CalendarModalContent.jsx'
 import Calendar from '../../../../data/calendarData.json'
+import { flexbox } from '@mui/system';
 
 const style = {
     position: 'absolute',
@@ -14,10 +15,10 @@ const style = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: 400,
-    bgcolor: 'background.paper',
-    border: '2px solid #000',
-    boxShadow: 24,
-    p: 4,
+    // bgcolor: 'background.paper',
+    // border: '2px solid #000',
+    // boxShadow: 24,
+    // p: 4,
   };
 
 const CalendarModal = () => {
@@ -45,22 +46,21 @@ const CalendarModal = () => {
                 {item.title}
                 </Button>
                 <Modal open={open[index]} onClose={() => handleClose(index)}>
-                <Box style={style}>
-                <Button
-                    className={`${styles["button"]} ${styles[item.itemNum]}`}
-                    variant="contained"
-                    color="primary"
-                    onClick={() => handleClose(index)}
-                    >
-                    X
-                    </Button>
-                    <CalendarModalContent
-                        title={item.title}
-                        sched={item.sched}
-                        itemNum={item.itemNum}
-                    />
-                </Box>
-                
+                    <Box style={style}>
+                        <Button
+                            className={styles.close_btn}
+                            // variant="contained"
+                            // color="primary"
+                            onClick={() => handleClose(index)}
+                            >
+                            X
+                        </Button>
+                        <CalendarModalContent
+                            title={item.title}
+                            sched={item.sched}
+                            itemNum={item.itemNum}
+                        />
+                    </Box>
                 </Modal>
             </div>
             );
