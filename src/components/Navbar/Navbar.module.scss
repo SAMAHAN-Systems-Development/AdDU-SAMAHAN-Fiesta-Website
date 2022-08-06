@@ -23,14 +23,13 @@
         position: relative;
         width: 10.875rem;
         height: 5.8rem;
+        transition: transform 0.3s ease-out;
+
 
         &:hover {
             position: relative;
             cursor: pointer;
-        }
-        &:active {
-            transform: scale(1.5);
-
+            transform: translateY(-5px);
         }
     }
 }
