@@ -8,7 +8,6 @@ import { FilterContents } from "../../../../utilities/datetime";
 
 const NowHappening=()=>{
 
-    // const [CHContent, SetCHContent ] = useState(CHData.content.contents);
     const [CHContent, SetCHContent ] = useState(FilterContents(CHData.content.contents));
 
     useEffect(() => {
