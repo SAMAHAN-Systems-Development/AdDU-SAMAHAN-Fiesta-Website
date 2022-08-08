@@ -13,17 +13,17 @@
 
         .logo {
             padding: 1rem 0;
+            margin-bottom: 1rem;
             display: flex;
             justify-content: center;
 
             .img_wrapper {
-                width: 100%;
+                width: 23.1875rem;
                 height: 10rem;
                 position: relative;
 
                 img:hover {
                     cursor: pointer;
-                    transform: scale(1.1);
                 }
             }
         }
@@ -44,6 +44,7 @@
             }
 
             .boxes {
+
                 .row {
                     display: flex;
                     flex-direction: row;
@@ -60,7 +61,19 @@
     
         .container {
     
+            .logo {
+                padding: 0;
+
+                .img_wrapper {
+                    width: 13.1875rem;
+                }
+            }
+
             .content {
+
+                .heading {
+                     font-size: $bodyFontSize;
+                }
     
                 .boxes {
                     

@@ -40,7 +40,11 @@
 
 @media (max-width: 780px) {
     .container {
-        height: 10rem;
-        width: 100%;
+        height: 5rem;
+        width: 15rem;
+
+        .content {
+            font-size: $body2FontSize;
+        }
     }
 }
