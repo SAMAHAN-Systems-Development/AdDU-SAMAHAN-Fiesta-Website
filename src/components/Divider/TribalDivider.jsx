@@ -10,6 +10,7 @@ const TribalDivider = () => {
             alt=""
             layout='fill'
             objectFit='cover'
+            priority
         />
     </div>
   )

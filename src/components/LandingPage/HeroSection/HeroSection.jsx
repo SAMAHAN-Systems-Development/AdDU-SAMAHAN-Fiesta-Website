@@ -72,6 +72,7 @@ const HeroSection = () => {
               layout="fill"
               objectFit="contain"
               draggable={false}
+              priority
             />
           </motion.div>
           <motion.div className={styles.btn_container}

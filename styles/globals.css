@@ -19,6 +19,16 @@ a {
   text-decoration: none;
 }
 
+body #__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
 @font-face {
   font-family: "brant bold";
   src: url("/assets/fonts/brant/brant-bold-webfont.woff2") format("woff2"),
