@@ -22,8 +22,8 @@ const TicketsPage = () => {
 
   return (
     <>
+    <TribalDivider />
       <div className={styles.section}>
-          <TribalDivider />
           <div className={styles.container}>
             <div className={styles.logo}>
               <motion.div

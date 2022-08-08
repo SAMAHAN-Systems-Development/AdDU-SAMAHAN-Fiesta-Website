@@ -105,7 +105,7 @@ footer {
         max-width: 1320px;
     }
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -114,4 +114,4 @@ footer {
     color: white;
     background: black;
   }
-}
+} */

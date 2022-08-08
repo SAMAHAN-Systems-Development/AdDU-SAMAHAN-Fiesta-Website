@@ -10,24 +10,36 @@
         border-radius: 1rem;
         width: 15rem;
         height: 5rem;
-        font-family: "Montserrat", Helvetica, sans-serif;
+        font-family: "Montserrat", Helvetica, sans-serif;   
     }
  
     .Day1 {
         background-color: $color--yellow;
+
+        &:hover {
+            background-color: $color--yellow !important;
+        }
     }
     .Day2 {
         background-color: $color--skyblue;
+
+        &:hover {
+            background-color: $color--skyblue !important;
+        }
     }
     .Day3 {
         background-color: $color--pink;
+
+        &:hover {
+            background-color: $color--pink !important;
+        }
     }
 }
 
 .close_btn {
     background: none;
     box-shadow: none;
-    position: absolute;
+    position: absolute !important;
     color: rgba(0, 0, 0, 0.6);
     font-weight: 900;
 
