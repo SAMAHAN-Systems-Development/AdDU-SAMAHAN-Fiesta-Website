@@ -25,7 +25,7 @@ const SysDevPage = () => {
         Position = 'UI/UX Designer'
         Course = 'BS-Computer Science'
         Email = 'lbooc04@gmail.com'
-        Picture= "/assets/LaarniBooc.png"
+        Picture= "/assets/laarni.png"
         fbLink= "https://www.facebook.com/laarnives"
         twitterLink= "https://twitter.com/arlbbooc" 
         instaLink= "https://www.instagram.com/lbbooc/"
@@ -36,7 +36,7 @@ const SysDevPage = () => {
         Position = 'Front-End Developer'
         Course = 'BS-Information Technology'
         Email = 'patmatayabas@gmail.com'
-        Picture= "/assets/PatrickMatayabas.png"
+        Picture= "/assets/patrick.png"
         fbLink= "https://www.facebook.com/janpatrick.matayabas"
         twitterLink= "https://twitter.com/Jpmatayabas" 
         instaLink= "https://www.instagram.com/patmatss/"
@@ -77,7 +77,7 @@ const SysDevPage = () => {
         Position = 'Front-End Developer'
         Course = 'BS-Computer Science'
         Email = 'lpawaon@gmail.com'
-        Picture= "/assets/LouisMiguelPawaon.png"  
+        Picture= "/assets/louis.png"  
         fbLink= "https://www.facebook.com/miggypawaon"
         twitterLink= "https://www.twitter.com/miggy_pawaon" 
         instaLink= "https://www.instagram.com/miggy_pawaon/"

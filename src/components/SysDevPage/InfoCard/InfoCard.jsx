@@ -13,7 +13,7 @@ const InfoCard = ({Name, Position, Course, Email, Picture, twitterLink, fbLink, 
             <Image
             src={Picture}
             layout="fill"
-            objectFit="contain"
+            objectFit="cover"
             draggable="false"
             alt={Name + "'s Picture"}
             />
