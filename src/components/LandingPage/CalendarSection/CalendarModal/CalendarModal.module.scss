@@ -36,20 +36,15 @@
     }
 }
 
-.css-1ujsas3 {
-    color: rgba(0, 0, 0, 0.6) !important;
-    font-weight: 900 !important;
-}
-
 .close_btn {
-    background: none !important;
-    box-shadow: none !important;
-    position: absolute !important;
-    color: rgba(0, 0, 0, 0.6) !important;
-    font-weight: 900 !important;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+    padding: 1rem;
 
     &:hover {
-        background: none !important;
+        transform: scale(1.3);
+        cursor: pointer;
     }
 }
 
