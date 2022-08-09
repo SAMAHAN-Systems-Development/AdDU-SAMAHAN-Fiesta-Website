@@ -40,8 +40,8 @@
     background: none;
     box-shadow: none;
     position: absolute !important;
-    color: rgba(0, 0, 0, 0.6);
-    font-weight: 900;
+    color: rgba(0, 0, 0, 0.6) !important;
+    font-weight: 900 !important;
 
     &:hover {
         background: none;

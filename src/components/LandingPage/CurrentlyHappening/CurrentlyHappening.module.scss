@@ -40,7 +40,7 @@
             justify-content: center;
             width: 50%;
             color: white;
-            white-space: nowrap;
+            // white-space: nowrap;
         }
     }
 }
@@ -67,21 +67,6 @@
         }
     }
 }
-
-// @media (max-width: 550px) {
-//     .section {
-//         .content {
-//             .title {
-//                 font-size: $h3FontSize !important;
-//                 font-weight: $h1FontWeight;
-//                 white-space: nowrap;
-//             }
-//             .events {
-//                 white-space: none;
-//             }
-//         }
-//     }
-// }
 
 @media (max-width: 1138px) {
     .section {
