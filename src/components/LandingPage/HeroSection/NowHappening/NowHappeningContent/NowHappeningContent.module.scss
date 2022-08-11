@@ -28,21 +28,6 @@
     }
 }
 
-@media (max-width: 580px) {
-    .details {
-
-        .lower {
-            
-
-            h4 {
-                font-size: 0.65rem;
-            }
-            p {
-                font-size: 0.65rem;
-            }
-        }
-    }
-}
 
 @media (max-width: 756px) {
     .details {
@@ -51,6 +36,7 @@
             font-size: 0.7rem;
             text-align: center;
         }
+        
         .lower {
             display: flex;
             justify-content: center;
