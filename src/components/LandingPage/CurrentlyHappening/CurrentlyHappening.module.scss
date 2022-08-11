@@ -52,6 +52,7 @@
 
         .content {
             flex-direction: column;
+            width: fit-content;
 
             .title {
                 padding: 0 1rem;
@@ -63,6 +64,10 @@
 
             .divider {
                 display: none;
+            }
+
+            .events {
+                width: 100%;
             }
         }
     }
