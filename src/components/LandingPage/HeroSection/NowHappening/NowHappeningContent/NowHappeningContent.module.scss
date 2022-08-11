@@ -32,7 +32,8 @@
     .details {
 
         .lower {
-            white-space: nowrap;
+            
+
             h4 {
                 font-size: 0.65rem;
             }
@@ -48,29 +49,14 @@
         
         h2 {
             font-size: 0.7rem;
-        }
-        .lower {
-            h4 {
-                font-size: 0.65rem;
-            }
-            p {
-                font-size: 0.65rem;
-            }
-        }
-    }
-}
-
-@media (max-width: 980px) {
-    .details {
-        
-        h2 {
             text-align: center;
-            font-size: 0.75rem;
         }
-        
         .lower {
             display: flex;
             justify-content: center;
+            text-align: center;
+            white-space: nowrap !important;
+
             h4 {
                 font-size: 0.65rem;
             }
